@@ -2,8 +2,13 @@
 page-title: SSG at VCU | Our Team
 ---
 
+
 ## Meet Our Team
 
 [John Leonard](about/jdleonard.qmd)
 [Inho Park](about/parki2.qmd)
+
+::: {.backdrop}
+
+:::
 

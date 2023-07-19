@@ -706,6 +706,19 @@ footer.custom-footer {
   }
 }
 
+#meet-our-team {
+  position: relative;
+
+  .backdrop {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: royalblue;
+  }
+}
+
 
 
 @media all and (min-width: 992px) {
