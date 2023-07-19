@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: ../docs
+
+#about:
+#  template: broadside
+
+website:
+  title: "SSG at VCU"
+  favicon: "assets/ssg_favicon.ico"
+  search:
+    location: navbar
+    type: overlay
+  sidebar: false
+  navbar:
+    background: primary
+    logo: assets/ssg_logo_white_l2.svg #vcu computer science emblem 
+    logo-href: /index.html
+    title: false
+    search: false
+    right: #changed nav menu items to align to the right
+      - text: "Home"
+        file: index.qmd
+      - text: "Our Team"
+        file: our-team.qmd
+      - text: "Projects"
+        href: pages/projects/index.qmd
+      - text: "For Students"
+        file: forstudents.qmd
+      - text: "Contact"
+        file: contact.qmd
+    tools: 
+      - icon: github
+        href: https://github.com/vcu-ssg
+        text: SSG GitHub
+      - icon: discord
+        href: https://discord.gg/xv29j9fVRd
+        text: SSG Discord
+      - href: https://drive.google.com/drive/folders/1C-ZoZjMOefov00WoYVMJiCe4Avw8zg6c?usp=sharing
+        text: SSG Drive 
+
+format:
+  html:
+    theme: assets/quarto_ssgvip.scss
+    toc: false
+    css: style.css
+    include-after-body: js.html
+    html-math-method: katex
+    mainfont: 'Be Vietnam Pro'
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
