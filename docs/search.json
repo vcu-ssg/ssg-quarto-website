@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "projects/posts/project-Health-VR/index.html",
+    "href": "projects/posts/project-Health-VR/index.html",
+    "title": "Health VR",
+    "section": "",
+    "text": "Add a larger descriptio of this activity! You can add images, videos, or whatever!"
+  },
+  {
     "objectID": "projects/posts/project-Transpo/index.html",
     "href": "projects/posts/project-Transpo/index.html",
     "title": "Transpo",
@@ -7,60 +14,32 @@
     "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\n(Add more text to the index.qmd file)"
   },
   {
-    "objectID": "about/wbenton.html",
-    "href": "about/wbenton.html",
-    "title": "William Benton",
+    "objectID": "about/parki2(2).html",
+    "href": "about/parki2(2).html",
+    "title": "Inho Park",
     "section": "",
-    "text": "View all Members"
+    "text": "View All Members"
   },
   {
-    "objectID": "about/wbenton.html#education",
-    "href": "about/wbenton.html#education",
-    "title": "William Benton",
+    "objectID": "about/parki2(2).html#education",
+    "href": "about/parki2(2).html#education",
+    "title": "Inho Park",
     "section": "Education",
-    "text": "Education\n\nPh.D., Anthropology, University of Michigan"
+    "text": "Education\n\nB.F.A. in Graphic Design, VCUarts Expected May 2024\nCertificate in Product Innovation, VCU daVinci CenterExpected May 2024\nCertificate in Venture Creation, VCU daVinci CenterExpected May 2024"
   },
   {
-    "objectID": "about/wbenton.html#experience",
-    "href": "about/wbenton.html#experience",
-    "title": "William Benton",
+    "objectID": "about/parki2(2).html#experience",
+    "href": "about/parki2(2).html#experience",
+    "title": "Inho Park",
     "section": "Experience",
-    "text": "Experience\n\nInstructor, DaVinci Program, VCU,"
+    "text": "Experience\n\nDesign Intern, Great Minds PBC, Richmond, VAJuly 2023 ~ Present\nDesign Assistant, VCU College of Engineering, Richmond, VAMar 2023 ~ Present\nUX Design Intern, Bank of America, Richmond, VAFeb 2022 ~ Oct 2022\nFreelance Designer, Les Crêpes Carytown, Richmond, VA Oct 2021\nVolunteer Designer, RVA Fashion Week, Richmond, VASept 2021\nTeam Lead (E-5 Sergeant), US - Korea Combined 2nd Infantry Division, Camp Casey, APOOct 2020 ~ May 2021"
   },
   {
-    "objectID": "about/jdleonard.html",
-    "href": "about/jdleonard.html",
-    "title": "John Leonard",
-    "section": "",
-    "text": "View all Members"
-  },
-  {
-    "objectID": "about/jdleonard.html#education",
-    "href": "about/jdleonard.html#education",
-    "title": "John Leonard",
-    "section": "Education",
-    "text": "Education\n\nPh.D., Engineering, University of California, Irvine\nM.S., Engineering, University of California, Irvine\nB.S., Engineering, University of California, Irvine"
-  },
-  {
-    "objectID": "about/jdleonard.html#experience",
-    "href": "about/jdleonard.html#experience",
-    "title": "John Leonard",
-    "section": "Experience",
-    "text": "Experience\n\nProfessor, Department of Computer Science, VCU, 2016-present\nExecutive Dean, College of Engineering, VCU, 2016-2022\nAssociate Dean, College of Engineering, Georgia Tech, 2006-2016\nAssociate Professor, School of Civil and Environmental Engineering, Georgia Tech, 1998-2016\nAssociate Professor, School of Civil and Environmental Engineering, Georgia Tech, 1993-1998\nInterim Executive Director, State Road and Tollway Authority, Georgia, 2002-2003"
-  },
-  {
-    "objectID": "about/jdleonard.html#badges-and-certificates",
-    "href": "about/jdleonard.html#badges-and-certificates",
-    "title": "John Leonard",
-    "section": "Badges and Certificates",
-    "text": "Badges and Certificates\n\nAssessment tools for Canvas\nBeing an Everyday Admin for Canvas\nCanvas Course Analytics and Data\nCanvas Outcomes and Rubrics for Instructors"
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Meet our team",
-    "section": "",
-    "text": "Inho Park\n\n\nCurrent Student\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor"
+    "objectID": "about/parki2(2).html#skills",
+    "href": "about/parki2(2).html#skills",
+    "title": "Inho Park",
+    "section": "Skills",
+    "text": "Skills\n\nKorean (Native), Adobe InDesign, Photoshop, Illustrator, Figma, GitHub, HTML 5, CSS 3, Javascript, Google Suite"
   },
   {
     "objectID": "about/parki2.html",
@@ -91,45 +70,66 @@
     "text": "Badges and Certificates\n\nCoursera UX Design Certificate\nVCU daVinci Center Product Innovation"
   },
   {
+    "objectID": "about/wbenton.html",
+    "href": "about/wbenton.html",
+    "title": "William Benton",
+    "section": "",
+    "text": "View all Members"
+  },
+  {
+    "objectID": "about/wbenton.html#education",
+    "href": "about/wbenton.html#education",
+    "title": "William Benton",
+    "section": "Education",
+    "text": "Education\n\nPh.D., Anthropology, University of Michigan"
+  },
+  {
+    "objectID": "about/wbenton.html#experience",
+    "href": "about/wbenton.html#experience",
+    "title": "William Benton",
+    "section": "Experience",
+    "text": "Experience\n\nInstructor, DaVinci Program, VCU,"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Meet our team",
+    "section": "",
+    "text": "Inho Park\n\n\nCurrent Student\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor"
+  },
+  {
+    "objectID": "about/jdleonard.html",
+    "href": "about/jdleonard.html",
+    "title": "John Leonard",
+    "section": "",
+    "text": "View all Members"
+  },
+  {
+    "objectID": "about/jdleonard.html#education",
+    "href": "about/jdleonard.html#education",
+    "title": "John Leonard",
+    "section": "Education",
+    "text": "Education\n\nPh.D., Engineering, University of California, Irvine\nM.S., Engineering, University of California, Irvine\nB.S., Engineering, University of California, Irvine"
+  },
+  {
+    "objectID": "about/jdleonard.html#experience",
+    "href": "about/jdleonard.html#experience",
+    "title": "John Leonard",
+    "section": "Experience",
+    "text": "Experience\n\nProfessor, Department of Computer Science, VCU, 2016-present\nExecutive Dean, College of Engineering, VCU, 2016-2022\nAssociate Dean, College of Engineering, Georgia Tech, 2006-2016\nAssociate Professor, School of Civil and Environmental Engineering, Georgia Tech, 1998-2016\nAssociate Professor, School of Civil and Environmental Engineering, Georgia Tech, 1993-1998\nInterim Executive Director, State Road and Tollway Authority, Georgia, 2002-2003"
+  },
+  {
+    "objectID": "about/jdleonard.html#badges-and-certificates",
+    "href": "about/jdleonard.html#badges-and-certificates",
+    "title": "John Leonard",
+    "section": "Badges and Certificates",
+    "text": "Badges and Certificates\n\nAssessment tools for Canvas\nBeing an Everyday Admin for Canvas\nCanvas Course Analytics and Data\nCanvas Outcomes and Rubrics for Instructors"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hello World!  We’re Software for Social Good",
     "section": "",
     "text": "placeholder image\n\n\n\n\nHello World!  We’re Software for Social Good\nHere at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.\n\nLearn more about us\n\n\n\n\n\n\n\nOur Pillars\n\nExperiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.\nJoin our team\n\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nHands-on Experience\n\nProvide students with opportunities to work on real-world software challenges.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nInnovative Solutions\n\nBuild innovative and creative softwares with a socially beneficial bottom line.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nTalent Development\n\nDiscover emerging skills in the software design and development by working with us."
-  },
-  {
-    "objectID": "projects/posts/project-Health-VR/index.html",
-    "href": "projects/posts/project-Health-VR/index.html",
-    "title": "Health VR",
-    "section": "",
-    "text": "Add a larger descriptio of this activity! You can add images, videos, or whatever!"
-  },
-  {
-    "objectID": "about/parki2(2).html",
-    "href": "about/parki2(2).html",
-    "title": "Inho Park",
-    "section": "",
-    "text": "View All Members"
-  },
-  {
-    "objectID": "about/parki2(2).html#education",
-    "href": "about/parki2(2).html#education",
-    "title": "Inho Park",
-    "section": "Education",
-    "text": "Education\n\nB.F.A. in Graphic Design, VCUarts Expected May 2024\nCertificate in Product Innovation, VCU daVinci CenterExpected May 2024\nCertificate in Venture Creation, VCU daVinci CenterExpected May 2024"
-  },
-  {
-    "objectID": "about/parki2(2).html#experience",
-    "href": "about/parki2(2).html#experience",
-    "title": "Inho Park",
-    "section": "Experience",
-    "text": "Experience\n\nDesign Intern, Great Minds PBC, Richmond, VAJuly 2023 ~ Present\nDesign Assistant, VCU College of Engineering, Richmond, VAMar 2023 ~ Present\nUX Design Intern, Bank of America, Richmond, VAFeb 2022 ~ Oct 2022\nFreelance Designer, Les Crêpes Carytown, Richmond, VA Oct 2021\nVolunteer Designer, RVA Fashion Week, Richmond, VASept 2021\nTeam Lead (E-5 Sergeant), US - Korea Combined 2nd Infantry Division, Camp Casey, APOOct 2020 ~ May 2021"
-  },
-  {
-    "objectID": "about/parki2(2).html#skills",
-    "href": "about/parki2(2).html#skills",
-    "title": "Inho Park",
-    "section": "Skills",
-    "text": "Skills\n\nKorean (Native), Adobe InDesign, Photoshop, Illustrator, Figma, GitHub, HTML 5, CSS 3, Javascript, Google Suite"
   }
 ]
