@@ -1,13 +1,11 @@
 ---
 title: "John Leonard"
-date: last-modified
 format:
     html:
         toc: false
-        style: ../assets/quarto_ssgvip.scss
 ---
 <a id="goback-btn" href="./index.html">
-<i class="bi bi-arrow-left-circle"/>
+<i class="bi bi-arrow-left-circle"></i>
 View all Members
 </a>
 
