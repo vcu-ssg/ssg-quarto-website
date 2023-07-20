@@ -13,6 +13,9 @@ import numpy as np
 from IPython.display import Markdown
 from tabulate import tabulate
 
+destination_folder = "../website/about/"
+spreadsheet_key = "19I04Ljy8X8f1mqhpEh5-XRmj4iIEv1huaijqy60a42E"
+
 # define scope
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 
@@ -30,11 +33,7 @@ client = gspread.authorize(creds)
 def cli(ctx):
     pass
 
-@cli.command
-@click.pass_context
-def bios(ctx):
-    # Course data: open the google sheet and tab
-    spreadsheet_key = "19I04Ljy8X8f1mqhpEh5-XRmj4iIEv1huaijqy60a42E"
+def get_biographies_from_gsheet():
     worksheet_name = "Biographies"
     sheet = client.open_by_key(spreadsheet_key).worksheet(worksheet_name)
     data = sheet.get_all_values()
@@ -45,7 +44,7 @@ def bios(ctx):
     # build list of users to create pages
     list = {}
     for i,bio in bios_df.iterrows():
-        item = {"item_name":bio["item_name"],"item_description":bio["item_description"]}
+        item = {"item_name":bio["item_name"],"item_description":bio["item_description"],"item_year":bio["item_year"],"item_url":bio["item_url"]}
         category = {"cat_name":bio["item_name"],"items":[]}
         b = {"person_name":bio["person_name"],"person_eid":bio["person_eid"],"categories":{}}
         if bio["person_eid"] not in list.keys():
@@ -53,36 +52,147 @@ def bios(ctx):
         if category["cat_name"] not in list[bio["person_eid"]]["categories"].keys():
             list[bio["person_eid"]]["categories"][category["cat_name"]] = category
         list[bio["person_eid"]]["categories"][category["cat_name"]]["items"].append( item )
+    return list
 
-    destination_folder = "../website/about/"
-    for name in list.keys():
+def get_roster_from_gsheet():
+    worksheet_name = "Roster"
+    sheet = client.open_by_key(spreadsheet_key).worksheet(worksheet_name)
+    data = sheet.get_all_values()
+    headers = data.pop(0)
+    df = pd.DataFrame(data, columns=headers)
+    filepath = 'roster.xlsx'
+    df.to_excel(filepath, index=False)
+    # build list of users keyed to person_eid
+    list = {}
+    for i,row in df.iterrows():
+        item = {}
+        for column_name in df.columns:
+            item[column_name] = row[column_name]
+        list[item["person_eid"]] = item
+    return list
 
-        filename = f'{destination_folder}{name}.qmd'
-        with open(filename, 'w',encoding="utf-8") as file:
-            file.write(f"""---
-title: "{list[name]["person_name"]}"
+
+def write_index( biographies,roster ):
+    filename = f'{destination_folder}index.qmd'
+    with open(filename, 'w',encoding="utf-8") as file:
+        file.write(f"""---
+title: "Meet our team"
 date: last-modified
 format:
-  html:
-    toc: false
+    html:
+        toc: false
+        style: ../assets/quarto_ssgvip.scss
 ---
+                   
+::: {{.roster-wrap}}
+
 """)
-            if "bio" in list[name]["categories"].keys():
-                for item in list[name]["categories"]["bio"]["items"]:
-                    file.write(f"\n{item['item_description']}\n")
+        for eid in biographies.keys():
+            file.write(f"""
+::: {{.roster-person}}
 
-            if "education" in list[name]["categories"].keys():
-                file.write("\n## Education\n\n")
-                for item in list[name]["categories"]["education"]["items"]:
-                    file.write(f"* {item['item_description']}\n")
+<a href="./{eid}.qmd">
 
-            if "experience" in list[name]["categories"].keys():
-                file.write("\n## Experience\n\n")
-                for item in list[name]["categories"]["experience"]["items"]:
-                    file.write(f"* {item['item_description']}\n")
+::: {{.roster-pic-frame}}
+::: {{.roster-pic}}
+![](../assets/{roster[eid]["person_headshot"]})
+:::
+:::
 
+::: {{.roster-person-name}}
+{roster[eid]["person_name"]}
+:::
 
+::: {{.roster-person-role}}
+{roster[eid]["person_role"]}
+:::
+
+</a>
+
+:::
+
+""")
+            
+        file.write(f"""
+:::
+
+""")
         file.close()
+    
+
+def write_page( name, biographies, roster ):
+    """ Write about page for individuals in list """
+    filename = f'{destination_folder}{name}.qmd'
+    with open(filename, 'w',encoding="utf-8") as file:
+        file.write(f"""---
+title: "{biographies[name]["person_name"]}"
+date: last-modified
+format:
+    html:
+        toc: false
+        style: ../assets/quarto_ssgvip.scss
+---
+<a id="goback-btn" href="./index.html">
+<i class="bi bi-arrow-left-circle"/>
+View all Members
+</a>
+
+::: {{.profile-wrap}}
+
+::: {{.profile-bio}}
+
+::: {{.profile-pic-frame}}
+
+::: {{.profile-pic}}
+
+![](../assets/{roster[name]["person_headshot"]})
+
+:::
+
+:::
+
+""")
+        if "bio" in biographies[name]["categories"].keys():
+            for item in biographies[name]["categories"]["bio"]["items"]:
+                file.write(f"\n{item['item_description']}\n")
+
+        if "education" in biographies[name]["categories"].keys():
+            file.write("\n## Education\n\n")
+            for item in biographies[name]["categories"]["education"]["items"]:
+                file.write(f"* {item['item_description']}\n")
+
+        if "experience" in biographies[name]["categories"].keys():
+            file.write("\n## Experience\n\n")
+            for item in biographies[name]["categories"]["experience"]["items"]:
+                file.write(f"* {item['item_description']}\n")
+
+        if "certification" in biographies[name]["categories"].keys():
+            file.write("\n## Badges and Certifications\n\n")
+            for item in biographies[name]["categories"]["certification"]["items"]:
+                file.write(f"* {item['item_description']}")
+                if item["item_year"] is not None:
+                    file.write(f", {item['item_year']}")
+
+        file.write(f"""
+
+:::
+                   
+:::
+
+""")
+
+    file.close()
+
+
+
+@cli.command
+@click.pass_context
+def bios(ctx):
+    biographies = get_biographies_from_gsheet()
+    roster = get_roster_from_gsheet()
+    for name in biographies.keys():
+        write_page( name, biographies, roster )
+    write_index( biographies, roster )
 
 
 if __name__=="__main__":

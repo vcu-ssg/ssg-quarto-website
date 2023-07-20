@@ -1,0 +1,43 @@
+---
+title: "William Benton"
+date: last-modified
+format:
+    html:
+        toc: false
+        style: ../assets/quarto_ssgvip.scss
+---
+<a id="goback-btn" href="./index.html">
+<i class="bi bi-arrow-left-circle"/>
+View all Members
+</a>
+
+::: {.profile-wrap}
+
+::: {.profile-bio}
+
+::: {.profile-pic-frame}
+
+::: {.profile-pic}
+
+![](../assets/wbenton.jpg)
+
+:::
+
+:::
+
+
+I recently completed my doctorate in the department of Anthropology at the University of Michigan. My current research is on entrepreneurship infrastructure and opportunity creation. I am also interested in how innovation policy is implemented, and how early stage equity finance structures entrepreneurship communities.
+
+## Education
+
+* Ph.D., Anthropology, University of Michigan
+
+## Experience
+
+* Instructor, DaVinci Program, VCU
+
+
+:::
+                   
+:::
+

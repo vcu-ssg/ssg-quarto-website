@@ -1,0 +1,83 @@
+---
+title: "Meet our team"
+date: last-modified
+format:
+    html:
+        toc: false
+        style: ../assets/quarto_ssgvip.scss
+---
+                   
+::: {.roster-wrap}
+
+
+::: {.roster-person}
+
+<a href="./parki2.qmd">
+
+::: {.profile-pic-frame}
+::: {.profile-pic}
+![](../assets/parki2.png)
+:::
+:::
+
+::: {.roster-person-name}
+Inho Park
+:::
+
+::: {.roster-person-role}
+Current Student
+:::
+
+</a>
+
+:::
+
+
+::: {.roster-person}
+
+<a href="./jdleonard.qmd">
+
+::: {.profile-pic-frame}
+::: {.profile-pic}
+![](../assets/jdleonard-2.jpg)
+:::
+:::
+
+::: {.roster-person-name}
+John Leonard
+:::
+
+::: {.roster-person-role}
+Faculty Mentor
+:::
+
+</a>
+
+:::
+
+
+::: {.roster-person}
+
+<a href="./wbenton.qmd">
+
+::: {.profile-pic-frame}
+::: {.profile-pic}
+![](../assets/wbenton.jpg)
+:::
+:::
+
+::: {.roster-person-name}
+William Benton
+:::
+
+::: {.roster-person-role}
+Faculty Mentor
+:::
+
+</a>
+
+:::
+
+
+:::
+

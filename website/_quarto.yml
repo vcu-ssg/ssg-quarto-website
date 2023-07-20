@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: ./docs
+  output-dir: ../docs
 
 #about:
 #  template: broadside
@@ -22,9 +22,9 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Our Team"
-        file: our-team.qmd
+        file: about/index.qmd
       - text: "Projects"
-        href: pages/projects/index.qmd
+        href: projects/index.qmd
       - text: "For Students"
         file: forstudents.qmd
       - text: "Contact"
