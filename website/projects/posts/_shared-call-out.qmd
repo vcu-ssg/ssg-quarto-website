@@ -1,0 +1,8 @@
+::: callout-note
+## Shared call out
+
+This is an example of a shared callout box
+
+_shared-call-out.qmd
+
+:::

@@ -14,8 +14,8 @@ format:
 
 <a href="./parki2.qmd">
 
-::: {.profile-pic-frame}
-::: {.profile-pic}
+::: {.roster-pic-frame}
+::: {.roster-pic}
 ![](../assets/parki2.png)
 :::
 :::
@@ -37,8 +37,8 @@ Current Student
 
 <a href="./jdleonard.qmd">
 
-::: {.profile-pic-frame}
-::: {.profile-pic}
+::: {.roster-pic-frame}
+::: {.roster-pic}
 ![](../assets/jdleonard-2.jpg)
 :::
 :::
@@ -60,8 +60,8 @@ Faculty Mentor
 
 <a href="./wbenton.qmd">
 
-::: {.profile-pic-frame}
-::: {.profile-pic}
+::: {.roster-pic-frame}
+::: {.roster-pic}
 ![](../assets/wbenton.jpg)
 :::
 :::

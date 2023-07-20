@@ -1,6 +1,6 @@
 ---
-title: Quarto Blog
-subtitle: News, tips, and commentary about all things Quarto
+title: SSG Projects
+subtitle: Project listings, news, updates
 listing:
   sort: "date desc"
   contents: "posts/*/index.qmd"

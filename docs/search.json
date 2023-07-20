@@ -1,52 +1,31 @@
 [
   {
-    "objectID": "projects/posts/2023-05-22-quarto-for-academics/index.html",
-    "href": "projects/posts/2023-05-22-quarto-for-academics/index.html",
-    "title": "Quarto for Academics",
+    "objectID": "projects/posts/project-Transpo/index.html",
+    "href": "projects/posts/project-Transpo/index.html",
+    "title": "Transpo",
     "section": "",
-    "text": "Quarto offers a myriad of features that are especially useful for academics, as educators and as researchers. These range from chunk options that enable automatic linking of code to documentation, to article templates for manuscript submission to multiple journals. The following video walks you through some of these features.\n\nSelect highlights include:\n\nLinking to documentation from code with code-link.\nInformative YAML errors and YAML completion.\nCreating Quarto slides with revealjs.\nPDF export of HTML slides.\nAnnotating slides with chalkboard.\nAdvancing slides for your audience with multiplex.\nHighlighting code with code-line-numbers.\nCustomizing output location with output-location.\nShowing code chunk fences with echo: fenced.\nCode annotation.\nAuthoring manuscripts with Quarto journal templates.\nInserting citations from Zotero or from a DOI with the RStudio Visual Editor.\n\nIf you would like to follow along as you watch, you can find the source code for everything created in the video in this GitHub repository."
+    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\n(Add more text to the index.qmd file)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello World!  We’re Software for Social Good",
-    "section": "",
-    "text": "placeholder image\n\n\n\n\nHello World!  We’re Software for Social Good\nHere at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.\n\nLearn more about us\n\n\n\n\n\n\n\nOur Pillars\n\nExperiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.\nJoin our team\n\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nHands-on Experience\n\nProvide students with opportunities to work on real-world software challenges.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nInnovative Solutions\n\nBuild innovative and creative softwares with a socially beneficial bottom line.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nTalent Development\n\nDiscover emerging skills in the software design and development by working with us."
-  },
-  {
-    "objectID": "about/parki2.html",
-    "href": "about/parki2.html",
-    "title": "Inho Park",
+    "objectID": "about/wbenton.html",
+    "href": "about/wbenton.html",
+    "title": "William Benton",
     "section": "",
     "text": "View all Members"
   },
   {
-    "objectID": "about/parki2.html#education",
-    "href": "about/parki2.html#education",
-    "title": "Inho Park",
+    "objectID": "about/wbenton.html#education",
+    "href": "about/wbenton.html#education",
+    "title": "William Benton",
     "section": "Education",
-    "text": "Education\n\nB.F.A. in Graphic Design, Virginia Commonwealth University, Richmond VA"
+    "text": "Education\n\nPh.D., Anthropology, University of Michigan"
   },
   {
-    "objectID": "about/parki2.html#experience",
-    "href": "about/parki2.html#experience",
-    "title": "Inho Park",
+    "objectID": "about/wbenton.html#experience",
+    "href": "about/wbenton.html#experience",
+    "title": "William Benton",
     "section": "Experience",
-    "text": "Experience\n\nDesign Intern, Great Minds PBC, Richmond VA\nDesign Assistant, College of Engineering, VCU\nUX Design Intern, Bank of America, Richmond VA\nUX Design Lead, Software for Social Good at VCU, Richmond VA\nTeam Lead, US - Korea Combined 2nd Infantry Division, Donducheon, South Korea"
-  },
-  {
-    "objectID": "about/parki2.html#badges-and-certifications",
-    "href": "about/parki2.html#badges-and-certifications",
-    "title": "Inho Park",
-    "section": "Badges and Certifications",
-    "text": "Badges and Certifications\n\nCoursera UX Design Certificate, August 2022* VCU daVinci Center Product Innovation, Expected May 2024"
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Meet our team",
-    "section": "",
-    "text": "Inho Park\n\n\nCurrent Student\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor"
+    "text": "Experience\n\nInstructor, DaVinci Program, VCU"
   },
   {
     "objectID": "about/jdleonard.html",
@@ -77,45 +56,52 @@
     "text": "Badges and Certifications\n\nAssessment tools for Canvas, June 2023* Being an Everyday Admin for Canvas, June 2023* Canvas Course Analytics and Data, June 2023* Canvas Outcomes and Rubrics for Instructors, June 2023"
   },
   {
-    "objectID": "about/wbenton.html",
-    "href": "about/wbenton.html",
-    "title": "William Benton",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Meet our team",
+    "section": "",
+    "text": "Inho Park\n\n\nCurrent Student\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor"
+  },
+  {
+    "objectID": "about/parki2.html",
+    "href": "about/parki2.html",
+    "title": "Inho Park",
     "section": "",
     "text": "View all Members"
   },
   {
-    "objectID": "about/wbenton.html#education",
-    "href": "about/wbenton.html#education",
-    "title": "William Benton",
+    "objectID": "about/parki2.html#education",
+    "href": "about/parki2.html#education",
+    "title": "Inho Park",
     "section": "Education",
-    "text": "Education\n\nPh.D., Anthropology, University of Michigan"
+    "text": "Education\n\nB.F.A. in Graphic Design, Virginia Commonwealth University, Richmond VA"
   },
   {
-    "objectID": "about/wbenton.html#experience",
-    "href": "about/wbenton.html#experience",
-    "title": "William Benton",
+    "objectID": "about/parki2.html#experience",
+    "href": "about/parki2.html#experience",
+    "title": "Inho Park",
     "section": "Experience",
-    "text": "Experience\n\nInstructor, DaVinci Program, VCU"
+    "text": "Experience\n\nDesign Intern, Great Minds PBC, Richmond VA\nDesign Assistant, College of Engineering, VCU\nUX Design Intern, Bank of America, Richmond VA\nUX Design Lead, Software for Social Good at VCU, Richmond VA\nTeam Lead, US - Korea Combined 2nd Infantry Division, Donducheon, South Korea"
   },
   {
-    "objectID": "our-team.html",
-    "href": "our-team.html",
-    "title": "SSG at VCU",
-    "section": "",
-    "text": "John Leonard Inho Park"
+    "objectID": "about/parki2.html#badges-and-certifications",
+    "href": "about/parki2.html#badges-and-certifications",
+    "title": "Inho Park",
+    "section": "Badges and Certifications",
+    "text": "Badges and Certifications\n\nCoursera UX Design Certificate, August 2022* VCU daVinci Center Product Innovation, Expected May 2024"
   },
   {
-    "objectID": "our-team.html#meet-our-team",
-    "href": "our-team.html#meet-our-team",
-    "title": "SSG at VCU",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello World!  We’re Software for Social Good",
     "section": "",
-    "text": "John Leonard Inho Park"
+    "text": "placeholder image\n\n\n\n\nHello World!  We’re Software for Social Good\nHere at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.\n\nLearn more about us\n\n\n\n\n\n\n\nOur Pillars\n\nExperiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.\nJoin our team\n\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nHands-on Experience\n\nProvide students with opportunities to work on real-world software challenges.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nInnovative Solutions\n\nBuild innovative and creative softwares with a socially beneficial bottom line.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nTalent Development\n\nDiscover emerging skills in the software design and development by working with us."
   },
   {
-    "objectID": "projects/posts/2023-03-20-confluence/index.html",
-    "href": "projects/posts/2023-03-20-confluence/index.html",
-    "title": "Confluence Publishing",
+    "objectID": "projects/posts/project-Health-VR/index.html",
+    "href": "projects/posts/project-Health-VR/index.html",
+    "title": "Health VR",
     "section": "",
-    "text": "Quarto 1.3 Feature\n\n\n\nThis post is part of a series highlighting new features in the 1.3 release of Quarto. Get the latest release at https://quarto.org/docs/download.\n\n\nAtlassian Confluence is a publishing platform for supporting team collaboration. Confluence has a variety of hosting options which include both free and paid subscription plans.\nQuarto 1.3 adds support for publishing individual documents, as well as projects composed of multiple documents into Confluence Spaces.\n\n\n\n\n\n\nA Quarto Document\n\n\n\n\n\n\n\nPublished to Confluence\n\n\n\n\n\n\n\n\n\n\n\nA Quarto Project\n\n\n\n\n\n\n\nPublished to Confluence\n\n\n\n\n\nManaging Confluence content with Quarto allows you to author content in Markdown, manage that content with your usual version control tools like Git and GitHub, and leverage Quarto’s tools for including computational output.\n\nIf you’re curious about using Confluence Publishing for your own project, head to the Confluence Publishing page of the pre-release highlights to learn more."
+    "text": "Add a larger descriptio of this activity! You can add images, videos, or whatever!"
   }
 ]
