@@ -164,14 +164,19 @@ View all Members
         if "experience" in biographies[name]["categories"].keys():
             file.write("\n## Experience\n\n")
             for item in biographies[name]["categories"]["experience"]["items"]:
-                file.write(f"* {item['item_description']}\n")
+                file.write(f"* {item['item_description']}")
+                if "item_year" in item.keys() and (item["item_year"]!="" or item["item_year"] is not None):
+                    file.write(f", {item['item_year']}")
+                file.write("\n")
 
         if "certification" in biographies[name]["categories"].keys():
-            file.write("\n## Badges and Certifications\n\n")
+            file.write("\n## Badges and Certificates\n\n")
             for item in biographies[name]["categories"]["certification"]["items"]:
-                file.write(f"* {item['item_description']}")
-                if item["item_year"] is not None:
-                    file.write(f", {item['item_year']}")
+                if "item_url" in item.keys() and (item["item_url"]!="" or item["item_url"] is not None):
+                    file.write(f"* [{item['item_description']}]({item['item_url']})")
+                else:
+                    file.write(f"* {item['item_description']}")
+                file.write("\n")
 
         file.write(f"""
 

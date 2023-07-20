@@ -36,16 +36,20 @@ John Leonard is co-founder and Mentor within the SSG. When not innovating on dat
 
 ## Experience
 
-* Professor, Department of Computer Science, VCU
-* Executive Dean, College of Engineering, VCU
-* Associate Dean, College of Engineering, Georgia Tech
-* Associate Professor, School of Civil and Environmental Engineering, Georgia Tech
-* Associate Professor, School of Civil and Environmental Engineering, Georgia Tech
-* Interim Executive Director, State Road and Tollway Authority, Georgia
+* Professor, Department of Computer Science, VCU, 2016-present
+* Executive Dean, College of Engineering, VCU, 2016-2022
+* Associate Dean, College of Engineering, Georgia Tech, 2006-2016
+* Associate Professor, School of Civil and Environmental Engineering, Georgia Tech, 1998-2016
+* Associate Professor, School of Civil and Environmental Engineering, Georgia Tech, 1993-1998
+* Interim Executive Director, State Road and Tollway Authority, Georgia, 2002-2003
 
-## Badges and Certifications
+## Badges and Certificates
 
-* Assessment tools for Canvas, June 2023* Being an Everyday Admin for Canvas, June 2023* Canvas Course Analytics and Data, June 2023* Canvas Outcomes and Rubrics for Instructors, June 2023
+* [Assessment tools for Canvas](https://api.badgr.io/public/assertions/IQDR3GaGQhawDLySZRlslQ?identity__email=jdleonard%40vcu.edu)
+* [Being an Everyday Admin for Canvas](https://api.badgr.io/public/assertions/qzKptTDGQbKjC4SV09eKXw?identity__email=jdleonard%40vcu.edu)
+* [Canvas Course Analytics and Data](https://api.badgr.io/public/assertions/iz714Pn7Qn2RYJOUiI9VPA?identity__email=jdleonard%40vcu.edu)
+* [Canvas Outcomes and Rubrics for Instructors](https://api.badgr.io/public/assertions/cRD0xj25QWqwo_IBj5nzdQ?identity__email=jdleonard%40vcu.edu)
+
 
 :::
                    
