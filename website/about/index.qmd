@@ -81,3 +81,4 @@ Faculty Mentor
 
 :::
 
+![](../assets/ssg_logo_white_l3.svg)

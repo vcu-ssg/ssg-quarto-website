@@ -1,11 +1,12 @@
 ---
 title: "John Leonard"
+date: last-modified
 format:
     html:
         toc: false
 ---
 <a id="goback-btn" href="./index.html">
-<i class="bi bi-arrow-left-circle"></i>
+<i class="bi bi-arrow-left-circle"/>
 View all Members
 </a>
 
