@@ -44,7 +44,7 @@ format:
     theme: assets/quarto_ssgvip.scss
     toc: false
     css: style.css
-    include-after-body: js.html
+    include-after-body: assets/footer.html
     html-math-method: katex
     mainfont: 'Be Vietnam Pro'
     grid:

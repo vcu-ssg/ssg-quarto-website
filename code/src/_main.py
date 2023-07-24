@@ -133,8 +133,9 @@ format:
         style: ../assets/quarto_ssgvip.scss
 ---
 <a id="goback-btn" href="./index.html">
-<i class="bi bi-arrow-left-circle"/>
+<i class="bi bi-arrow-left-circle">
 View all Members
+</i>
 </a>
 
 ::: {{.profile-wrap}}
@@ -159,23 +160,23 @@ View all Members
         if "education" in biographies[name]["categories"].keys():
             file.write("\n## Education\n\n")
             for item in biographies[name]["categories"]["education"]["items"]:
-                file.write(f"* {item['item_description']}\n")
+                file.write(f"* <span class='item'>{item['item_description']} <span class='date'>{item['item_year']}</span></span>\n")
 
         if "experience" in biographies[name]["categories"].keys():
             file.write("\n## Experience\n\n")
             for item in biographies[name]["categories"]["experience"]["items"]:
-                file.write(f"* {item['item_description']}")
+                file.write(f"* <span class='item'>{item['item_description']}")
                 if "item_year" in item.keys() and (item["item_year"]!="" or item["item_year"] is not None):
-                    file.write(f", {item['item_year']}")
-                file.write("\n")
+                    file.write(f" <span class='date'>{item['item_year']}</span>")
+                file.write("</span>\n")
 
         if "certification" in biographies[name]["categories"].keys():
             file.write("\n## Badges and Certificates\n\n")
             for item in biographies[name]["categories"]["certification"]["items"]:
                 if "item_url" in item.keys() and (item["item_url"]!="" or item["item_url"] is not None):
-                    file.write(f"* [{item['item_description']}]({item['item_url']})")
+                    file.write(f"* <span class='item'>[{item['item_description']}]({item['item_url']})</span>")
                 else:
-                    file.write(f"* {item['item_description']}")
+                    file.write(f"* <span class='item'>{item['item_description']}</span>")
                 file.write("\n")
 
         file.write(f"""

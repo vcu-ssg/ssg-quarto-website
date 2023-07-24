@@ -7,8 +7,9 @@ format:
         style: ../assets/quarto_ssgvip.scss
 ---
 <a id="goback-btn" href="./index.html">
-<i class="bi bi-arrow-left-circle"/>
+<i class="bi bi-arrow-left-circle">
 View all Members
+</i>
 </a>
 
 ::: {.profile-wrap}
@@ -30,11 +31,11 @@ I recently completed my doctorate in the department of Anthropology at the Unive
 
 ## Education
 
-* Ph.D., Anthropology, University of Michigan
+* <span class='item'>Ph.D., Anthropology, University of Michigan <span class='date'></span></span>
 
 ## Experience
 
-* Instructor, DaVinci Program, VCU, 
+* <span class='item'>Instructor, DaVinci Program, VCU <span class='date'></span></span>
 
 
 :::

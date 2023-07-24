@@ -7,8 +7,9 @@ format:
         style: ../assets/quarto_ssgvip.scss
 ---
 <a id="goback-btn" href="./index.html">
-<i class="bi bi-arrow-left-circle"/>
+<i class="bi bi-arrow-left-circle">
 View all Members
+</i>
 </a>
 
 ::: {.profile-wrap}
@@ -30,20 +31,20 @@ Inho Park is graphic design student at VCUarts. He originally came from South Ko
 
 ## Education
 
-* B.F.A. in Graphic Design, Virginia Commonwealth University, Richmond VA
+* <span class='item'>B.F.A. in Graphic Design, Virginia Commonwealth University, Richmond VA <span class='date'>Expected May 2024</span></span>
 
 ## Experience
 
-* Design Intern, Great Minds PBC, Richmond VA, July 2023
-* Design Assistant, College of Engineering, VCU, March 2023
-* UX Design Intern, Bank of America, Richmond VA, February 2022
-* UX Design Lead, Software for Social Good at VCU, Richmond VA, January 2023
-* Team Lead, US - Korea Combined 2nd Infantry Division, Donducheon, South Korea, October 2020
+* <span class='item'>Design Intern, Great Minds PBC, Richmond VA <span class='date'>July 2023</span></span>
+* <span class='item'>Design Assistant, College of Engineering, VCU <span class='date'>March 2023</span></span>
+* <span class='item'>UX Design Intern, Bank of America, Richmond VA <span class='date'>February 2022</span></span>
+* <span class='item'>UX Design Lead, Software for Social Good at VCU, Richmond VA <span class='date'>January 2023</span></span>
+* <span class='item'>Team Lead, US - Korea Combined 2nd Infantry Division, Donducheon, South Korea <span class='date'>October 2020</span></span>
 
 ## Badges and Certificates
 
-* [Coursera UX Design Certificate]()
-* [VCU daVinci Center Product Innovation]()
+* <span class='item'>[Coursera UX Design Certificate]()</span>
+* <span class='item'>[VCU daVinci Center Product Innovation]()</span>
 
 
 :::

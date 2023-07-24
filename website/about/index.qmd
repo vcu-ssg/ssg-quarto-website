@@ -12,7 +12,7 @@ format:
 
 ::: {.roster-person}
 
-<a href="./parki2(2).qmd">
+<a href="./parki2.qmd">
 
 ::: {.roster-pic-frame}
 ::: {.roster-pic}
@@ -81,4 +81,3 @@ Faculty Mentor
 
 :::
 
-![](../assets/ssg_logo_white_l1.svg)
