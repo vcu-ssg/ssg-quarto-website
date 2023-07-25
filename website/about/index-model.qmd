@@ -1,5 +1,59 @@
 ---
-title: hello world!
+pagetitle: SSG at VCU | Meet our Team
+format:
+    html:
+        toc: false
 ---
 
-hello!
+# Meet our Team {.section-header}
+
+## Student Members 
+
+::: {.members-category-desc}
+
+::: {.desc}
+
+The SSG team comprises VCU students from different background working cross-functionally, with drive.
+
+:::
+
+::: {.filter-control}
+
+<button class="active">All Members</button>
+<button class="">Designers</button>
+<button class="">Developers</button>
+<button class="">Researchers</button>
+
+:::
+
+:::
+
+::: {.members-card-wrap}
+
+::: {.members-card}
+
+::: {.card-shadow}
+
+:::
+
+::: {.members-pic}
+
+![](../assets/parki2.png)
+
+:::
+
+::: {.members-profile}
+
+::: {.name}
+Inho Park
+:::
+
+::: {.major}
+B.F.A. Graphic Design
+:::
+
+:::
+
+:::
+
+:::

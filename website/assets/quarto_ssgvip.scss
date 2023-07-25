@@ -63,8 +63,39 @@ a {
   color: $brass;
 }
 
-// Header
+h1.section-header {
+  text-align: center;
+  margin: 0 auto 32px;
+  position: relative;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  &::before,
+  &::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 2px;
+    background-color: $light-gray;
+  }
+
+  &::before {
+    left:calc(100% + 20px);
+    // left: -50%;
+    // transform: translateX(-120px);
+  }
+
+  &::after {
+    right:calc(100% + 20px);
+    // left: 50%;
+    // transform: translateX(120px);
+  }
+}
+
+// Header
 header {
   transition: transform 100ms linear !important; //navbar collapse 
 
@@ -405,10 +436,7 @@ footer.custom-footer {
   }
 }
 
-
-
 // our pillars section
-
 .our-pillars {
   width: 100%;
   justify-content: space-between;
@@ -419,33 +447,6 @@ footer.custom-footer {
     flex-direction: column;
     gap: 32px;
 
-
-    h1 {
-      text-align: center;
-      margin: 0 0 32px 0;
-      position: relative;
-
-      &::before,
-      &::after {
-        display: block;
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: $light-gray;
-        top: 45%;
-      }
-
-      &::before {
-        left: -50%;
-        transform: translateX(-120px);
-      }
-
-      &::after {
-        left: 50%;
-        transform: translateX(120px);
-      }
-    }
 
     .our-pillars-text {
       display: flex;
@@ -504,8 +505,7 @@ footer.custom-footer {
 }
 
 
-// about page (member resume, bio) 
-
+// member bio page
 #goback-btn {
   display: flex;
   width: fit-content;
@@ -514,25 +514,30 @@ footer.custom-footer {
   font-size: 20px;
   text-decoration: none;
   transition: color .2s;
-  margin: 16px 0 32px;
+  // margin-bottom: 32px;
 
   &:hover {
     color: $gray;
   }
 
   .bi-arrow-left-circle {
-    margin-right: 10px;
-    font-size: 32px;
     display: flex;
     align-items: center;
-    padding-bottom: 1px;
+    font-size: 20px;
+    font-style: normal;
+
+    &::before {
+      margin-right: 10px;
+      font-size: 32px;
+      padding-bottom: 1px;
+    }
   }
 }
 
 .profile-wrap {
 
   p {
-    padding: 0px 8px;
+    padding: 0 8px;
   }
 
   display: flex;
@@ -550,7 +555,7 @@ footer.custom-footer {
     .profile-pic-frame {
       display: flex;
       justify-content: center;
-      margin-bottom:32px;
+      margin-bottom: 32px;
 
       .profile-pic {
         width: 200px;
@@ -638,30 +643,39 @@ footer.custom-footer {
     .member-status {
       display: flex;
       gap: 8px;
-      margin: 8px 6px 24px;
+      margin: 8px 6px 16px;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       color: $medium-gray;
 
-      p {
+      &,
+      p,
+      a {
         padding: 0;
-        margin: 0;
         font-size: 14px;
+        text-decoration: none;
       }
 
       .status-wrap {
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
+        align-items: center;
+
+        &::before {
+          content: "Status/Project:";
+        }
 
         div {
           color: $white;
           border-radius: 12px;
           background-color: $gray;
 
-          p {
-            padding: 2px 16px;
+          &,
+          p,
+          a {
+            padding: 2px 24px;
             margin: 0;
             width: max-content;
           }
@@ -687,19 +701,22 @@ footer.custom-footer {
     }
 
     ul {
-      padding: 16px 32px;
+      padding: 16px 32px 8px;
       margin: 0;
 
-      .item {
-        display: flex;
-        justify-content: space-between;
+      li {
         margin-bottom: 8px;
 
-        .date {
-          text-align: right;
-          min-width: fit-content;
-          margin-left: 56px;
-          color: $medium-gray;
+        .item {
+          .date {
+            overflow: hidden;
+            white-space: nowrap;
+            color: $medium-gray;
+
+            &::before {
+              content: "- ";
+            }
+          }
         }
       }
     }
@@ -711,10 +728,10 @@ footer.custom-footer {
 
   .backdrop {
     position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: royalblue;
   }
 }
@@ -723,8 +740,7 @@ footer.custom-footer {
 
 @media all and (min-width: 992px) {
 
-  //header
-
+  // Header
   header {
     .navbar {
       .navbar-container {
@@ -774,7 +790,6 @@ footer.custom-footer {
   }
 
   // Scroll Top
-
   #backtop {
     position: fixed;
     bottom: 32px;
@@ -816,13 +831,35 @@ footer.custom-footer {
     }
   }
 
-
-
   // hero banner section
   .hero-banner {
     .content-block {
       .hero-text {
         max-width: 420px;
+      }
+    }
+  }
+
+  // member bio page
+  .profile-wrap {
+    section.level2 {
+      ul {
+        .item {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .date {
+            text-align: right;
+            min-width: fit-content;
+            margin-left: 56px;
+
+            &::before {
+              display: none;
+            }
+          }
+        }
       }
     }
   }

@@ -86,9 +86,9 @@
   {
     "objectID": "about/index-model.html",
     "href": "about/index-model.html",
-    "title": "hello world!",
+    "title": "Meet our Team",
     "section": "",
-    "text": "hello!"
+    "text": "The SSG team comprises VCU students from different background working cross-functionally, with drive.\n\n\n\nAll Members\n\n\nDesigners\n\n\nDevelopers\n\n\nResearchers\n\n\n\n\n\n\n\n\n\n\n\n\n\nInho Park\n\n\nB.F.A. Graphic Design"
   },
   {
     "objectID": "about/index.html",
@@ -159,5 +159,12 @@
     "title": "Health VR",
     "section": "",
     "text": "This describes a partnerhsip with the Motor Control Laboratory at VCU."
+  },
+  {
+    "objectID": "about/index-model.html#student-members",
+    "href": "about/index-model.html#student-members",
+    "title": "Meet our Team",
+    "section": "",
+    "text": "The SSG team comprises VCU students from different background working cross-functionally, with drive.\n\n\n\nAll Members\n\n\nDesigners\n\n\nDevelopers\n\n\nResearchers\n\n\n\n\n\n\n\n\n\n\n\n\n\nInho Park\n\n\nB.F.A. Graphic Design"
   }
 ]
