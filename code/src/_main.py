@@ -39,8 +39,8 @@ def get_biographies_from_gsheet():
     data = sheet.get_all_values()
     headers = data.pop(0)
     bios_df = pd.DataFrame(data, columns=headers)
-    bios_filepath = 'bios.xlsx'
-    bios_df.to_excel(bios_filepath, index=False)
+#    bios_filepath = 'bios.xlsx'
+#    bios_df.to_excel(bios_filepath, index=False)
     # build list of users to create pages
     list = {}
     for i,bio in bios_df.iterrows():
@@ -60,8 +60,8 @@ def get_roster_from_gsheet():
     data = sheet.get_all_values()
     headers = data.pop(0)
     df = pd.DataFrame(data, columns=headers)
-    filepath = 'roster.xlsx'
-    df.to_excel(filepath, index=False)
+#    filepath = 'roster.xlsx'
+#    df.to_excel(filepath, index=False)
     # build list of users keyed to person_eid
     list = {}
     for i,row in df.iterrows():
