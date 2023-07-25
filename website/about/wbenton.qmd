@@ -1,10 +1,10 @@
 ---
-title: "William Benton"
+pagetitle: "SSG at VCU | William Benton"
 date: last-modified
 format:
     html:
         toc: false
-        style: ../assets/quarto_ssgvip.scss
+#        style: ../assets/quarto_ssgvip.scss
 ---
 <a id="goback-btn" href="./index.html">
 <i class="bi bi-arrow-left-circle">
@@ -12,33 +12,52 @@ View all Members
 </i>
 </a>
 
-::: {.profile-wrap}
+<div class='profile-wrap'>
 
-::: {.profile-bio}
+<div class='profile-bio'>
 
-::: {.profile-pic-frame}
+<div class='profile-pic-frame'>
+<div class='profile-pic'>
+<img src='../assets/wbenton.jpg' class='img-fluid'>
+</div>
+</div>
 
-::: {.profile-pic}
+<div class='profile-name-links'>
+<h1>William Benton</h1>
+<div class='profile-links'><p>
+<a href='https://www.linkedin.com/in/williambenton1/'><i class='bi bi-linkedin'></i>LinkedIn</a><a href='https://github.com/wbenton1'><i class='bi bi-github'></i>GitHub</a>
+</p>
+</div>
+</div>
+  
+<div class='member-status'>
+<div class='status-wrap'>
+<div class='status'>Faculty Mentor</div>
+<div class='project'>RamsSafe</div><div class='project'>Health VR</div><div class='project'>Bank of America</div>
+</div>
+</div>
 
-![](../assets/wbenton.jpg)
 
-:::
-
-:::
-
-
+<p>
 I recently completed my doctorate in the department of Anthropology at the University of Michigan. My current research is on entrepreneurship infrastructure and opportunity creation. I am also interested in how innovation policy is implemented, and how early stage equity finance structures entrepreneurship communities.
+</p>
+
+
+
+</div>
+
 
 ## Education
 
-* <span class='item'>Ph.D., Anthropology, University of Michigan <span class='date'></span></span>
+* <span class='item'>Ph.D., Anthropology, University of Michigan
+ <span class='date'></span></span>
 
 ## Experience
 
-* <span class='item'>Instructor, DaVinci Program, VCU <span class='date'></span></span>
+* <span class='item'>Instructor, DaVinci Program, VCU
+ <span class='date'></span></span>
 
 
-:::
-                   
-:::
+</div>
+             
 
