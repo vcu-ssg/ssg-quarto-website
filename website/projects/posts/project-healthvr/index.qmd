@@ -4,11 +4,12 @@ subtitle: A partnership between the SSG and VCU Health
 description: |
   A video highlighting some of Quarto's features that are especially useful for academics, as educators and as researchers.
 categories:
-  - projects
+  - Project list
+  - HealthVR
 author: John Leonard
 date: "07/20/2023"
-image: "quarto-for-academics-video-cover.png"
-image-alt: "Quarto logo on a blue background and the title of the video - Quarto for Academics"
+image: "vr-image.png"
+image-alt: "VR image from a MCL therapy VR"
 ---
 
-Add a larger descriptio of this activity!  You can add images, videos, or whatever!
+This describes a partnerhsip with the Motor Control Laboratory at VCU.

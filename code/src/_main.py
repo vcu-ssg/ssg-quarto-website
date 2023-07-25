@@ -200,7 +200,7 @@ View all Members
             file.write(f"<a href='https://github.com/" + roster[name]['person_github_id'] + "'><i class='bi bi-github'></i>GitHub</a>")
 
         if roster[name]["person_orcid"]!="":
-            file.write(f"<a href='{roster[name]['person_portfolio']}'><svg viewBox='0 0 512 512'><path d='M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z' /></svg>ORCID</a>")
+            file.write(f"<a href='{roster[name]['person_orcid']}'><svg viewBox='0 0 512 512'><path d='M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z' /></svg>ORCID</a>")
 
         file.write(f"""
 </p>
@@ -213,7 +213,7 @@ View all Members
 """)
         for project in joins[name]:
             if project['project_id'] in projects.keys():
-                file.write(f"<div class='project'>{ projects[project['project_id']]['project_name'] }</div>")
+                file.write(f"<a href='{projects[project['project_id']]['project_url']}'><div class='project'>{ projects[project['project_id']]['project_name'] }</div></a>\n")
         file.write(f"""
 </div>
 </div>

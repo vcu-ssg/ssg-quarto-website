@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "projects/posts/project-Transpo/index.html",
-    "href": "projects/posts/project-Transpo/index.html",
-    "title": "Transpo",
+    "objectID": "projects/posts/project-ramsafe/index.html",
+    "href": "projects/posts/project-ramsafe/index.html",
+    "title": "RamSafe",
     "section": "",
-    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\n(Add more text to the index.qmd file)"
+    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\nAdd text here!"
   },
   {
     "objectID": "forstudents.html",
@@ -147,10 +147,10 @@
     "text": "placeholder image\n\n\n\n\nHello World!  We’re Software for Social Good\nHere at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.\n\nLearn more about us\n\n\n\n\n\n\n\nOur Pillars\n\nExperiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.\nJoin our team\n\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nHands-on Experience\n\nProvide students with opportunities to work on real-world software challenges.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nInnovative Solutions\n\nBuild innovative and creative softwares with a socially beneficial bottom line.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nTalent Development\n\nDiscover emerging skills in the software design and development by working with us."
   },
   {
-    "objectID": "projects/posts/project-Health-VR/index.html",
-    "href": "projects/posts/project-Health-VR/index.html",
+    "objectID": "projects/posts/project-healthvr/index.html",
+    "href": "projects/posts/project-healthvr/index.html",
     "title": "Health VR",
     "section": "",
-    "text": "Add a larger descriptio of this activity! You can add images, videos, or whatever!"
+    "text": "This describes a partnerhsip with the Motor Control Laboratory at VCU."
   }
 ]

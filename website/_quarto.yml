@@ -8,6 +8,8 @@ project:
 website:
   title: "SSG at VCU"
   favicon: "assets/ssg_favicon.ico"
+  site-url: "https://internal.ssgvip.com"
+  description: "News feed for SSG"
   search:
     location: navbar
     type: overlay

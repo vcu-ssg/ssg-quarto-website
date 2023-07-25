@@ -33,7 +33,10 @@ View all Members
 <div class='member-status'>
 <div class='status-wrap'>
 <div class='status'>Faculty Mentor</div>
-<div class='project'>RamsSafe</div><div class='project'>Health VR</div><div class='project'>Bank of America</div>
+<a href='/projects/index.html#category=RamSafe'><div class='project'>RamSafe</div></a>
+<a href='/projects/index.html#category=HealthVR'><div class='project'>Health VR</div></a>
+<a href=''><div class='project'>Bank of America</div></a>
+
 </div>
 </div>
 
