@@ -1,0 +1,16 @@
+---
+title: Bank of America
+subtitle: A partnership between the SSG and the Bank of America
+description: |
+  Home page for the project
+categories:
+  - Project list
+  - Bank of America
+author: John Leonard
+date: "07/25/2023"
+image: "bank-logo.png"
+image-alt: "Bank of America logo"
+---
+
+This describes a partnerhsip of the SSG with the Bank of America.
+

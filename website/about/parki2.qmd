@@ -34,7 +34,7 @@ View all Members
 <div class='status-wrap'>
 <div class='status'>Current Student</div>
 <a href='/projects/index.html#category=RamSafe'><div class='project'>RamSafe</div></a>
-<a href=''><div class='project'>Bank of America</div></a>
+<a href='/projects/index.html#category=Bank%20of%20America'><div class='project'>Bank of America</div></a>
 
 </div>
 </div>
