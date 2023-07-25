@@ -18,8 +18,7 @@ View All Members
 
 ::: {.profile-pic}
 
-![](parki2.jpg)
-
+![](../assets/parki2-2.png)
 :::
 
 :::
