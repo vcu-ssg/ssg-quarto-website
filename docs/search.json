@@ -7,6 +7,13 @@
     "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\n(Add more text to the index.qmd file)"
   },
   {
+    "objectID": "forstudents.html",
+    "href": "forstudents.html",
+    "title": "For students",
+    "section": "",
+    "text": "some stuff here!"
+  },
+  {
     "objectID": "about/wbenton.html",
     "href": "about/wbenton.html",
     "title": "\nWilliam Benton\n",
@@ -28,29 +35,29 @@
     "text": "Experience\n\nInstructor, DaVinci Program, VCU"
   },
   {
-    "objectID": "about/parki2(2).html",
-    "href": "about/parki2(2).html",
+    "objectID": "about/parki2-model.html",
+    "href": "about/parki2-model.html",
     "title": "Inho Park",
     "section": "",
     "text": "View All Members"
   },
   {
-    "objectID": "about/parki2(2).html#education",
-    "href": "about/parki2(2).html#education",
+    "objectID": "about/parki2-model.html#education",
+    "href": "about/parki2-model.html#education",
     "title": "Inho Park",
     "section": "Education",
     "text": "Education\n\nB.F.A. in Graphic Design, VCUarts Expected May 2024\nCertificate in Product Innovation, VCU daVinci CenterExpected May 2024\nCertificate in Venture Creation, VCU daVinci CenterExpected May 2024"
   },
   {
-    "objectID": "about/parki2(2).html#experience",
-    "href": "about/parki2(2).html#experience",
+    "objectID": "about/parki2-model.html#experience",
+    "href": "about/parki2-model.html#experience",
     "title": "Inho Park",
     "section": "Experience",
     "text": "Experience\n\nDesign Intern, Great Minds PBC, Richmond, VAJuly 2023 ~ Present\nDesign Assistant, VCU College of Engineering, Richmond, VAMar 2023 ~ Present\nUX Design Intern, Bank of America, Richmond, VAFeb 2022 ~ Oct 2022\nFreelance Designer, Les Crêpes Carytown, Richmond, VA Oct 2021\nVolunteer Designer, RVA Fashion Week, Richmond, VASept 2021\nTeam Lead (E-5 Sergeant), US - Korea Combined 2nd Infantry Division, Camp Casey, APOOct 2020 ~ May 2021"
   },
   {
-    "objectID": "about/parki2(2).html#skills",
-    "href": "about/parki2(2).html#skills",
+    "objectID": "about/parki2-model.html#skills",
+    "href": "about/parki2-model.html#skills",
     "title": "Inho Park",
     "section": "Skills",
     "text": "Skills\n\nKorean (Native), Adobe InDesign, Photoshop, Illustrator, Figma, GitHub, HTML 5, CSS 3, Javascript, Google Suite"
@@ -61,6 +68,13 @@
     "title": "Meet our team",
     "section": "",
     "text": "Inho Park\n\n\nCurrent Student\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor"
+  },
+  {
+    "objectID": "about/index-model.html",
+    "href": "about/index-model.html",
+    "title": "hello world!",
+    "section": "",
+    "text": "hello!"
   },
   {
     "objectID": "about/jdleonard.html",
