@@ -33,7 +33,7 @@ Here at VCU, students from multi-disciplinary backgrounds connect with outer com
 
 ::: {.content-block}
 
-# Our Pillars {.section-header}
+# Our Pillars {.section-header .bigmargin-bottom}
 
 ::: our-pillars-text
 Experiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.

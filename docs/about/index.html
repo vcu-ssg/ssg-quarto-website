@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-07-25">
+<meta name="dcterms.date" content="2023-07-26">
 
 <title>SSG at VCU - Meet our team</title>
 <style>
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 25, 2023</p>
+      <p class="date">July 26, 2023</p>
     </div>
   </div>
   
@@ -267,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   `);
 
-  //Scrol to element  
+  //Scroll to element  
   let backtopElement = document.getElementById("backtop");
 
   window.addEventListener("scroll", function () {
@@ -286,6 +286,24 @@ ul.task-list li input[type="checkbox"] {
       behavior: "smooth",
     });
   });
+
+// members list page text overflow fix:
+const elements = document.querySelectorAll(".members-profile .major p");
+
+function truncateText(element) {
+  const smallScreenMaxLength = 80;
+  const largeScreenMaxLength = 60;
+  const maxLength = window.innerWidth > 1170 ? largeScreenMaxLength : smallScreenMaxLength;
+
+  const text = element.textContent.trim();
+
+  if (text.length > maxLength) {
+    const truncatedText = text.slice(0, maxLength) + "...";
+    element.textContent = truncatedText;
+  }
+}
+
+elements.forEach(truncateText);
 </script>
 
 

@@ -7,7 +7,7 @@ format:
 
 # Meet our Team {.section-header}
 
-## Student Members 
+## Student Members {.bigmargin-bottom}
 
 ::: {.members-category-desc}
 
@@ -19,10 +19,10 @@ The SSG team comprises VCU students from different background working cross-func
 
 ::: {.filter-control}
 
-<button class="active">All Members</button>
-<button class="">Designers</button>
-<button class="">Developers</button>
-<button class="">Researchers</button>
+<button class="small-btn active">All Members</button>
+<button class="small-btn">Designers</button>
+<button class="small-btn">Developers</button>
+<button class="small-btn">Researchers</button>
 
 :::
 
@@ -30,30 +30,286 @@ The SSG team comprises VCU students from different background working cross-func
 
 ::: {.members-card-wrap}
 
-::: {.members-card}
+<ul>
 
-::: {.card-shadow}
-
-:::
-
-::: {.members-pic}
-
-![](../assets/parki2.png)
-
-:::
-
-::: {.members-profile}
-
-::: {.name}
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/parki2-2.png)
+</div>
+<div class="members-profile">
+<div class="name">
 Inho Park
-:::
-
-::: {.major}
+</div>
+<div class="major">
 B.F.A. Graphic Design
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+</ul>
+
 :::
+
+## Faculty Mentors {.bigmargin-bottom}
+
+::: {.members-category-desc}
+
+::: {.desc}
+
+The SSG team comprises VCU students from different background working cross-functionally, with drive.
+
+:::
+
+::: {.filter-control}
+
+<button class="small-btn active">All Members</button>
+<button class="small-btn">Designers</button>
+<button class="small-btn">Developers</button>
+<button class="small-btn">Researchers</button>
 
 :::
 
 :::
+
+::: {.members-card-wrap}
+
+<ul>
+
+<li>
+<a class="members-card" href="./jdleonard.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/jdleonard.jpg)
+</div>
+<div class="members-profile">
+<div class="name">
+John Leonard
+</div>
+<div class="major">
+Ph.D., Engineering, University of California, Irvine
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./wbenton.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/wbenton.jpg)
+</div>
+<div class="members-profile">
+<div class="name">
+William Benton
+</div>
+<div class="major">
+Ph.D., Anthropology, University of Michigan
+
+</div>
+</div>
+</div>
+</a>
+</li>
+
+</ul>
+
+:::
+
+## Alumni {.bigmargin-bottom}
+
+::: {.members-category-desc}
+
+::: {.desc}
+
+The SSG team comprises VCU students from different background working cross-functionally, with drive.
+
+:::
+
+::: {.filter-control}
+
+<button class="small-btn active">All Members</button>
+<button class="small-btn">Designers</button>
+<button class="small-btn">Developers</button>
+<button class="small-btn">Researchers</button>
+
+:::
+
+:::
+
+::: {.members-card-wrap}
+
+<ul>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+</div>
+<div class="members-profile">
+<div class="name">
+First Name Last Name
+</div>
+<div class="major">
+Major (E.g. Bachelor's in Interdisciplinary Studies)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+</ul>
 
 :::

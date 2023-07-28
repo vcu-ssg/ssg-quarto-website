@@ -273,7 +273,7 @@ Inho Park is graphic design student at VCUarts. He originally came from South Ko
   </div>
   `);
 
-  //Scrol to element  
+  //Scroll to element  
   let backtopElement = document.getElementById("backtop");
 
   window.addEventListener("scroll", function () {
@@ -292,6 +292,24 @@ Inho Park is graphic design student at VCUarts. He originally came from South Ko
       behavior: "smooth",
     });
   });
+
+// members list page text overflow fix:
+const elements = document.querySelectorAll(".members-profile .major p");
+
+function truncateText(element) {
+  const smallScreenMaxLength = 80;
+  const largeScreenMaxLength = 60;
+  const maxLength = window.innerWidth > 1170 ? largeScreenMaxLength : smallScreenMaxLength;
+
+  const text = element.textContent.trim();
+
+  if (text.length > maxLength) {
+    const truncatedText = text.slice(0, maxLength) + "...";
+    element.textContent = truncatedText;
+  }
+}
+
+elements.forEach(truncateText);
 </script>
 
 

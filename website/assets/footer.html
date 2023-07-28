@@ -66,7 +66,7 @@
   </div>
   `);
 
-  //Scrol to element  
+  //Scroll to element  
   let backtopElement = document.getElementById("backtop");
 
   window.addEventListener("scroll", function () {
@@ -85,6 +85,24 @@
       behavior: "smooth",
     });
   });
+
+// members list page text overflow fix:
+const elements = document.querySelectorAll(".members-profile .major p");
+
+function truncateText(element) {
+  const smallScreenMaxLength = 80;
+  const largeScreenMaxLength = 60;
+  const maxLength = window.innerWidth > 1170 ? largeScreenMaxLength : smallScreenMaxLength;
+
+  const text = element.textContent.trim();
+
+  if (text.length > maxLength) {
+    const truncatedText = text.slice(0, maxLength) + "...";
+    element.textContent = truncatedText;
+  }
+}
+
+elements.forEach(truncateText);
 </script>
 
 

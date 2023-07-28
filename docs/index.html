@@ -148,8 +148,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <!--- our pillars section --->
 <div class="our-pillars">
-<section id="our-pillars" class="level1 section-header content-block">
-<h1 class="section-header">Our Pillars</h1>
+<section id="our-pillars" class="level1 section-header bigmargin-bottom content-block">
+<h1 class="section-header bigmargin-bottom">Our Pillars</h1>
 <div class="our-pillars-text">
 <p>Experiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.</p>
 <p><a href="" class="btn btn-primary btn-lg" role="button">Join our team</a></p>
@@ -272,7 +272,7 @@ Talent Development
   </div>
   `);
 
-  //Scrol to element  
+  //Scroll to element  
   let backtopElement = document.getElementById("backtop");
 
   window.addEventListener("scroll", function () {
@@ -291,6 +291,24 @@ Talent Development
       behavior: "smooth",
     });
   });
+
+// members list page text overflow fix:
+const elements = document.querySelectorAll(".members-profile .major p");
+
+function truncateText(element) {
+  const smallScreenMaxLength = 80;
+  const largeScreenMaxLength = 60;
+  const maxLength = window.innerWidth > 1170 ? largeScreenMaxLength : smallScreenMaxLength;
+
+  const text = element.textContent.trim();
+
+  if (text.length > maxLength) {
+    const truncatedText = text.slice(0, maxLength) + "...";
+    element.textContent = truncatedText;
+  }
+}
+
+elements.forEach(truncateText);
 </script>
 
 
