@@ -136,9 +136,6 @@ working cross-functionally, with drive.
 ::: {{.filter-control}}
 
 <button class="small-btn active">All Members</button>
-<button class="small-btn">Designers</button>
-<button class="small-btn">Developers</button>
-<button class="small-btn">Researchers</button>
 
 :::
 
