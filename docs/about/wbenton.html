@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-07-25">
+<meta name="dcterms.date" content="2023-07-31">
 
 <title>SSG at VCU | William Benton</title>
 <style>
@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../assets/quarto_ssgvip.scss">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -254,7 +254,7 @@ I recently completed my doctorate in the department of Anthropology at the Unive
   </div>
   `);
 
-  //Scrol to element  
+  //Scroll to element  
   let backtopElement = document.getElementById("backtop");
 
   window.addEventListener("scroll", function () {
@@ -273,6 +273,24 @@ I recently completed my doctorate in the department of Anthropology at the Unive
       behavior: "smooth",
     });
   });
+
+// members list page text overflow fix:
+const elements = document.querySelectorAll(".members-profile .major p");
+
+function truncateText(element) {
+  const smallScreenMaxLength = 80;
+  const largeScreenMaxLength = 60;
+  const maxLength = window.innerWidth > 1170 ? largeScreenMaxLength : smallScreenMaxLength;
+
+  const text = element.textContent.trim();
+
+  if (text.length > maxLength) {
+    const truncatedText = text.slice(0, maxLength) + "...";
+    element.textContent = truncatedText;
+  }
+}
+
+elements.forEach(truncateText);
 </script>
 
 

@@ -1,82 +1,108 @@
 ---
-title: "Meet our team"
+pagetitle: "SSG at VCU | Meet our team"
 date: last-modified
 format:
     html:
         toc: false
-        style: ../assets/quarto_ssgvip.scss
 ---
                    
-::: {.roster-wrap}
+# Meet our team {.section-header}
+                   
+## Complete roster {.bigmargin-bottom}
+
+::: {.members-category-desc}
+
+::: {.desc}
+                   
+The SSG team is comprised of VCU students from different majors
+working cross-functionally, with drive.
+                   
+:::
+
+::: {.filter-control}
+
+<button class="small-btn active">All Members</button>
+<button class="small-btn">Designers</button>
+<button class="small-btn">Developers</button>
+<button class="small-btn">Researchers</button>
+
+:::
+
+:::
+
+
+::: {.members-card-wrap}
+
+<ul>
                    
 
-::: {.roster-person}
 
-<a href="./parki2.qmd">
-
-::: {.roster-pic-frame}
-::: {.roster-pic}
+<li>
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
 ![](../assets/parki2.png)
-:::
-:::
-
-::: {.roster-person-name}
+</div>
+<div class="members-profile">
+<div class="name">
 Inho Park
-:::
-
-::: {.roster-person-role}
+</div>
+<div class="major">
 Current Student
-:::
-
+</div>
+</div>
+</div>
 </a>
+</li>
 
-:::
 
 
-::: {.roster-person}
 
-<a href="./jdleonard.qmd">
-
-::: {.roster-pic-frame}
-::: {.roster-pic}
+<li>
+<a class="members-card" href="./jdleonard.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
 ![](../assets/jdleonard-2.jpg)
-:::
-:::
-
-::: {.roster-person-name}
+</div>
+<div class="members-profile">
+<div class="name">
 John Leonard
-:::
-
-::: {.roster-person-role}
+</div>
+<div class="major">
 Faculty Mentor
-:::
-
+</div>
+</div>
+</div>
 </a>
+</li>
 
-:::
 
 
-::: {.roster-person}
 
-<a href="./wbenton.qmd">
-
-::: {.roster-pic-frame}
-::: {.roster-pic}
+<li>
+<a class="members-card" href="./wbenton.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
 ![](../assets/wbenton.jpg)
-:::
-:::
-
-::: {.roster-person-name}
+</div>
+<div class="members-profile">
+<div class="name">
 William Benton
-:::
-
-::: {.roster-person-role}
+</div>
+<div class="major">
 Faculty Mentor
-:::
-
+</div>
+</div>
+</div>
 </a>
+</li>
+
+
+
+</ul>
 
 :::
-
-
-:::
+                   

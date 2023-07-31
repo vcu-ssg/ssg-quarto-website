@@ -113,46 +113,73 @@ def write_index( biographies,roster ):
     filename = f'{destination_folder}index.qmd'
     with open(filename, 'w',encoding="utf-8") as file:
         file.write(f"""---
-title: "Meet our team"
+pagetitle: "SSG at VCU | Meet our team"
 date: last-modified
 format:
     html:
         toc: false
-        style: ../assets/quarto_ssgvip.scss
 ---
                    
-::: {{.roster-wrap}}
+# Meet our team {{.section-header}}
+                   
+## Complete roster {{.bigmargin-bottom}}
+
+::: {{.members-category-desc}}
+
+::: {{.desc}}
+                   
+The SSG team is comprised of VCU students from different majors
+working cross-functionally, with drive.
+                   
+:::
+
+::: {{.filter-control}}
+
+<button class="small-btn active">All Members</button>
+<button class="small-btn">Designers</button>
+<button class="small-btn">Developers</button>
+<button class="small-btn">Researchers</button>
+
+:::
+
+:::
+
+
+::: {{.members-card-wrap}}
+
+<ul>
                    
 """)
         for eid in biographies.keys():
             file.write(f"""
-::: {{.roster-person}}
 
-<a href="./{eid}.qmd">
-
-::: {{.roster-pic-frame}}
-::: {{.roster-pic}}
+<li>
+<a class="members-card" href="./{eid}.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
 ![](../assets/{roster[eid]["person_headshot"]})
-:::
-:::
-
-::: {{.roster-person-name}}
+</div>
+<div class="members-profile">
+<div class="name">
 {roster[eid]["person_name"]}
-:::
-
-::: {{.roster-person-role}}
+</div>
+<div class="major">
 {roster[eid]["person_role"]}
-:::
-
+</div>
+</div>
+</div>
 </a>
+</li>
 
-:::
 
 """)
             
         file.write(f"""
-:::
+</ul>
 
+:::
+                   
 """)
         file.close()
     
