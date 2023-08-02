@@ -250,8 +250,16 @@ working cross-functionally, with drive.
 
 def write_page( name, biographies, roster, projects, joins ):
     """ Write about page for individuals in list """
+    if name=='':
+        return
     filename = f'{destination_folder}{name}.qmd'
     with open(filename, 'w',encoding="utf-8") as file:
+        
+
+        person_headshot = "hero-image.png"
+        if roster[name]["person_headshot"]!="":
+            person_headshot = roster[name]["person_headshot"]
+
         file.write(f"""---
 pagetitle: "SSG at VCU | {biographies[name]["person_name"]}"
 date: last-modified
@@ -272,7 +280,7 @@ View all Members
 
 <div class='profile-pic-frame'>
 <div class='profile-pic'>
-<img src='../assets/{roster[name]["person_headshot"]}' class='img-fluid'>
+<img src='../assets/{person_headshot}' class='img-fluid'>
 </div>
 </div>
 
@@ -302,9 +310,10 @@ View all Members
 <div class='status-wrap'>
 <div class='status'>{roster[name]["person_role"]}</div>
 """)
-        for project in joins[name]:
-            if project['project_id'] in projects.keys():
-                file.write(f"<a href='{projects[project['project_id']]['project_url']}'><div class='project'>{ projects[project['project_id']]['project_name'] }</div></a>\n")
+        if name in joins.keys():
+            for project in joins[name]:
+                if project['project_id'] in projects.keys():
+                    file.write(f"<a href='{projects[project['project_id']]['project_url']}'><div class='project'>{ projects[project['project_id']]['project_name'] }</div></a>\n")
         file.write(f"""
 </div>
 </div>

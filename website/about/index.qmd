@@ -91,7 +91,7 @@ working cross-functionally, with drive.
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./mussima.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -116,7 +116,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./trandh4.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -191,7 +191,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./lykt2.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -216,7 +216,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./thorntonkj.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -241,7 +241,7 @@ Interdisciplinary Studies
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./jacksonlr2.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -266,7 +266,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./shinsy3.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -291,7 +291,7 @@ Graphic Design
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./parajulis4.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -341,7 +341,7 @@ Innovation
 
 
 <li id="Current Student">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./zhanga7.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -366,7 +366,7 @@ Graphic Design
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./tranan7.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -391,7 +391,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./daobk.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -416,7 +416,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./schwindtcm.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -441,7 +441,7 @@ Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./kelahancj.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -466,7 +466,7 @@ Social Work
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./colatocd.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -491,7 +491,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./johnsonc30.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -516,7 +516,7 @@ Interdisciplinary Studies
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./carduckcw.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -541,7 +541,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./mannsda.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -566,7 +566,7 @@ Sociology
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./froste.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -591,7 +591,7 @@ Social Work
 
 
 <li id="Current Student">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./hanifj.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -616,7 +616,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./tracyjg.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -641,7 +641,7 @@ Urban & Regional Studies
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./mooremj8.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -666,7 +666,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./eddlemanm.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -691,7 +691,7 @@ Social Work
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./garadam.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -716,7 +716,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./farleymc2.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -741,7 +741,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./kiflenm.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -766,7 +766,7 @@ Computer Science
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./cicekn.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -791,7 +791,7 @@ Graphic Design
 
 
 <li id="Current Student">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./reidp.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -816,7 +816,7 @@ Computer Science
 
 
 <li id="Current Student">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./nguyenrm2.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -841,7 +841,7 @@ Business
 
 
 <li id="Current Student">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./dasariss.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
@@ -866,7 +866,7 @@ Interdisciplinary Studies
 
 
 <li id="SSG Alumni">
-<a class="members-card" href="./index.html">
+<a class="members-card" href="./genenes.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
