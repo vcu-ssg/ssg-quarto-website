@@ -205,14 +205,15 @@ working cross-functionally, with drive.
 """)
         for eid in roster.keys():
 
-            person_headshot = "hero-image.png"
-            if roster[eid]["person_headshot"]!="":
-                person_headshot = roster[eid]["person_headshot"]
+            if roster[eid]["person_show"]=="Y":
+                person_headshot = "hero-image.png"
+                if roster[eid]["person_headshot"]!="":
+                    person_headshot = roster[eid]["person_headshot"]
 
-            person_profile = "index.html"
-            if eid in biographies.keys():
-                person_profile = f"{eid}.qmd"
-            file.write(f"""
+                person_profile = "index.html"
+                if eid in biographies.keys():
+                    person_profile = f"{eid}.qmd"
+                file.write(f"""
 
 <li id="{roster[eid]['person_role']}">
 <a class="members-card" href="./{person_profile}">
@@ -252,10 +253,14 @@ def write_page( name, biographies, roster, projects, joins ):
     """ Write about page for individuals in list """
     if name=='':
         return
+    if not name in roster.keys():
+        return
+    if not roster[name]["person_show"]=="Y":
+        return
+
     filename = f'{destination_folder}{name}.qmd'
     with open(filename, 'w',encoding="utf-8") as file:
         
-
         person_headshot = "hero-image.png"
         if roster[name]["person_headshot"]!="":
             person_headshot = roster[name]["person_headshot"]
