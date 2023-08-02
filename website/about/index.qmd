@@ -61,7 +61,7 @@ format:
                    
 # Meet our team {.section-header}
                    
-## Complete roster {.bigmargin-bottom}
+## {.bigmargin-bottom}
 
 ::: {.members-category-desc}
 
@@ -76,7 +76,7 @@ working cross-functionally, with drive.
 
 <button class="small-btn active" id="allMembersButton" onClick="lightMeUp('allMembersButton','')">All Members</button>
 <button class="small-btn" id="currentStudentButton" onClick="lightMeUp('currentStudentButton','Current Student')">Current students</button>
-<button class="small-btn" id="facultyMentorButton" onClick="lightMeUp('facultyMentorbutton','Faculty Mentor')">Faculty Mentors</button>
+<button class="small-btn" id="facultyMentorButton" onClick="lightMeUp('facultyMentorButton','Faculty Mentor')">Faculty Mentors</button>
 <button class="small-btn" id="ssgAlumniButton" onClick="lightMeUp('ssgAlumniButton','SSG Alumni')">SSG Alumni</button>
 
 :::

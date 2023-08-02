@@ -1028,7 +1028,7 @@ footer.custom-footer {
         margin-left:-12px;
 
         li {
-          float:right;
+          float:left;  // changed from right to left. 8/2/2023 JL
           width: calc(50% - 24px);
           margin: 12px;
 
