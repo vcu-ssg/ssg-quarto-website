@@ -118,6 +118,59 @@ date: last-modified
 format:
     html:
         toc: false
+        include-in-header:
+            text: |
+                <script>
+                function filterFunction( idToFilter ) {{
+                    // Declare variables
+                    var list, li, i;
+                    
+                    list = document.getElementById("member-list");
+                    li = list.getElementsByTagName("li");
+
+                    // Loop through all list items, toggling appropriate values on/off
+                    for (i = 0; i < li.length; i++) {{
+                        var toggle;
+                        toggle = "none";
+                        if (li[i].id==idToFilter || idToFilter==''){{
+                            toggle = "block";
+                        }}
+                    //    td = tr[i].getElementsByTagName("td")[0];
+                    //    if (td) {{
+                    //    txtValue = td.textContent || td.innerText;
+                    //    if (txtValue.toUpperCase().indexOf(filter) > -1) {{
+                    //        //tr[i].style.display = "";
+                    //        toggle = "";
+                    //    }} else {{
+                    //        //tr[i].style.display = "none";
+                    //    }}
+                    //    }}
+                    
+                        li[i].style.display = toggle;
+                    }}
+                }}
+                   
+                function toggleButtons( name ) {{
+                   var buttons,i;
+                   buttons = document.getElementsByTagName("button");
+                   for (i=0;i<buttons.length; i++){{
+                     if (buttons[i].id==name) {{
+                       buttons[i].className="small-btn active";
+                     }} else {{
+                       buttons[i].className="small-btn";
+                     }}
+                   }}
+                }}
+                  
+                function lightMeUp( name,filter ) {{
+                   // toggle the button using name
+                   toggleButtons( name );
+
+                   // filter the list items
+                   filterFunction( filter );
+                }}
+                </script>
+
 ---
                    
 # Meet our team {{.section-header}}
@@ -135,7 +188,10 @@ working cross-functionally, with drive.
 
 ::: {{.filter-control}}
 
-<button class="small-btn active">All Members</button>
+<button class="small-btn active" id="allMembersButton" onClick="lightMeUp('allMembersButton','')">All Members</button>
+<button class="small-btn" id="currentStudentButton" onClick="lightMeUp('currentStudentButton','Current Student')">Current students</button>
+<button class="small-btn" id="facultyMentorButton" onClick="lightMeUp('facultyMentorbutton','Faculty Mentor')">Faculty Mentors</button>
+<button class="small-btn" id="ssgAlumniButton" onClick="lightMeUp('ssgAlumniButton','SSG Alumni')">SSG Alumni</button>
 
 :::
 
@@ -144,18 +200,26 @@ working cross-functionally, with drive.
 
 ::: {{.members-card-wrap}}
 
-<ul>
+<ul id="member-list">
                    
 """)
-        for eid in biographies.keys():
+        for eid in roster.keys():
+
+            person_headshot = "hero-image.png"
+            if roster[eid]["person_headshot"]!="":
+                person_headshot = roster[eid]["person_headshot"]
+
+            person_profile = "index.html"
+            if eid in biographies.keys():
+                person_profile = f"{eid}.qmd"
             file.write(f"""
 
-<li>
-<a class="members-card" href="./{eid}.qmd">
+<li id="{roster[eid]['person_role']}">
+<a class="members-card" href="./{person_profile}">
 <div class="card-shadow"></div>
 <div class="info-wrap">
 <div class="members-pic">
-![](../assets/{roster[eid]["person_headshot"]})
+![](../assets/{person_headshot})
 </div>
 <div class="members-profile">
 <div class="name">
@@ -163,6 +227,9 @@ working cross-functionally, with drive.
 </div>
 <div class="major">
 {roster[eid]["person_role"]}
+</div>
+<div class="major">
+{roster[eid]["person_major"]}
 </div>
 </div>
 </div>
