@@ -20,12 +20,13 @@ $gray: #3E3E3E !default;
 $medium-gray: #898989 !default;
 $light-gray: #E4E4E4 !default;
 $brass: #ddaa90 !default;
+$dark-brass: #B0623B !default;
 $light-brass: #ffeee6 !default;
 
 // Bootstrap color system
 $btn-primary-color: $white;
 
-$primary: $brass !default;
+$primary: $gray !default;
 $secondary: $brass !default;
 $success: $brass !default;
 $info: $brass !default;
@@ -900,6 +901,119 @@ footer.custom-footer {
   }
 }
 
+// contact us page
+
+.contact-us-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:60px;
+  row-gap: 40px;
+
+  h1 {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:16px;
+    position: relative;
+    font-size: $font-size-base*2.5;
+
+
+    &::after {
+      content: "";
+      font-size: 16px;
+      color: $medium-gray;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+
+  &.contact-us {
+    margin: 15vh 0;
+
+    h1 {
+      margin: 0;
+
+      &::after {
+        content:"Curious how to join our team? Or concerned if you're a right fit to the team? Get in touch with us today."
+      }
+    }
+
+    .contact-us-form {
+      width: 100%;
+  
+      &::after {
+        display: block;
+        content:"";
+        clear:right;
+      }
+  
+      fieldset {
+  
+  
+        label {
+          position: relative;
+          color: $dark-brass;
+          margin-bottom:4px;
+        }
+  
+        input, textarea {
+          width: 100%;
+          display: block;
+          border: 1px solid $black;
+          margin-bottom:16px;
+          padding: 4px 8px;
+  
+          &:focus {
+            outline: 2px solid $brass;
+            border: 1px solid $brass;
+          }
+        }
+        
+        textarea {
+          height: 150px;
+          margin-bottom: 40px;
+        }
+      
+      }
+      .send-btn {
+        float:right;
+      }
+    }
+  }
+
+  &.location {
+
+    h1 {
+      &::after {
+        content:"Where we meet, create, and discuss with the students, faculties, and partners."
+      }
+      margin-bottom:320px;
+    }
+
+    .map-wrap {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      height: 250px;
+      width: 100%;
+
+      iframe {
+        position: absolute;
+        top:0;
+        bottom:0;
+        width: 100vw;
+        margin-left: 2vw;
+        height: 100%;
+      }
+    }
+  }
+}
+
+
 @media all and (min-width: 500px) {
 
 }
@@ -970,6 +1084,11 @@ footer.custom-footer {
         }
       }
     }   
+  }
+
+  // contact us page 
+  .contact-us-page {
+    padding: 0 40px;
   }
 }
 
@@ -1134,6 +1253,61 @@ footer.custom-footer {
 
       .desc{
         width: 320px;
+      }
+    }
+  }
+
+  // contact us page
+  .contact-us-page {
+    padding: 0;
+    h1 {
+      max-width: 400px;
+      padding-left: 16px;
+      margin: 0;
+      text-align: left;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 4px;
+        height: $font-size-base*2.5;
+        background-color: $brass;
+        position: absolute;
+        top:4px;
+        left:0;
+        margin: auto 0;
+      }  
+
+      &::after {
+        max-width: 350px;
+        margin-left:-16px;
+      }
+    }
+
+    &.contact-us{
+      .contact-us-form {
+        max-width: 450px;
+      }
+    }
+
+    &.location {
+      h1 {
+        max-width: 500px;
+        margin: 32px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap:16px;
+        position: relative;
+        font-size: $font-size-base*2.5;
+
+        &::before {
+          display: none;
+        }
+      }
+      .map-wrap {
+        height: 450px;
       }
     }
   }

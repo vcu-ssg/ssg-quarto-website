@@ -1,0 +1,28 @@
+---
+pagetitle: "SSG at VCU | Contact Us"
+format:
+    html:
+        toc: false
+---
+
+# Contact Us {.contact-us-page .contact-us}
+
+<form class="contact-us-form">
+<fieldset>
+<label for="name">Name</label>
+<input type="text" id="name" name="name" placeholder="Rodney Ram">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="example@email.com" required>
+<label for="message">Message</label>
+<textarea id="message" name="message" placeholder="What can we answer for you?" required></textarea>
+</fieldset>
+<button class="send-btn btn btn-primary btn-sm">Send Message</button>
+</form>
+
+# Our Location {.contact-us-page .location}
+
+::: {.map-wrap}
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.433619351885!2d-77.45200748910638!3d37.544846441837905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b11140b2d4b5fb%3A0x4ffeee8741d77184!2sVCU%20College%20Of%20Engineering%20-%20East%20Hall!5e0!3m2!1sen!2sus!4v1690837741482!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+:::
