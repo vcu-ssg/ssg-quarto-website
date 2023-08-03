@@ -128,15 +128,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="contact-us" class="level1 contact-us-page contact-us">
 <h1 class="contact-us-page contact-us">Contact Us</h1>
-<form class="gform contact-us-form" method="POST" action="https://script.google.com/macros/s/AKfycbwXcgDAK3_qZsI3COkxEJakJeEctHNVkQ5v78AUbiXO9aRdnLJ7GloHYrlXKT7cIG0Z/exec">
+<form class="gform contact-us-form" method="POST" action="https://script.google.com/macros/s/AKfycbyNUVW94C3YQwoUZ2Xqm6UJcuv18gBJ6e-zGMV_MW7-S369A1ops88UVKBzXijwIRGQ/exec">
 <fieldset>
-<label for="name">Name</label> <input type="text" id="name" name="name" placeholder="Rodney Ram"> <label for="email">Email</label> <input type="email" id="email" name="email" placeholder="example@email.com" required=""> <label for="message">Message</label>
+<label for="name">Name</label> <input type="text" id="name" name="name" placeholder="Rodney Ram"> <label for="email">Email<sup></sup></label> <input type="email" id="email" name="email" placeholder="example@email.com" required=""> <label for="message">Message<sup></sup></label>
 <textarea id="message" name="message" placeholder="What can we answer for you?" required=""></textarea>
-</fieldset>
 <button class="btn btn-primary btn-sm" type="submit">
 Submit
 </button>
-</form>
 <div class="thankyou-message">
 <section>
 <h1>
@@ -148,6 +146,8 @@ A SSG faculty will get in touch with you.
 <a href="#" class="btn btn-primary btn-sm close">Close</a>
 </section>
 </div>
+</fieldset>
+</form>
 <script data-cfasync="false" type="text/javascript">
 (function() {
   function validEmail(email) {
@@ -167,7 +167,6 @@ A SSG faculty will get in touch with you.
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
-
     var fields = Object.keys(elements).filter(function(k) {
           return (elements[k].name !== "honeypot");
     }).map(function(k) {
@@ -229,23 +228,23 @@ A SSG faculty will get in touch with you.
       }
     } else {
     //   disableAllButtons(form);
+      console.log(form);
+      var thankYouMessage = form.querySelector(".thankyou-message");
+      thankYouMessage.style.display = "block";
       var url = form.action;
       var xhr = new XMLHttpRequest();
       xhr.open('POST', url);
       // xhr.withCredentials = true;
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       xhr.onreadystatechange = function() {
+        //   var thankYouMessage = form.querySelector(".thankyou-message");
+        //   thankYouMessage.style.display = "block";
           console.log(xhr.status, xhr.statusText);
           console.log(xhr.responseText);
           form.reset();
           var formElements = form.querySelector(".form-elements")
           if (formElements) {
             formElements.style.display = "none"; // hide form
-          }
-          var thankYouMessage = form.querySelector(".thankyou-message");
-          if (thankYouMessage) {
-            thankYouMessage.style.display = "block";
-            console.log("it should change");
           }
           return;
       };
@@ -273,7 +272,17 @@ A SSG faculty will get in touch with you.
       buttons[i].disabled = true;
     }
   }
+
 })();
+
+document.addEventListener("DOMContentLoaded", function() {
+  var closeButton = document.querySelector(".close");
+  var thankyouMessage = document.querySelector(".thankyou-message");
+
+  closeButton.addEventListener("click", function() {
+    thankyouMessage.style.display = "none";
+  });
+});
 </script>
 </section>
 <section id="our-location" class="level1 contact-us-page location">

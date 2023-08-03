@@ -959,12 +959,17 @@ section.contact-us-page {
       }
   
       fieldset {
-  
-  
+
         label {
           position: relative;
           color: $dark-brass;
           margin-bottom:4px;
+
+          sup {
+            &::after {
+              content: "*";
+            }
+          }
         }
   
         input, textarea {
@@ -984,48 +989,52 @@ section.contact-us-page {
           height: 150px;
           margin-bottom: 40px;
         }
-      
-      }
-    }
 
-    .thankyou-message {
-      position: fixed;
-      top:0;
-      bottom:0;
-      right:0;
-      left: 0;
-      padding: 40px;
-      background-color: rgba(0,0,0,.7);
-      z-index: 999;
-      display: none;
-
-      section {
-        max-width: 550px;
-        margin: 15vh auto;
-        padding: 20px;
-        border-radius: 5px;
-        background: url(./assets/flying_mail.svg) no-repeat $white right center;
-        background-size: calc(200px + 10vw);
-
-        h1 {
-          text-align: left;
-          padding: 0;
-          margin:0 0 8px 0;
-          max-width: 100% !important;
-          font-size: calc(1.4rem + 0.5vw);
-
-          &::after, &::before {
-            display: none;
-          }
-        }
-        p {
-          margin-bottom: 32px;
-        }
-        a.btn.btn-primary.btn-sm {
+        button {
           display: block;
-          max-width: 200px;
           margin: 0 auto;
-          min-width: 0 !important;
+        }
+      
+        .thankyou-message {
+          position: fixed;
+          top:0;
+          bottom:0;
+          right:0;
+          left: 0;
+          padding: 40px;
+          background-color: rgba(0,0,0,.7);
+          z-index: 999;
+          display: none;
+    
+          section {
+            max-width: 550px;
+            margin: 15vh auto;
+            padding: 20px;
+            border-radius: 5px;
+            background: url(./assets/flying_mail.svg) no-repeat $white right center;
+            background-size: calc(200px + 10vw);
+    
+            h1 {
+              text-align: left;
+              padding: 0;
+              margin:0 0 8px 0;
+              max-width: 100% !important;
+              font-size: calc(1.4rem + 0.5vw);
+    
+              &::after, &::before {
+                display: none;
+              }
+            }
+            p {
+              margin-bottom: 32px;
+            }
+            a.btn.btn-primary.btn-sm {
+              display: block;
+              max-width: 200px;
+              margin: 0 auto;
+              min-width: 0 !important;
+            }
+          }
         }
       }
     }
@@ -1195,6 +1204,14 @@ section.contact-us-page {
     &.contact-us {
       .contact-us-form {
         padding: 0 10vw;
+
+        fieldset {
+          button {
+            display: inline-block;
+            margin:auto;
+            float: right;
+          }
+        }
       }
     }
   }
@@ -1409,6 +1426,12 @@ section.contact-us-page {
       .contact-us-form {
         padding: 0;
         max-width: 450px;
+
+        fieldset {
+          button {
+            float:left;
+          }
+        }
       }
     }
 
