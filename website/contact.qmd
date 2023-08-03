@@ -7,7 +7,7 @@ format:
 
 # Contact Us {.contact-us-page .contact-us}
 
-<form class="contact-us-form">
+<form class="gform contact-us-form" method="POST" action="https://script.google.com/macros/s/AKfycbwXcgDAK3_qZsI3COkxEJakJeEctHNVkQ5v78AUbiXO9aRdnLJ7GloHYrlXKT7cIG0Z/exec">
 <fieldset>
 <label for="name">Name</label>
 <input type="text" id="name" name="name" placeholder="Rodney Ram">
@@ -16,13 +16,163 @@ format:
 <label for="message">Message</label>
 <textarea id="message" name="message" placeholder="What can we answer for you?" required></textarea>
 </fieldset>
-<button class="send-btn btn btn-primary btn-sm">Send Message</button>
+<button class="btn btn-primary btn-sm" type="submit">Submit</button>
 </form>
 
-# Our Location {.contact-us-page .location}
+<div class="thankyou-message">
+<section>
+<h1>Your Message is Sent!</h1>
+<p>A SSG faculty will get in touch with you.</p>
+<a href="#" class="btn btn-primary btn-sm close">Close</a>
+</section>
+</div>
+
+<script data-cfasync="false" type="text/javascript">
+(function() {
+  function validEmail(email) {
+    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    return re.test(email);
+  }
+
+  function validateHuman(honeypot) {
+    if (honeypot) {  //if hidden form filled up
+      console.log("Robot Detected!");
+      return true;
+    } else {
+      console.log("Welcome Human!");
+    }
+  }
+
+  // get all data in form and return object
+  function getFormData(form) {
+    var elements = form.elements;
+
+    var fields = Object.keys(elements).filter(function(k) {
+          return (elements[k].name !== "honeypot");
+    }).map(function(k) {
+      if(elements[k].name !== undefined) {
+        return elements[k].name;
+      // special case for Edge's html collection
+      }else if(elements[k].length > 0){
+        return elements[k].item(0).name;
+      }
+    }).filter(function(item, pos, self) {
+      return self.indexOf(item) == pos && item;
+    });
+
+    var formData = {};
+    fields.forEach(function(name){
+      var element = elements[name];
+      
+      // singular form elements just have one value
+      formData[name] = element.value;
+
+      // when our element has multiple items, get their values
+      if (element.length) {
+        var data = [];
+        for (var i = 0; i < element.length; i++) {
+          var item = element.item(i);
+          if (item.checked || item.selected) {
+            data.push(item.value);
+          }
+        }
+        formData[name] = data.join(', ');
+      }
+    });
+
+    // add form-specific values into the data
+    formData.formDataNameOrder = JSON.stringify(fields);
+    formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
+    formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+
+    console.log(formData);
+    return formData;
+  }
+
+  function handleFormSubmit(event) {  // handles form submit without any jquery
+    event.preventDefault();           // we are submitting via xhr below
+    var form = event.target;
+    var data = getFormData(form);         // get the values submitted in the form
+
+    /* OPTION: Remove this comment to enable SPAM prevention, see README.md
+    if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
+      return false;
+    }
+    */
+
+    if( data.email && !validEmail(data.email) ) {   // if email is not valid show error
+      var invalidEmail = form.querySelector(".email-invalid");
+      if (invalidEmail) {
+        invalidEmail.style.display = "block";
+        return false;
+      }
+    } else {
+    //   disableAllButtons(form);
+      var url = form.action;
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', url);
+      // xhr.withCredentials = true;
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      xhr.onreadystatechange = function() {
+          console.log(xhr.status, xhr.statusText);
+          console.log(xhr.responseText);
+          form.reset();
+          var formElements = form.querySelector(".form-elements")
+          if (formElements) {
+            formElements.style.display = "none"; // hide form
+          }
+          var thankYouMessage = form.querySelector(".thankyou-message");
+          if (thankYouMessage) {
+            thankYouMessage.style.display = "block";
+            console.log("it should change");
+          }
+          return;
+      };
+      // url encode form data for sending as post data
+      var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+      }).join('&');
+      xhr.send(encoded);
+    }
+  }
+  
+  function loaded() {
+    console.log("Contact form submission handler loaded successfully.");
+    // bind to the submit event of our form
+    var forms = document.querySelectorAll("form.gform");
+    for (var i = 0; i < forms.length; i++) {
+      forms[i].addEventListener("submit", handleFormSubmit, false);
+    }
+  };
+  document.addEventListener("DOMContentLoaded", loaded, false);
+
+  function disableAllButtons(form) {
+    var buttons = form.querySelectorAll("button");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].disabled = true;
+    }
+  }
+})();
+</script>
+
+
+# Our Location  {.contact-us-page .location}
+
+::: {.backdrop}
+
+:::
+
+Where we meet, create, and discuss with the students, faculties, and partners.  
+
+Office: Room 2327 | Lab: Room 2336
 
 ::: {.map-wrap}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.433619351885!2d-77.45200748910638!3d37.544846441837905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b11140b2d4b5fb%3A0x4ffeee8741d77184!2sVCU%20College%20Of%20Engineering%20-%20East%20Hall!5e0!3m2!1sen!2sus!4v1690837741482!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.433619351885!2d-77.45200748910638!3d37.544846441837905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b11140b2d4b5fb%3A0x4ffeee8741d77184!2sVCU%20College%20Of%20Engineering%20-%20East%20Hall!5e0!3m2!1sen!2sus!4v1690837741482!5m2!1sen!2sus" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 :::
+
+<script>
+const ourLocation = document.getElementById('our-location');
+ourLocation.insertAdjacentHTML('afterbegin', '<i class="bi bi-geo-alt-fill"></i>');
+</script>
