@@ -10,7 +10,7 @@
 <atom:link href="https://internal.ssgvip.com/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description>News feed for SSG</description>
 <image>
-<url>https://internal.ssgvip.com/quarto-blog-v2.png</url>
+<url>https://internal.ssgvip.com/../assets/SSG_open_graph_img.png</url>
 <title>SSG at VCU</title>
 <link>https://internal.ssgvip.com/projects/index.html</link>
 </image>
@@ -18,7 +18,6 @@
 <lastBuildDate>Tue, 25 Jul 2023 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Bank of America</title>
-  <dc:creator>John Leonard</dc:creator>
   <link>https://internal.ssgvip.com/projects/posts/project-bofa/index.html</link>
   <description><![CDATA[ 
 
@@ -33,11 +32,10 @@
   <category>Bank of America</category>
   <guid>https://internal.ssgvip.com/projects/posts/project-bofa/index.html</guid>
   <pubDate>Tue, 25 Jul 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://internal.ssgvip.com/projects/posts/project-bofa/bank-logo.png" medium="image" type="image/png" height="27" width="144"/>
+  <media:content url="https://internal.ssgvip.com/projects/posts/project-bofa" medium="image"/>
 </item>
 <item>
   <title>Health VR</title>
-  <dc:creator>John Leonard</dc:creator>
   <link>https://internal.ssgvip.com/projects/posts/project-healthvr/index.html</link>
   <description><![CDATA[ 
 
@@ -52,11 +50,10 @@
   <category>HealthVR</category>
   <guid>https://internal.ssgvip.com/projects/posts/project-healthvr/index.html</guid>
   <pubDate>Thu, 20 Jul 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://internal.ssgvip.com/projects/posts/project-healthvr/vr-image.png" medium="image" type="image/png" height="75" width="144"/>
+  <media:content url="https://internal.ssgvip.com/projects/posts/project-healthvr" medium="image"/>
 </item>
 <item>
   <title>RamSafe</title>
-  <dc:creator>John Leonard</dc:creator>
   <link>https://internal.ssgvip.com/projects/posts/project-ramsafe/index.html</link>
   <description><![CDATA[ 
 
@@ -85,7 +82,7 @@ Shared call out
   <category>RamSafe</category>
   <guid>https://internal.ssgvip.com/projects/posts/project-ramsafe/index.html</guid>
   <pubDate>Thu, 20 Jul 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://internal.ssgvip.com/projects/posts/project-ramsafe/images/ramsafe-bus.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://internal.ssgvip.com/projects/posts/project-ramsafe" medium="image"/>
 </item>
 </channel>
 </rss>

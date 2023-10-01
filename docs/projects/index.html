@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SSG at VCU - SSG Projects</title>
+<title>SSG at VCU | Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -93,8 +93,19 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <style>
 
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #f4f4f4;
+      }
+
       .quarto-title-block .quarto-title-banner {
-        background: #EDF3F9;
+        color: #f4f4f4;
+background: #212121;
       }
 </style>
 
@@ -162,53 +173,35 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">SSG Projects</h1>
-            <p class="subtitle lead">Project listings, news, updates</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Bank of America">Bank of America <span class="quarto-category-count">(1)</span></div><div class="category" data-category="HealthVR">HealthVR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Project list">Project list <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RamSafe">RamSafe <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
+<section id="this-is-our-projects" class="level1">
+<h1>This is our Projects</h1>
 
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Project list,Bank of America" data-listing-date-sort="1690257600000" data-listing-file-modified-sort="1690313729491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../projects/posts/project-bofa/index.html"> <img src="../projects/posts/project-bofa/bank-logo.png" class="thumbnail-image" alt="Bank of America logo"> </a></p>
-</div>
-<div class="body">
-<a href="../projects/posts/project-bofa/index.html">
-<h3 class="no-anchor listing-title">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Project list,Bank of America" data-listing-date-sort="1690257600000" data-listing-file-modified-sort="1696203067336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../projects/posts/project-bofa/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../projects/posts/project-bofa" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Bank of America
-</h3>
-<div class="listing-subtitle">
-A partnership between the SSG and the Bank of America
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Project list'); return false;">
 Project list
@@ -217,36 +210,31 @@ Project list
 Bank of America
 </div>
 </div>
-<a href="../projects/posts/project-bofa/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 <p>Home page for the project</p>
 </div>
-</a>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
 </div>
-<div class="metadata">
-<a href="../projects/posts/project-bofa/index.html">
 <div class="listing-date">
 Jul 25, 2023
 </div>
-<div class="listing-author">
-John Leonard
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Project list,HealthVR" data-listing-date-sort="1689825600000" data-listing-file-modified-sort="1690313729491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../projects/posts/project-healthvr/index.html"> <img src="../projects/posts/project-healthvr/vr-image.png" class="thumbnail-image" alt="VR image from a MCL therapy VR"> </a></p>
-</div>
-<div class="body">
-<a href="../projects/posts/project-healthvr/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="1" data-categories="Project list,HealthVR" data-listing-date-sort="1689825600000" data-listing-file-modified-sort="1696203135130" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../projects/posts/project-healthvr/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../projects/posts/project-healthvr" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Health VR
-</h3>
-<div class="listing-subtitle">
-A partnership between the SSG and VCU Health
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Project list'); return false;">
 Project list
@@ -255,36 +243,31 @@ Project list
 HealthVR
 </div>
 </div>
-<a href="../projects/posts/project-healthvr/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 <p>A video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers.</p>
 </div>
-</a>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
 </div>
-<div class="metadata">
-<a href="../projects/posts/project-healthvr/index.html">
 <div class="listing-date">
 Jul 20, 2023
 </div>
-<div class="listing-author">
-John Leonard
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Project list,RamSafe" data-listing-date-sort="1689825600000" data-listing-file-modified-sort="1690313729508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../projects/posts/project-ramsafe/index.html"> <img src="../projects/posts/project-ramsafe/images/ramsafe-bus.jpg" class="thumbnail-image" alt="RamSafe bus"> </a></p>
-</div>
-<div class="body">
-<a href="../projects/posts/project-ramsafe/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="2" data-categories="Project list,RamSafe" data-listing-date-sort="1689825600000" data-listing-file-modified-sort="1696203120314" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../projects/posts/project-ramsafe/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../projects/posts/project-ramsafe" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 RamSafe
-</h3>
-<div class="listing-subtitle">
-A partnership with The Routing Company and VCU Parking and Transportation Services
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Project list'); return false;">
 Project list
@@ -293,22 +276,20 @@ Project list
 RamSafe
 </div>
 </div>
-<a href="../projects/posts/project-ramsafe/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 <p>(description in the YAML header of index.qmd)</p>
 </div>
-</a>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
 </div>
-<div class="metadata">
-<a href="../projects/posts/project-ramsafe/index.html">
 <div class="listing-date">
 Jul 20, 2023
 </div>
-<div class="listing-author">
-John Leonard
+</div>
+</div>
 </div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
@@ -420,6 +401,26 @@ function truncateText(element) {
 }
 
 elements.forEach(truncateText);
+
+// re-locate categories sidebar in 'Projects' page
+// Step 1: Select the .sidebar.margin-sidebar element
+const sidebarElement = document.querySelector('.sidebar.margin-sidebar');
+
+// Step 2: Select the #quarto-content element
+const quartoContentElement = document.querySelector('#quarto-document-content');
+const targetElement = document.querySelector('#listing-listing');
+
+// Step 3: Append the .sidebar.margin-sidebar element to the beginning of #quarto-content
+targetElement.insertAdjacentElement('beforebegin', sidebarElement);
+
+// Select all elements with the class .category
+const categoryElements = document.querySelectorAll('.category');
+
+// Loop through each .category element and add the class .small-btn
+categoryElements.forEach(element => {
+  element.classList.add('small-btn');
+});
+document.querySelector('.category').classList.add('active');
 </script>
 
 

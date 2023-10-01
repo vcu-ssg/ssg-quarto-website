@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="John Leonard">
 <meta name="dcterms.date" content="2023-07-20">
 <meta name="description" content="(description in the YAML header of index.qmd)">
 
@@ -138,12 +137,6 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>John Leonard </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -282,6 +275,26 @@ function truncateText(element) {
 }
 
 elements.forEach(truncateText);
+
+// re-locate categories sidebar in 'Projects' page
+// Step 1: Select the .sidebar.margin-sidebar element
+const sidebarElement = document.querySelector('.sidebar.margin-sidebar');
+
+// Step 2: Select the #quarto-content element
+const quartoContentElement = document.querySelector('#quarto-document-content');
+const targetElement = document.querySelector('#listing-listing');
+
+// Step 3: Append the .sidebar.margin-sidebar element to the beginning of #quarto-content
+targetElement.insertAdjacentElement('beforebegin', sidebarElement);
+
+// Select all elements with the class .category
+const categoryElements = document.querySelectorAll('.category');
+
+// Loop through each .category element and add the class .small-btn
+categoryElements.forEach(element => {
+  element.classList.add('small-btn');
+});
+document.querySelector('.category').classList.add('active');
 </script>
 
 

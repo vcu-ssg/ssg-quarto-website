@@ -376,6 +376,26 @@ function truncateText(element) {
 }
 
 elements.forEach(truncateText);
+
+// re-locate categories sidebar in 'Projects' page
+// Step 1: Select the .sidebar.margin-sidebar element
+const sidebarElement = document.querySelector('.sidebar.margin-sidebar');
+
+// Step 2: Select the #quarto-content element
+const quartoContentElement = document.querySelector('#quarto-document-content');
+const targetElement = document.querySelector('#listing-listing');
+
+// Step 3: Append the .sidebar.margin-sidebar element to the beginning of #quarto-content
+targetElement.insertAdjacentElement('beforebegin', sidebarElement);
+
+// Select all elements with the class .category
+const categoryElements = document.querySelectorAll('.category');
+
+// Loop through each .category element and add the class .small-btn
+categoryElements.forEach(element => {
+  element.classList.add('small-btn');
+});
+document.querySelector('.category').classList.add('active');
 </script>
 
 

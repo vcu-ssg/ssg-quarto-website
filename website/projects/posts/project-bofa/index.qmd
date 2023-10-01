@@ -6,10 +6,9 @@ description: |
 categories:
   - Project list
   - Bank of America
-author: John Leonard
 date: "07/25/2023"
-image: "bank-logo.png"
-image-alt: "Bank of America logo"
+image: ""
+image-alt: ""
 ---
 
 This describes a partnerhsip of the SSG with the Bank of America.

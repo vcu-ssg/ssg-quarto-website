@@ -7,6 +7,7 @@ project:
 
 website:
   title: "SSG at VCU"
+  image: "assets/SSG_open_graph_img.png"
   favicon: "assets/ssg_favicon.ico"
   site-url: "https://internal.ssgvip.com"
   description: "News feed for SSG"

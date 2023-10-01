@@ -138,5 +138,12 @@
     "title": "SSG at VCU",
     "section": "",
     "text": "some stuff here!"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "This is our Projects",
+    "section": "",
+    "text": "This is our Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank of America\n\n\n\nProject list\n\n\nBank of America\n\n\n\nHome page for the project\n\n\n\n\n\n\nJul 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth VR\n\n\n\nProject list\n\n\nHealthVR\n\n\n\nA video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers.\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRamSafe\n\n\n\nProject list\n\n\nRamSafe\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

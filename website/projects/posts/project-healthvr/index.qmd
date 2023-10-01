@@ -6,10 +6,9 @@ description: |
 categories:
   - Project list
   - HealthVR
-author: John Leonard
 date: "07/20/2023"
-image: "vr-image.png"
-image-alt: "VR image from a MCL therapy VR"
+image: ""
+image-alt: ""
 ---
 
 This describes a partnerhsip with the Motor Control Laboratory at VCU.

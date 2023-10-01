@@ -96,13 +96,16 @@ section.bigmargin-bottom {
   margin-bottom: 100px;
 }
 
-a.small-btn,
-button.small-btn {
+.small-btn {
   border: 1px solid $gray;
   border-radius: 8px;
+  display: flex;
   min-width: 100px;
   height: 30px;
   padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
   color: $gray;
   text-decoration: none;
   font-size: 12px;
@@ -893,6 +896,115 @@ footer.custom-footer {
 
             &::before {
               content: "- ";
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// projects page
+
+#quarto-content {
+  display: grid;
+  gap: 0;
+  grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc( 950px - 3em )) [body-content-end] 1.5em [body-end] 42px [body-end-outset] 42px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em;
+}
+.sidebar.margin-sidebar {
+  display: none;
+}
+
+#quarto-document-content .sidebar.margin-sidebar {
+  display: block;
+}
+
+#quarto-content #quarto-document-content {
+  
+  // categories filter
+  .sidebar.margin-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 40px;
+
+    h5{
+      &::after{
+        content:":";
+      }
+    }
+
+    .quarto-listing-category {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+
+      .category.active{
+        color: $white;
+        font-weight: 400;
+        background-color: $gray;
+
+        &:hover {
+          border: 1px solid $gray;
+        }
+      }
+    }
+  }
+
+  // project posts
+  #listing-listing {
+    .list {
+      .g-col-1 {
+
+        a{
+          border: none !important;
+
+          .quarto-grid-item {
+            border-radius: 8px;
+            border: 2px solid $black;
+            overflow: hidden;
+            p {
+              border-radius: 0;
+              
+              img {
+                border-radius: 0;
+                border-bottom: 2px solid $black;
+                background: url(assets/ssg_placeholderimg.svg) no-repeat;
+                background-size: cover;
+                background-position: center;
+                min-height: 150px;
+                min-width: 100%;
+              }
+            }
+
+            .card-body {
+              h5 {
+                border-left: 4px solid $brass;
+                padding-left: 8px;
+                font-weight: 800;
+              }
+              .listing-categories {
+                margin: 8px -2px 16px; 
+                gap: 4px;
+                .listing-category {
+                  font-size: 10px;
+                  color: $white;
+                  border-radius: 4px;
+                  background-color: $gray;
+                  padding: 2px 8px;
+                  margin: 0;
+                  width: max-content;
+                }
+              }
+              .listing-description {}
+              .card-attribution {
+                justify-content: flex-start;
+                gap: 0;
+
+                .listing-date {
+                }
+              }
             }
           }
         }

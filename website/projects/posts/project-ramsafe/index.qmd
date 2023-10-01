@@ -6,10 +6,9 @@ description: |
 categories:
   - Project list
   - RamSafe
-author: John Leonard
 date: "07/20/2023"
-image: images/ramsafe-bus.jpg
-image-alt: "RamSafe bus"
+image: ""
+image-alt: ""
 ---
 
 {{< include ../_shared-call-out.qmd >}}
