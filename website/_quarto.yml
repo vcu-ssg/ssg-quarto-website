@@ -21,16 +21,12 @@ website:
     title: false
     search: false
     right: #changed nav menu items to align to the right
-      - text: "Home"
-        file: index.qmd
-      - text: "News"
-        file: projects/index.html
       - text: "Our Team"
         file: about/index.qmd
       - text: "Projects"
-        href: projects/index.html#category=Project%20list
+        href: projects/index.qmd
       - text: "For Students"
-        file: forstudents.qmd
+        file: student-resources/index.qmd
       - text: "Contact"
         file: contact.qmd
     tools: 

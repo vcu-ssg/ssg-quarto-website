@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Contact Us\n\n\nName  Email  Message\n\n\nSubmit\n\n\n\n\nYour Message is Sent!\n\n\nA SSG faculty will get in touch with you.\n\nClose\n\n\n\n\n\n\n\nOur Location\n\n\n\nWhere we meet, create, and discuss with the students, faculties, and partners.\nOffice: Room 2327 | Lab: Room 2336"
+  },
+  {
     "objectID": "projects/posts/project-ramsafe/index.html",
     "href": "projects/posts/project-ramsafe/index.html",
     "title": "RamSafe",
@@ -14,18 +21,11 @@
     "text": "This describes a partnerhsip of the SSG with the Bank of America."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello World!  We’re Software for Social Good",
+    "objectID": "projects/posts/project-healthvr/index.html",
+    "href": "projects/posts/project-healthvr/index.html",
+    "title": "Health VR",
     "section": "",
-    "text": "placeholder image\n\n\n\n\nHello World!  We’re Software for Social Good\nHere at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.\n\nLearn more about us\n\n\n\n\n\n\n\nOur Pillars\n\nExperiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.\nJoin our team\n\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nHands-on Experience\n\nProvide students with opportunities to work on real-world software challenges.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nInnovative Solutions\n\nBuild innovative and creative softwares with a socially beneficial bottom line.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nTalent Development\n\nDiscover emerging skills in the software design and development by working with us."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Us",
-    "section": "",
-    "text": "Contact Us\n\n\nName  Email  Message\n\n\nSubmit\n\n\n\n\nYour Message is Sent!\n\n\nA SSG faculty will get in touch with you.\n\nClose\n\n\n\n\n\n\n\nOur Location\n\n\n\nWhere we meet, create, and discuss with the students, faculties, and partners.\nOffice: Room 2327 | Lab: Room 2336"
+    "text": "This describes a partnerhsip with the Motor Control Laboratory at VCU."
   },
   {
     "objectID": "about/parki2.html",
@@ -61,6 +61,27 @@
     "title": "\nInho Park\n",
     "section": "Skills",
     "text": "Skills\n\nKorean (Native), Adobe Suite, Figma, HTML5, CSS3, Javascript, Heuristic Evaluation, Survey Design, Data Visualization"
+  },
+  {
+    "objectID": "about/wbenton.html",
+    "href": "about/wbenton.html",
+    "title": "\nWilliam Benton\n",
+    "section": "",
+    "text": "View all Members"
+  },
+  {
+    "objectID": "about/wbenton.html#education",
+    "href": "about/wbenton.html#education",
+    "title": "\nWilliam Benton\n",
+    "section": "Education",
+    "text": "Education\n\nPh.D., Anthropology, University of Michigan"
+  },
+  {
+    "objectID": "about/wbenton.html#experience",
+    "href": "about/wbenton.html#experience",
+    "title": "\nWilliam Benton\n",
+    "section": "Experience",
+    "text": "Experience\n\nInstructor, DaVinci Program, VCU"
   },
   {
     "objectID": "about/index.html",
@@ -105,45 +126,17 @@
     "text": "Badges and Certificates\n\nAssessment tools for Canvas\nBeing an Everyday Admin for Canvas\nCanvas Course Analytics and Data\nCanvas Outcomes and Rubrics for Instructors"
   },
   {
-    "objectID": "about/wbenton.html",
-    "href": "about/wbenton.html",
-    "title": "\nWilliam Benton\n",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello World!  We’re Software for Social Good",
     "section": "",
-    "text": "View all Members"
+    "text": "placeholder image\n\n\n\n\nHello World!  We’re Software for Social Good\nHere at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.\n\nLearn more about us\n\n\n\n\n\n\n\nOur Pillars\n\nExperiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.\nJoin our team\n\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nHands-on Experience\n\nProvide students with opportunities to work on real-world software challenges.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nInnovative Solutions\n\nBuild innovative and creative softwares with a socially beneficial bottom line.\n\n\n\n\n\n\nplaceholder image\n\n\n\n\nTalent Development\n\nDiscover emerging skills in the software design and development by working with us."
   },
   {
-    "objectID": "about/wbenton.html#education",
-    "href": "about/wbenton.html#education",
-    "title": "\nWilliam Benton\n",
-    "section": "Education",
-    "text": "Education\n\nPh.D., Anthropology, University of Michigan"
-  },
-  {
-    "objectID": "about/wbenton.html#experience",
-    "href": "about/wbenton.html#experience",
-    "title": "\nWilliam Benton\n",
-    "section": "Experience",
-    "text": "Experience\n\nInstructor, DaVinci Program, VCU"
-  },
-  {
-    "objectID": "forstudents.html",
-    "href": "forstudents.html",
-    "title": "For students",
+    "objectID": "student-resources/index.html",
+    "href": "student-resources/index.html",
+    "title": "SSG at VCU",
     "section": "",
     "text": "some stuff here!"
-  },
-  {
-    "objectID": "projects/posts/project-healthvr/index.html",
-    "href": "projects/posts/project-healthvr/index.html",
-    "title": "Health VR",
-    "section": "",
-    "text": "This describes a partnerhsip with the Motor Control Laboratory at VCU."
-  },
-  {
-    "objectID": "contact.html#where-we-meet-create-and-discuss-with-the-students-faculties-and-partners.",
-    "href": "contact.html#where-we-meet-create-and-discuss-with-the-students-faculties-and-partners.",
-    "title": "Contact Us",
-    "section": "Where we meet, create, and discuss with the students, faculties, and partners.",
-    "text": "Where we meet, create, and discuss with the students, faculties, and partners.\nOffice: Room 2327 | Lab: Room 2336"
   }
 ]
