@@ -122,12 +122,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="hero-banner">
 <div class="content-block">
 <div class="hero-image-wrap">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/hero-image.png" class="hero-image img-fluid figure-img"></p>
-<figcaption class="figure-caption">placeholder image</figcaption>
-</figure>
-</div>
+<p><img src="assets/hero_image.png" class="hero-image img-fluid"></p>
 </div>
 <section id="hello-world-were-software-for-social-good" class="level1 hero-text">
 <h1>Hello World! <br> We’re Software for Social Good</h1>
@@ -301,6 +296,26 @@ function truncateText(element) {
 }
 
 elements.forEach(truncateText);
+
+// re-locate categories sidebar in 'Projects' page
+// Step 1: Select the .sidebar.margin-sidebar element
+const sidebarElement = document.querySelector('.sidebar.margin-sidebar');
+
+// Step 2: Select the #quarto-content element
+const quartoContentElement = document.querySelector('#quarto-document-content');
+const targetElement = document.querySelector('#listing-listing');
+
+// Step 3: Append the .sidebar.margin-sidebar element to the beginning of #quarto-content
+targetElement.insertAdjacentElement('beforebegin', sidebarElement);
+
+// Select all elements with the class .category
+const categoryElements = document.querySelectorAll('.category');
+
+// Loop through each .category element and add the class .small-btn
+categoryElements.forEach(element => {
+  element.classList.add('small-btn');
+});
+document.querySelector('.category').classList.add('active');
 </script>
 
 

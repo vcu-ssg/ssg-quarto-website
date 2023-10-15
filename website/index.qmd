@@ -9,7 +9,7 @@ pagetitle: SSG at VCU | Home
 ::: {.content-block}  
 
 ::: {.hero-image-wrap}
-![placeholder image](assets/hero-image.png){.hero-image}
+![](assets/hero_image.png){.hero-image}
 :::
 
 ::: {.hero-text}

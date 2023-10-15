@@ -14,6 +14,13 @@
   search: true
   image: "../assets/SSG_open_graph_img.png"
 ---
-# This is our Projects
-
-
+<div class="project-banner-wrap">
+  <div class="project-page-banner">
+  <h1>This is our Projects</h1>
+  <p>Our projects are led by awesome students at VCU.</p>
+  </div>
+  <div class="project-banner-img-wrap">
+  <div class="banner-shadow"></div>
+  <img src="../assets/jason-goodman-Oalh2MojUuk-unsplash.jpg" alt="whiteboard brainstorming">
+  </div>
+</div>

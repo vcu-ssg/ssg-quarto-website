@@ -599,7 +599,7 @@ footer.custom-footer {
           display: block;
           text-decoration: none;
           position: relative;
- 
+
 
           &>div {
             border-radius: 8px;
@@ -646,7 +646,7 @@ footer.custom-footer {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                
+
                 img {
                   width: 100%;
                   height: 100%;
@@ -671,7 +671,7 @@ footer.custom-footer {
 
               .major p.overflow {
                 max-height: 42px;
-                overflow:hidden;
+                overflow: hidden;
               }
 
               p {
@@ -909,8 +909,9 @@ footer.custom-footer {
 #quarto-content {
   display: grid;
   gap: 0;
-  grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc( 950px - 3em )) [body-content-end] 1.5em [body-end] 42px [body-end-outset] 42px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em;
+  grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc(950px - 3em)) [body-content-end] 1.5em [body-end] 42px [body-end-outset] 42px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em;
 }
+
 .sidebar.margin-sidebar {
   display: none;
 }
@@ -920,18 +921,56 @@ footer.custom-footer {
 }
 
 #quarto-content #quarto-document-content {
-  
+
+  .project-banner-wrap {
+    position: relative;
+    padding: 150px 0 50px;
+    // background-color: red;
+    display: flex;
+
+    .project-page-banner {
+      h1 {}
+
+      p {}
+    }
+
+    .project-banner-img-wrap {
+      position: absolute;
+      margin: 0 auto;
+      // top:-200px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      z-index: -1;
+      display: flex;
+      justify-content: center;
+
+      .banner-shadow {
+        z-index: 111;
+        display: block;
+        background-color: red;
+        height: 100px;
+        width: 100px;
+      }
+
+      img {
+        width: 100vw;
+      }
+    }
+  }
+
   // categories filter
   .sidebar.margin-sidebar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap:8px;
+    gap: 8px;
     margin-bottom: 40px;
 
-    h5{
-      &::after{
-        content:":";
+    h5 {
+      &::after {
+        content: ":";
       }
     }
 
@@ -940,7 +979,7 @@ footer.custom-footer {
       flex-wrap: wrap;
       gap: 6px;
 
-      .category.active{
+      .category.active {
         color: $white;
         font-weight: 400;
         background-color: $gray;
@@ -957,16 +996,17 @@ footer.custom-footer {
     .list {
       .g-col-1 {
 
-        a{
+        a {
           border: none !important;
 
           .quarto-grid-item {
             border-radius: 8px;
             border: 2px solid $black;
             overflow: hidden;
+
             p {
               border-radius: 0;
-              
+
               img {
                 border-radius: 0;
                 border-bottom: 2px solid $black;
@@ -984,9 +1024,11 @@ footer.custom-footer {
                 padding-left: 8px;
                 font-weight: 800;
               }
+
               .listing-categories {
-                margin: 8px -2px 16px; 
+                margin: 8px -2px 16px;
                 gap: 4px;
+
                 .listing-category {
                   font-size: 10px;
                   color: $white;
@@ -997,13 +1039,14 @@ footer.custom-footer {
                   width: max-content;
                 }
               }
+
               .listing-description {}
+
               .card-attribution {
                 justify-content: flex-start;
                 gap: 0;
 
-                .listing-date {
-                }
+                .listing-date {}
               }
             }
           }
@@ -1019,7 +1062,7 @@ section.contact-us-page {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap:60px;
+  gap: 60px;
   row-gap: 40px;
 
   h1 {
@@ -1029,7 +1072,7 @@ section.contact-us-page {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap:16px;
+    gap: 16px;
     position: relative;
     // font-size: $font-size-base*2.5;
 
@@ -1057,25 +1100,25 @@ section.contact-us-page {
       margin: 0 auto;
 
       &::after {
-        content:"Curious how to join our team? Or concerned if you're a right fit to the team? Get in touch with us today."
+        content: "Curious how to join our team? Or concerned if you're a right fit to the team? Get in touch with us today."
       }
     }
 
     .contact-us-form {
       width: 100%;
-  
+
       &::after {
         display: block;
-        content:"";
-        clear:right;
+        content: "";
+        clear: right;
       }
-  
+
       fieldset {
 
         label {
           position: relative;
           color: $dark-brass;
-          margin-bottom:4px;
+          margin-bottom: 4px;
 
           sup {
             &::after {
@@ -1083,20 +1126,21 @@ section.contact-us-page {
             }
           }
         }
-  
-        input, textarea {
+
+        input,
+        textarea {
           width: 100%;
           display: block;
           border: 1px solid $black;
-          margin-bottom:16px;
+          margin-bottom: 16px;
           padding: 4px 8px;
-  
+
           &:focus {
             outline: 2px solid $brass;
             border: 1px solid $brass;
           }
         }
-        
+
         textarea {
           height: 150px;
           margin-bottom: 40px;
@@ -1106,18 +1150,18 @@ section.contact-us-page {
           display: block;
           margin: 0 auto;
         }
-      
+
         .thankyou-message {
           position: fixed;
-          top:0;
-          bottom:0;
-          right:0;
+          top: 0;
+          bottom: 0;
+          right: 0;
           left: 0;
           padding: 40px;
-          background-color: rgba(0,0,0,.7);
+          background-color: rgba(0, 0, 0, .7);
           z-index: 999;
           display: none;
-    
+
           section {
             max-width: 550px;
             margin: 15vh auto;
@@ -1125,21 +1169,24 @@ section.contact-us-page {
             border-radius: 5px;
             background: url(./assets/flying_mail.svg) no-repeat $white right center;
             background-size: calc(200px + 10vw);
-    
+
             h1 {
               text-align: left;
               padding: 0;
-              margin:0 0 8px 0;
+              margin: 0 0 8px 0;
               max-width: 100% !important;
               font-size: calc(1.4rem + 0.5vw);
-    
-              &::after, &::before {
+
+              &::after,
+              &::before {
                 display: none;
               }
             }
+
             p {
               margin-bottom: 32px;
             }
+
             a.btn.btn-primary.btn-sm {
               display: block;
               max-width: 200px;
@@ -1163,7 +1210,7 @@ section.contact-us-page {
 
     .backdrop {
       position: absolute;
-      top:0;
+      top: 0;
       height: 120%;
       width: 100vw;
       background-color: $black;
@@ -1173,13 +1220,13 @@ section.contact-us-page {
         display: block;
         content: "";
         position: absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
         background-image: url(./assets/VCU_ERB_CaryStEntry-scaled.jpg);
         background-size: cover;
-        background-attachment:fixed;
+        background-attachment: fixed;
         background-position: center;
         opacity: .1;
       }
@@ -1192,7 +1239,7 @@ section.contact-us-page {
     }
 
     h1 {
-      color:$white;
+      color: $white;
       margin: 0 auto 32px;
     }
 
@@ -1202,6 +1249,7 @@ section.contact-us-page {
 
       &:first-of-type {
         margin: 0;
+
         &::after {
           content: "";
           display: block;
@@ -1226,8 +1274,8 @@ section.contact-us-page {
 
       iframe {
         position: absolute;
-        top:0;
-        bottom:0;
+        top: 0;
+        bottom: 0;
         width: 100vw;
         height: 100%;
       }
@@ -1236,42 +1284,42 @@ section.contact-us-page {
 }
 
 
-@media all and (min-width: 500px) {
-
-}
+@media all and (min-width: 500px) {}
 
 @media all and (min-width: 700px) {
+
   // our team page #meet our team
   #meet-our-team {
     .members-card-wrap {
 
       ul {
         width: calc(100% + 24px);
-        margin-left:-12px;
+        margin-left: -12px;
 
         li {
 
-          float:left;  // changed from right to left. 8/2/2023 JL
-          
+          float: left; // changed from right to left. 8/2/2023 JL
+
           width: calc(50% - 24px);
           margin: 12px;
 
           .members-card {
             .info-wrap {
               transition: all .3s;
+
               .members-profile {
                 .name p {
-                  display:inline-block;
+                  display: inline-block;
                   font-size: 22px;
                   position: relative;
                   z-index: 0;
 
                   &::before {
                     display: block;
-                    content:"";
+                    content: "";
                     position: absolute;
-                    top:60%;
-                    left:-4px;
+                    top: 60%;
+                    left: -4px;
                     height: 40%;
                     z-index: -1;
                     background-color: $brass;
@@ -1290,7 +1338,7 @@ section.contact-us-page {
             &:hover {
               .info-wrap {
                 transform: translate(5px, 5px);
-                
+
                 .members-profile {
                   .name p::before {
                     width: calc(100% + 8px);
@@ -1307,7 +1355,7 @@ section.contact-us-page {
           clear: both;
         }
       }
-    }   
+    }
   }
 
   // contact us page 
@@ -1320,12 +1368,20 @@ section.contact-us-page {
         fieldset {
           button {
             display: inline-block;
-            margin:auto;
+            margin: auto;
             float: right;
           }
         }
       }
     }
+  }
+}
+
+@media all and (min-width: 768px) {
+  // projects page
+
+  #quarto-content {
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc(950px - 3em)) [body-content-end] 1.5em [body-end] 42px [body-end-outset] 42px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em;
   }
 }
 
@@ -1470,7 +1526,8 @@ section.contact-us-page {
 }
 
 @media all and (min-width: 1170px) {
- // our team page #meet our team
+
+  // our team page #meet our team
   #meet-our-team {
     .members-card-wrap {
       ul {
@@ -1501,7 +1558,7 @@ section.contact-us-page {
       flex-direction: row;
       justify-content: space-between;
 
-      .desc{
+      .desc {
         width: 320px;
       }
     }
@@ -1510,6 +1567,7 @@ section.contact-us-page {
   // contact us page
   section.contact-us-page {
     padding: 0;
+
     h1 {
       max-width: 400px;
       padding-left: 16px;
@@ -1523,25 +1581,25 @@ section.contact-us-page {
         height: $font-size-base*2.5;
         background-color: $brass;
         position: absolute;
-        top:4px;
-        left:0;
+        top: 4px;
+        left: 0;
         margin: auto 0;
-      }  
+      }
 
       &::after {
         max-width: 350px;
-        margin-left:-16px;
+        margin-left: -16px;
       }
     }
 
-    &.contact-us{
+    &.contact-us {
       .contact-us-form {
         padding: 0;
         max-width: 450px;
 
         fieldset {
           button {
-            float:left;
+            float: left;
           }
         }
       }
@@ -1562,6 +1620,7 @@ section.contact-us-page {
           display: none;
         }
       }
+
       .map-wrap {
         height: 450px;
       }
