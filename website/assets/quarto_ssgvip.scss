@@ -455,6 +455,7 @@ footer.custom-footer {
     .hero-text {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       gap: 16px;
       max-width: 800px;
 
@@ -462,15 +463,18 @@ footer.custom-footer {
       p {
         margin: 0;
       }
+      .hero-buttons {
+        display: flex;
+        justify-content: center;
 
-      .btn {
-        margin: 32px 0 0 -3px;
+        .btn {
+          margin: 32px 0 0 -3px;
+        }
       }
     }
 
     .hero-image-wrap {
       margin-top: 40px;
-      width: 420px;
     }
   }
 }
@@ -906,11 +910,11 @@ footer.custom-footer {
 
 // projects page
 
-#quarto-content {
-  display: grid;
-  gap: 0;
-  grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc(950px - 3em)) [body-content-end] 1.5em [body-end] 42px [body-end-outset] 42px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em;
-}
+// #quarto-content {
+//   display: grid;
+//   gap: 0;
+//   grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc(950px - 3em)) [body-content-end] 1.5em [body-end] 42px [body-end-outset] 42px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em;
+// }
 
 .sidebar.margin-sidebar {
   display: none;
@@ -1284,7 +1288,27 @@ section.contact-us-page {
 }
 
 
-@media all and (min-width: 500px) {}
+@media all and (min-width: 500px) {
+// hero banner section
+.hero-banner {
+  .content-block {
+    .hero-text {
+      .hero-buttons {
+        display: block;
+        
+        .btn {
+          margin: 32px 0 0 -3px;
+        }
+      }
+    }
+
+    .hero-image-wrap {
+      width: 420px;
+    }
+  }
+}
+  
+}
 
 @media all and (min-width: 700px) {
 
@@ -1381,7 +1405,7 @@ section.contact-us-page {
   // projects page
 
   #quarto-content {
-    grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(500px, calc(950px - 3em)) [body-content-end] 1.5em [body-end] 42px [body-end-outset] 42px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em;
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset page-start page-start-inset body-start-outset] 5fr [body-start] 1.5em [body-content-start] minmax(500px, calc( 900px - 3em )) [body-content-end] 1.5em [body-end body-end-outset page-end-inset page-end] 5fr [screen-end-inset] 1.5em [screen-end];
   }
 }
 
