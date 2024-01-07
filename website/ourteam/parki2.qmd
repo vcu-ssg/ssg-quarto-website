@@ -1,0 +1,87 @@
+---
+pagetitle: "SSG at VCU | Inho Park"
+date: last-modified
+format:
+    html:
+        toc: false
+---
+<a id="goback-btn" href="./index.html">
+<i class="bi bi-arrow-left-circle">
+View all Members
+</i>
+</a>
+
+<div class='profile-wrap'>
+
+<div class='profile-bio'>
+
+<div class='profile-pic-frame'>
+<div class='profile-pic'>
+<img src='../assets/parki2.png' class='img-fluid'>
+</div>
+</div>
+
+<div class='profile-name-links'>
+<h1>Inho Park</h1>
+<div class='profile-links'><p>
+<a href='https://www.linkedin.com/in/inhoprk'><i class='bi bi-linkedin'></i>LinkedIn</a><a href='https://www.inhodesign.com/'><i class='bi bi-link-45deg'></i>Portfolio</a><a href='https://github.com/inoxprk'><i class='bi bi-github'></i>GitHub</a>
+</p>
+</div>
+</div>
+  
+<div class='member-status'>
+<div class='status-wrap'>
+<div class='status'>Current Student</div>
+<a href='/projects/index.html#category=RamSafe'><div class='project'>RamSafe</div></a>
+<a href='/projects/index.html#category=Bank%20of%20America'><div class='project'>Bank of America</div></a>
+
+</div>
+</div>
+
+
+<p>
+Inho Park is graphic design student at VCUarts. He originally came from South Korea, and came to the US pursuing career in UX research and design.
+</p>
+
+
+
+</div>
+
+
+## Education
+
+* <span class='item'>B.F.A. in Graphic Design, Virginia Commonwealth University, Richmond VA
+ <span class='date'>Expected May 2024</span></span>
+
+## Experience
+
+* <span class='item'>Design Intern, Great Minds PBC, Richmond VA
+ <span class='date'>July 2023</span></span>
+* <span class='item'>Design Assistant, College of Engineering, VCU
+ <span class='date'>March 2023</span></span>
+* <span class='item'>UX Design Intern, Bank of America, Richmond VA
+ <span class='date'>February 2022</span></span>
+* <span class='item'>UX Design Lead, Software for Social Good at VCU, Richmond VA
+ <span class='date'>January 2023</span></span>
+* <span class='item'>Team Lead, US - Korea Combined 2nd Infantry Division, Donducheon, South Korea
+ <span class='date'>October 2020</span></span>
+
+## Badges and Certificates
+
+* <span class='item'>Coursera UX Design Certificate</span>
+* <span class='item'>VCU daVinci Center Product Innovation</span>
+* <span class='item'>[Foundations of User Experience (UX) Design](https://www.coursera.org/account/accomplishments/certificate/ZQ497T6FVKG5)</span>
+* <span class='item'>[Start the UX Design Process: Empathize, Define, and Ideate](https://www.coursera.org/account/accomplishments/certificate/JSBY2GY7L4D6)</span>
+* <span class='item'>[Build Wireframes and Low-Fidelity Prototypes](https://www.coursera.org/account/accomplishments/certificate/PBH232UJVEQW)</span>
+* <span class='item'>[Advance Your Skills as a User Experience Researcher](https://www.linkedin.com/learning/certificates/a154ad22b84cad39de714b90d6c961ba69bc5efe4ebe1729a5b63f271d75aeab?u=76209018)</span>
+* <span class='item'>[Foundations of Geographic Information Systems (GIS)](https://www.linkedin.com/learning/certificates/b869fdff785477fa9b0ef54b8e4d3e0d59e6d7a4c7cdd207a14c3b775607b4ef?u=76209018)</span>
+* <span class='item'>[Introduction to Business Model Canvas](https://www.credly.com/badges/5f648601-5ee4-4e65-a883-76b6f24133c1?source=linked_in_profile)</span>
+
+## Skills
+
+* <span class='item'>Korean (Native), Adobe Suite, Figma, HTML5, CSS3, Javascript, Heuristic Evaluation, Survey Design, Data Visualization</span>
+
+
+</div>
+             
+

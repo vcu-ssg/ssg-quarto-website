@@ -1,15 +1,17 @@
 ---
 pagetitle: SSG at VCU | Home
+css: css/home.scss
+include-after-body: ./js/home_js.html
 ---
 
 <!--- hero banner section --->
 
-::: {.hero-banner} 
+::: {.hero-banner .scroll-spy .back-to-position} 
 
 ::: {.content-block}  
 
 ::: {.hero-image-wrap}
-![](assets/hero_image.png){.hero-image}
+![](assets/hero-image.png){.hero-image}
 :::
 
 ::: {.hero-text}
@@ -17,7 +19,7 @@ pagetitle: SSG at VCU | Home
 Here at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.
 
 ::: {.hero-buttons}
-[Learn more about us](){.btn .btn-primary .btn-lg role="button"}
+[Learn more about us](javascript:void(0);){.btn .btn-primary .btn-default #learnaboutus role="button"}
 :::
 
 :::
@@ -26,56 +28,177 @@ Here at VCU, students from multi-disciplinary backgrounds connect with outer com
 
 :::
 
+<!--- a vip team at vcu --->
+
+## Who We Are {.section-header .scroll-spy .back-to-position}
+
+::: {.section-1} 
+::: {.vip}
+::: {.img-wrap}
+![](assets/a-vip-team-at-vcu.png)
+:::
+
+### A VIP Team at VCU {.center-align}
+The VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.
+
+<a href="https://www.vip-consortium.org/" class="linkwitharrow"><i class="bi bi-arrow-right"></i>Learn more about VIP Programs</a>
+
+:::
+::: 
+
+<!--- creating software that benefits comunities --->
+
+::: {.section-2}
+
+:::  {.community-backdrop}
+::: {.community-background}
+:::
+:::
+
+::: {.creating-softwares .scroll-spy .back-to-position}
+
+::: {.text-wrap}
+
+### Creating Softwares that Benefits Communities {.left-align}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla 
+
+:::
+
+::: {.img-wrap}
+
+![](assets/creating-softwares-illustration.svg)
+
+:::
+
+:::
+
+:::
+
+<!-- Student-Driven Team -->
+
+::: {.section-3 .scroll-spy .back-to-position}
+
+::: {.student-driven}
+
+### Student-Driven Team {.center-align}
+The VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.
+
+[View Team Members](./ourteam/index.html){.btn .btn-primary .btn-default #learnaboutus role="button"}
+
+:::
+
+::: {.student-teams}
+
+<div class="teams swiper-container">
+<div class="swiper-nav top">
+<div class="swiper-pagination">
+</div>
+</div>
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="slide-inside">
+<div class="slide-title">
+<img src ="./assets/Source-Code.png" alt="source code">
+<h3 class="left-align">Develop Team</h3>
+</div>
+The developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.
+
+The developers participate in various activities, including but not limited to:
+
+<ul>
+<li>Front-End Development</li>
+<li>Back-End Development</li>
+<li>Data-Visualization</li>
+</ul>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="slide-inside">
+<div class="slide-title">
+<img src ="./assets/Design.png" alt="source code">
+<h3 class="left-align">Design Team</h3>
+</div>
+The developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.
+
+The developers participate in various activities, including but not limited to:
+
+<ul>
+<li>Front-End Development</li>
+<li>Back-End Development</li>
+<li>Data-Visualization</li>
+</ul>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="slide-inside">
+<div class="slide-title">
+<img src ="./assets/Analyze.png" alt="source code">
+<h3 class="left-align">Research Team</h3>
+</div>
+The developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.
+
+The developers participate in various activities, including but not limited to:
+
+<ul>
+<li>Front-End Development</li>
+<li>Back-End Development</li>
+<li>Data-Visualization</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="swiper-nav bottom">
+<div class="swiper-pagination">
+</div>
+<div class="swiper-prev">
+<i class="bi bi-arrow-left-circle"></i>
+</div>
+<div class="swiper-next">
+<i class="bi bi-arrow-right-circle"></i>
+</div>
+</div>
+</div>
+
+:::
+
+:::
 
 <!--- our pillars section --->
 
-::: {.our-pillars}
+## Our Mission {.section-header .scroll-spy .back-to-position}
 
-::: {.content-block}
+::: {.section-4}
+Experiment, learn, design and develop - We provide a sandbox for students to uncover their true potential, and fresh perspectives to project partners.
 
-# Our Pillars {.section-header .bigmargin-bottom}
+::: {.pillars}
 
-::: our-pillars-text
-Experiment, learn, design and develop - We provide a sandbox for students to uncover their true potential.
+::: {.pillar .scroll-spy .back-to-position}
 
-[Join our team](){.btn .btn-primary .btn-lg role="button"}
+![](assets/Connecting-Communities.svg)
+
+### Connecting Communities {.left-align}
+  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max) 
+
 :::
 
-::: {.pillars-card-wrap}
+::: {.pillar .scroll-spy .back-to-position}
 
-::: {.pillars-card}
+![](assets/Supporting-Students.svg)
 
-::: {.pillars-image-wrap}
-![placeholder image](assets/ssg_logo_black_l2.svg)
+### Supporting Students {.left-align }
+  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max) 
+
 :::
 
-<h3>Hands-on Experience</h3>
+::: {.pillar .scroll-spy .back-to-position}
 
-Provide students with opportunities to work on real-world software challenges. 
+![](assets/Innovation-Sandbox.svg)
 
-::: 
-
-::: {.pillars-card}
-
-::: {.pillars-image-wrap}
-![placeholder image](assets/ssg_logo_black_l2.svg)
-:::
-
-<h3>Innovative Solutions</h3>
-
-Build innovative and creative softwares with a socially beneficial bottom line.
-
-::: 
-
-::: {.pillars-card}
-
-::: {.pillars-image-wrap}
-![placeholder image](assets/ssg_logo_black_l2.svg)
-:::
-
-<h3>Talent Development</h3>
-
-Discover emerging skills in the software design and development by working with us.
+### Innovation Sandbox {.left-align}
+  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max) 
 
 :::
 
@@ -83,4 +206,78 @@ Discover emerging skills in the software design and development by working with 
 
 :::
 
-::: 
+## Why Work With Us? {.section-header .scroll-spy .back-to-position}
+
+::: {.section-5}
+
+The VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.
+
+<!--- diagram1 -->
+::: {.diagram .scroll-spy .back-to-position}
+
+### 1. Discover New Network & Insights {.level3}
+
+::: {.content}
+Engage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.
+
+![](assets/expand-network-insights.png)
+:::
+:::
+<!--- diagra1 -->
+<!--- diagram2 -->
+::: {.diagram .scroll-spy .back-to-position}
+
+### 2. Adaptable Project Timelines {.level3}
+
+::: {.content}
+Engage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.
+
+![](assets/adaptable-project-timelines.png)
+:::
+:::
+<!--- diagram2 -->
+<!--- diagram3 -->
+::: {.diagram .scroll-spy .back-to-position}
+
+### 3. Team That Grows With You {.level3}
+
+::: {.content}
+Engage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.
+
+![](assets/mentor-relationship.png)
+:::
+:::
+<!--- diagram3 -->
+:::
+
+<!--- last CTA --->
+
+::: {.section-6}
+
+::: {.last-cta}
+
+### Start Your Journey With Us {.center-align}
+
+The VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University.
+
+::: {.cta-cards}
+
+<a href="" class="card">
+<div class="content-wrap">
+<h4>Join Next Cohort <i class="bi bi-arrow-right"></i></h4>
+<p>Open to undergraduate and graduate students at VCU.</p>
+</div>
+</a>
+
+<a href="" class="card">
+<div class="content-wrap">
+<h4>Partner a Project <i class="bi bi-arrow-right"></i></h4>
+<p>Whether you are a business, non-profit organization, or a start up.</p>
+</div>
+</a>
+
+:::
+
+:::
+
+:::

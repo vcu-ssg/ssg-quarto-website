@@ -1,0 +1,170 @@
+---
+pagetitle: "SSG at VCU | Meet our team"
+date: last-modified
+format:
+    html:
+        toc: false
+        include-in-header:
+            text: |
+                <script>
+                function filterFunction( idToFilter ) {
+                    // Declare variables
+                    var list, li, i;
+                    
+                    list = document.getElementById("member-list");
+                    li = list.getElementsByTagName("li");
+
+                    // Loop through all list items, toggling appropriate values on/off
+                    for (i = 0; i < li.length; i++) {
+                        var toggle;
+                        toggle = "none";
+                        if (li[i].id==idToFilter || idToFilter==''){
+                            toggle = "block";
+                        }
+                    //    td = tr[i].getElementsByTagName("td")[0];
+                    //    if (td) {
+                    //    txtValue = td.textContent || td.innerText;
+                    //    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    //        //tr[i].style.display = "";
+                    //        toggle = "";
+                    //    } else {
+                    //        //tr[i].style.display = "none";
+                    //    }
+                    //    }
+                    
+                        li[i].style.display = toggle;
+                    }
+                }
+                   
+                function toggleButtons( name ) {
+                   var buttons,i;
+                   buttons = document.getElementsByTagName("button");
+                   for (i=0;i<buttons.length; i++){
+                     if (buttons[i].id==name) {
+                       buttons[i].className="small-btn active";
+                     } else {
+                       buttons[i].className="small-btn";
+                     }
+                   }
+                }
+                  
+                function lightMeUp( name,filter ) {
+                   // toggle the button using name
+                   toggleButtons( name );
+
+                   // filter the list items
+                   filterFunction( filter );
+                }
+                </script>
+
+---
+                   
+# Meet our team {.section-header}
+                   
+## {.bigmargin-bottom}
+
+::: {.members-category-desc}
+
+::: {.desc}
+                   
+The SSG team is comprised of VCU students from different majors
+working cross-functionally, with drive.
+                   
+:::
+
+::: {.filter-control}
+
+<button class="small-btn active" id="allMembersButton" onClick="lightMeUp('allMembersButton','')">All Members</button>
+<button class="small-btn" id="currentStudentButton" onClick="lightMeUp('currentStudentButton','Current Student')">Current students</button>
+<button class="small-btn" id="facultyMentorButton" onClick="lightMeUp('facultyMentorButton','Faculty Mentor')">Faculty Mentors</button>
+<button class="small-btn" id="ssgAlumniButton" onClick="lightMeUp('ssgAlumniButton','SSG Alumni')">SSG Alumni</button>
+
+:::
+
+:::
+
+
+::: {.members-card-wrap}
+
+<ul id="member-list">
+                   
+
+
+<li id="Current Student">
+<a class="members-card" href="./parki2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/parki2.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Inho Park
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+Graphic design
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Faculty Mentor">
+<a class="members-card" href="./jdleonard.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/jdleonard-2.jpg)
+</div>
+<div class="members-profile">
+<div class="name">
+John Leonard
+</div>
+<div class="major">
+Faculty Mentor
+</div>
+<div class="major">
+Computer Science
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Faculty Mentor">
+<a class="members-card" href="./wbenton.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/wbenton.jpg)
+</div>
+<div class="members-profile">
+<div class="name">
+William Benton
+</div>
+<div class="major">
+Faculty Mentor
+</div>
+<div class="major">
+Innovation
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+</ul>
+
+:::
+                   

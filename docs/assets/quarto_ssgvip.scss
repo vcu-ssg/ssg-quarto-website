@@ -14,7 +14,7 @@ $h5-font-size: $font-size-base*1.25 !default;
 $h6-font-size: $font-size-base !default;
 
 // Color system
-$white: #f4f4f4 !default;
+$lightwhite: #f4f4f4 !default;
 $black: #212121 !default;
 $gray: #3E3E3E !default;
 $medium-gray: #898989 !default;
@@ -24,7 +24,7 @@ $dark-brass: #B0623B !default;
 $light-brass: #ffeee6 !default;
 
 // Bootstrap color system
-$btn-primary-color: $white;
+$btn-primary-color: $lightwhite;
 
 $primary: $gray !default;
 $secondary: $brass !default;
@@ -52,10 +52,10 @@ $navbar-brand-padding-y: 1rem !default;
 }
 
 .btn-primary {
-  color: $white;
+  color: $lightwhite;
 
   &:hover {
-    color: $white;
+    color: $lightwhite;
   }
 }
 
@@ -181,7 +181,7 @@ header {
             .bi {
               font-size: 1.5rem;
               transition: opacity .1s;
-              color: $white;
+              color: $lightwhite;
               opacity: .4;
 
               &:hover {
@@ -191,7 +191,7 @@ header {
             }
 
             svg {
-              fill: $white;
+              fill: $lightwhite;
               // width: 24px;
               display: flex;
               align-items: center;
@@ -224,7 +224,7 @@ header {
               content: "";
               width: 100%;
               height: 1.5px;
-              background-color: $white;
+              background-color: $lightwhite;
               opacity: 0.1;
             }
 
@@ -237,7 +237,7 @@ header {
               bottom: 0;
               width: 100%;
               padding: 8px 16px !important;
-              color: $white !important;
+              color: $lightwhite !important;
               opacity: 0.4;
               font-size: 1rem;
 
@@ -293,7 +293,7 @@ footer.custom-footer {
     color: $medium-gray;
 
     &:hover p {
-      color: $white;
+      color: $lightwhite;
       transition: color .3s;
     }
   }
@@ -347,7 +347,7 @@ footer.custom-footer {
             text-decoration: underline;
 
             &:hover {
-              color: $white;
+              color: $lightwhite;
               transition: color .3s;
             }
           }
@@ -363,7 +363,7 @@ footer.custom-footer {
             color: $medium-gray;
 
             &:hover {
-              color: $white;
+              color: $lightwhite;
               transition: color .3s;
             }
           }
@@ -376,7 +376,7 @@ footer.custom-footer {
             transition: fill .3s;
 
             &:hover {
-              fill: $white;
+              fill: $lightwhite;
             }
           }
         }
@@ -396,12 +396,12 @@ footer.custom-footer {
             .bi {
               width: 20px;
               font-size: 20px;
-              color: $white;
+              color: $lightwhite;
             }
 
             p.link-list-title {
               font-size: 16px;
-              color: $white;
+              color: $lightwhite;
               font-weight: 600;
             }
 
@@ -577,7 +577,7 @@ footer.custom-footer {
       button.small-btn {
 
         &.active {
-          color: $white;
+          color: $lightwhite;
           background-color: $gray;
 
           &:hover {
@@ -625,7 +625,7 @@ footer.custom-footer {
             height: 100%;
             border: 2px solid $gray;
             overflow: hidden;
-            background-color: $white;
+            background-color: $lightwhite;
             z-index: 0;
 
             .members-pic {
@@ -853,7 +853,7 @@ footer.custom-footer {
         }
 
         div {
-          color: $white;
+          color: $lightwhite;
           border-radius: 12px;
           background-color: $gray;
 
@@ -878,7 +878,7 @@ footer.custom-footer {
       margin: 0 !important;
       padding: 8px 24px;
       background: url(./assets/ssg_pattern.svg) repeat-x;
-      color: $white;
+      color: $lightwhite;
 
       a {
         display: none;
@@ -984,7 +984,7 @@ footer.custom-footer {
       gap: 6px;
 
       .category.active {
-        color: $white;
+        color: $lightwhite;
         font-weight: 400;
         background-color: $gray;
 
@@ -1035,7 +1035,7 @@ footer.custom-footer {
 
                 .listing-category {
                   font-size: 10px;
-                  color: $white;
+                  color: $lightwhite;
                   border-radius: 4px;
                   background-color: $gray;
                   padding: 2px 8px;
@@ -1171,7 +1171,7 @@ section.contact-us-page {
             margin: 15vh auto;
             padding: 20px;
             border-radius: 5px;
-            background: url(./assets/flying_mail.svg) no-repeat $white right center;
+            background: url(./assets/flying_mail.svg) no-repeat $lightwhite right center;
             background-size: calc(200px + 10vw);
 
             h1 {
@@ -1237,19 +1237,19 @@ section.contact-us-page {
     }
 
     .bi-geo-alt-fill {
-      color: $white;
+      color: $lightwhite;
       text-align: center;
       font-size: 60px;
     }
 
     h1 {
-      color: $white;
+      color: $lightwhite;
       margin: 0 auto 32px;
     }
 
     p {
       text-align: center;
-      color: $white;
+      color: $lightwhite;
 
       &:first-of-type {
         margin: 0;
@@ -1435,7 +1435,7 @@ section.contact-us-page {
               }
 
               &:has(.nav-link.active)::after {
-                background-color: $white;
+                background-color: $lightwhite;
                 opacity: .8;
                 width: 100%;
                 height: 6px;
@@ -1488,7 +1488,7 @@ section.contact-us-page {
 
       .bi-caret-up-fill {
         margin-top: 14px;
-        color: $white;
+        color: $lightwhite;
         display: flex;
         align-items: center;
         height: 8px;

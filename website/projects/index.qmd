@@ -24,3 +24,4 @@
   <img src="../assets/jason-goodman-Oalh2MojUuk-unsplash.jpg" alt="whiteboard brainstorming">
   </div>
 </div>
+

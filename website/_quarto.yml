@@ -23,7 +23,7 @@ website:
     search: false
     right: #changed nav menu items to align to the right
       - text: "Our Team"
-        file: about/index.qmd
+        file: ourteam/index.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "For Students"
@@ -35,17 +35,16 @@ website:
         href: https://github.com/vcu-ssg
         text: SSG GitHub
       - icon: discord
-        href: https://discord.gg/xv29j9fVRd
+        href: https://discord.com/channels/1013812665652609034/1143912201841811566
         text: SSG Discord
       - href: https://drive.google.com/drive/folders/1C-ZoZjMOefov00WoYVMJiCe4Avw8zg6c?usp=sharing
         text: SSG Drive 
 
 format:
   html:
-    theme: assets/quarto_ssgvip.scss
+    theme: css/quarto_ssgvip.scss
     toc: false
-    css: assets/quarto_ssgvip.scss
-    include-after-body: assets/footer.html
+    include-after-body: js/footer.html
     html-math-method: katex
     mainfont: 'Be Vietnam Pro'
     grid:

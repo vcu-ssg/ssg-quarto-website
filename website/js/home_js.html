@@ -1,0 +1,43 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
+<script type="text/javascript">
+  jQuery(function ($) {
+    $("#learnaboutus").click(function () {
+          $('html, body').animate({
+            scrollTop: $("h2").offset().top -50
+          }, 1000);
+        });
+  });
+
+  const spyEls = document.querySelectorAll('.scroll-spy');
+
+  spyEls.forEach(function (spyEl) {
+    new ScrollMagic
+    .Scene({
+      triggerElement: spyEl,
+      triggerHook: .8
+    })
+    .setClassToggle(spyEl, 'show')
+    .addTo(new ScrollMagic.Controller());
+  });
+
+  new Swiper('.teams.swiper-container', {
+  autoplay: false,
+  loop: false,
+  slidesPerView: 1.1,
+  centeredSlides: true,
+  spaceBetween: 0,
+  pagination: {
+    el: ".teams .swiper-nav .swiper-pagination",
+    clickable: true
+  },
+  navigation: {
+    prevEl: '.teams .swiper-prev',
+    nextEl: '.teams .swiper-next'
+  },
+  touchStartPreventDefault: false
+});
+</script>
