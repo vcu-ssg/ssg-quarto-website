@@ -6,7 +6,7 @@ include-after-body: ./js/home_js.html
 
 <!--- hero banner section --->
 
-::: {.hero-banner .scroll-spy .back-to-position} 
+::: {.hero-banner} 
 
 ::: {.content-block}  
 
@@ -30,9 +30,9 @@ Here at VCU, students from multi-disciplinary backgrounds connect with outer com
 
 <!--- a vip team at vcu --->
 
-## Who We Are {.section-header .scroll-spy .back-to-position}
+## Who We Are {.section-header}
 
-::: {.section-1} 
+::: {.section-1 .scroll-spy .back-to-position} 
 ::: {.vip}
 ::: {.img-wrap}
 ![](assets/a-vip-team-at-vcu.png)

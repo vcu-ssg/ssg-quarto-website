@@ -191,7 +191,7 @@ h2.section-header {
 .back-to-position {
   opacity: 0;
   transition: 1s;
-  transform:translateY(40px);
+  transform:translateY(50px);
 
   &.hero-banner {
     transition: 1.5s;
@@ -512,9 +512,9 @@ footer.custom-footer {
   display: none;
 }
 
-// hero banner section
+// hero banner section≈
 .hero-banner {
-  min-height: 85vh;
+  min-height: 75vh;
   display: flex;
 
   .content-block {
