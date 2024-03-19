@@ -1990,19 +1990,6 @@ section.contact-us-page {
       }
     }
   }
-
-  // contact us page
-  section.contact-us-page {
-    // &.contact-us {
-    //   .contact-us-form {
-    //     padding: 0 10vw;
-    //   }
-    // }
-
-    &.location {
-      margin-left: 14px;
-    }
-  }
 }
 
 @media all and (min-width: 1170px) {
@@ -2046,6 +2033,7 @@ section.contact-us-page {
 
   // contact us page
   section.contact-us-page {
+    flex-wrap: nowrap;
     padding: 0;
 
     h1 {
@@ -2086,7 +2074,7 @@ section.contact-us-page {
     }
 
     &.location {
-
+     
       h1 {
         max-width: 500px;
         text-align: center;
