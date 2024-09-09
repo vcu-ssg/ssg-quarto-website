@@ -13,8 +13,11 @@ import numpy as np
 from IPython.display import Markdown
 from tabulate import tabulate
 
-destination_folder = "../website/about/"
+destination_folder = "../website/ourteam/"
 spreadsheet_key = "19I04Ljy8X8f1mqhpEh5-XRmj4iIEv1huaijqy60a42E"
+
+# https://docs.google.com/spreadsheets/d/19I04Ljy8X8f1mqhpEh5-XRmj4iIEv1huaijqy60a42E/edit
+
 
 # define scope
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']

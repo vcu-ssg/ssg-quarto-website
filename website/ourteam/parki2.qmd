@@ -4,6 +4,7 @@ date: last-modified
 format:
     html:
         toc: false
+#        style: ../assets/quarto_ssgvip.scss
 ---
 <a id="goback-btn" href="./index.html">
 <i class="bi bi-arrow-left-circle">
@@ -31,7 +32,7 @@ View all Members
   
 <div class='member-status'>
 <div class='status-wrap'>
-<div class='status'>Current Student</div>
+<div class='status'>SSG Alumni</div>
 <a href='/projects/index.html#category=RamSafe'><div class='project'>RamSafe</div></a>
 <a href='/projects/index.html#category=Bank%20of%20America'><div class='project'>Bank of America</div></a>
 

@@ -90,7 +90,7 @@ working cross-functionally, with drive.
                    
 
 
-<li id="Current Student">
+<li id="SSG Alumni">
 <a class="members-card" href="./parki2.qmd">
 <div class="card-shadow"></div>
 <div class="info-wrap">
@@ -102,7 +102,7 @@ working cross-functionally, with drive.
 Inho Park
 </div>
 <div class="major">
-Current Student
+SSG Alumni
 </div>
 <div class="major">
 Graphic design
@@ -140,6 +140,131 @@ Computer Science
 
 
 
+<li id="SSG Alumni">
+<a class="members-card" href="./lykt2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/KevinPic.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Kevin Ly
+</div>
+<div class="major">
+SSG Alumni
+</div>
+<div class="major">
+Computer Science
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Alumni">
+<a class="members-card" href="./thorntonkj.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/kianPic.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Kian Thornton
+</div>
+<div class="major">
+Alumni
+</div>
+<div class="major">
+Interdisciplinary Studies
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Alumni">
+<a class="members-card" href="./jacksonlr2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/LenicePic.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Lenice Jackson
+</div>
+<div class="major">
+Alumni
+</div>
+<div class="major">
+Computer Science
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Alumni">
+<a class="members-card" href="./shinsy3.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/lizzyPic.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Lizzy Shin
+</div>
+<div class="major">
+Alumni
+</div>
+<div class="major">
+Graphic Design
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Alumni">
+<a class="members-card" href="./parajulis4.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/swetaPic.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Sweta Parajuli
+</div>
+<div class="major">
+Alumni
+</div>
+<div class="major">
+Computer Science
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
 <li id="Faculty Mentor">
 <a class="members-card" href="./wbenton.qmd">
 <div class="card-shadow"></div>
@@ -156,6 +281,281 @@ Faculty Mentor
 </div>
 <div class="major">
 Innovation
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./zhanga7.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Ami Zhang
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./tranan7.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Angela Tran
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./reidp.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Paul Reid
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+Computer Science
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./bushongsm.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Serina Bushong
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./darkoim.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Isabella Darko
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./khoshdelmn.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Marwha Khoshdel
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./linjc.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Joseph Lin
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./merchanta2.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Ali Merchant
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./moralajc.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Julmarie Morala
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./simess.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Shane Simes
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
+</div>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+<li id="Current Student">
+<a class="members-card" href="./tikkisettiss.qmd">
+<div class="card-shadow"></div>
+<div class="info-wrap">
+<div class="members-pic">
+![](../assets/hero-image.png)
+</div>
+<div class="members-profile">
+<div class="name">
+Sri Tikkisetti
+</div>
+<div class="major">
+Current Student
+</div>
+<div class="major">
+(missing)
 </div>
 </div>
 </div>

@@ -1,2 +1,3 @@
 # ssg-quarto-website
-Quarter working website for the SSGVIP project
+
+Quarto working website for the SSGVIP project

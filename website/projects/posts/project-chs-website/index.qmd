@@ -1,0 +1,18 @@
+---
+title: CHS Website
+subtitle: A design activity for the Chesterfield Historical Society
+description: |
+  (description in the YAML header of index.qmd)
+categories:
+  - Project list
+  - Websites
+date: "09/6/2024"
+image: ""
+image-alt: ""
+---
+
+{{< include ../_shared-call-out.qmd >}}
+
+Website redesign for the Chesterfield Historical Society.
+
+(This is a blog entry.  See quarto blogs: <https://quarto.org/docs/websites/website-blog.html>)
