@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SSG at VCU | Contact Us – SSG at VCU</title>
+<title>contact page – SSG at VCU</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-13ffa2d63d0d52c290314069221617bb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +81,6 @@ ul.task-list li input[type="checkbox"] {
     <img src="./assets/ssg_logo_white_l2.svg" alt="" class="navbar-logo">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -121,444 +120,30 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<section id="contact-us" class="level1 contact-us-page contact-us">
-<h1 class="contact-us-page contact-us">Contact Us</h1>
-<form class="gform contact-us-form" method="POST" action="https://script.google.com/macros/s/AKfycbyNUVW94C3YQwoUZ2Xqm6UJcuv18gBJ6e-zGMV_MW7-S369A1ops88UVKBzXijwIRGQ/exec">
-<fieldset>
-<label for="name">Name</label> <input type="text" id="name" name="name" placeholder="Rodney Ram"> <label for="email">Email<sup></sup></label> <input type="email" id="email" name="email" placeholder="example@email.com" required=""> <label for="message">Message<sup></sup></label>
-<textarea id="message" name="message" placeholder="What can we answer for you?" required=""></textarea>
-<button class="btn btn-primary btn-sm" type="submit">
-Submit
-</button>
-<div class="thankyou-message">
-<section>
-<h1>
-Your Message is Sent!
-</h1>
-<p>
-A SSG faculty will get in touch with you.
-</p>
-<a href="#" class="btn btn-primary btn-sm close">Close</a>
-</section>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">contact page</h1>
 </div>
-</fieldset>
-</form>
-<script data-cfasync="false" type="text/javascript">
-(function() {
-  function validEmail(email) {
-    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-    return re.test(email);
-  }
 
-  function validateHuman(honeypot) {
-    if (honeypot) {  //if hidden form filled up
-      console.log("Robot Detected!");
-      return true;
-    } else {
-      console.log("Welcome Human!");
-    }
-  }
 
-  // get all data in form and return object
-  function getFormData(form) {
-    var elements = form.elements;
-    var fields = Object.keys(elements).filter(function(k) {
-          return (elements[k].name !== "honeypot");
-    }).map(function(k) {
-      if(elements[k].name !== undefined) {
-        return elements[k].name;
-      // special case for Edge's html collection
-      }else if(elements[k].length > 0){
-        return elements[k].item(0).name;
-      }
-    }).filter(function(item, pos, self) {
-      return self.indexOf(item) == pos && item;
-    });
 
-    var formData = {};
-    fields.forEach(function(name){
-      var element = elements[name];
-      
-      // singular form elements just have one value
-      formData[name] = element.value;
+<div class="quarto-title-meta">
 
-      // when our element has multiple items, get their values
-      if (element.length) {
-        var data = [];
-        for (var i = 0; i < element.length; i++) {
-          var item = element.item(i);
-          if (item.checked || item.selected) {
-            data.push(item.value);
-          }
-        }
-        formData[name] = data.join(', ');
-      }
-    });
-
-    // add form-specific values into the data
-    formData.formDataNameOrder = JSON.stringify(fields);
-    formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
-    formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
-
-    console.log(formData);
-    return formData;
-  }
-
-  function handleFormSubmit(event) {  // handles form submit without any jquery
-    event.preventDefault();           // we are submitting via xhr below
-    var form = event.target;
-    var data = getFormData(form);         // get the values submitted in the form
-
-    /* OPTION: Remove this comment to enable SPAM prevention, see README.md
-    if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
-      return false;
-    }
-    */
-
-    if( data.email && !validEmail(data.email) ) {   // if email is not valid show error
-      var invalidEmail = form.querySelector(".email-invalid");
-      if (invalidEmail) {
-        invalidEmail.style.display = "block";
-        return false;
-      }
-    } else {
-    //   disableAllButtons(form);
-      console.log(form);
-      var thankYouMessage = form.querySelector(".thankyou-message");
-      thankYouMessage.style.display = "block";
-      var url = form.action;
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', url);
-      // xhr.withCredentials = true;
-      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-      xhr.onreadystatechange = function() {
-        //   var thankYouMessage = form.querySelector(".thankyou-message");
-        //   thankYouMessage.style.display = "block";
-          console.log(xhr.status, xhr.statusText);
-          console.log(xhr.responseText);
-          form.reset();
-          var formElements = form.querySelector(".form-elements")
-          if (formElements) {
-            formElements.style.display = "none"; // hide form
-          }
-          return;
-      };
-      // url encode form data for sending as post data
-      var encoded = Object.keys(data).map(function(k) {
-          return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
-      }).join('&');
-      xhr.send(encoded);
-    }
-  }
+    
   
-  function loaded() {
-    console.log("Contact form submission handler loaded successfully.");
-    // bind to the submit event of our form
-    var forms = document.querySelectorAll("form.gform");
-    for (var i = 0; i < forms.length; i++) {
-      forms[i].addEventListener("submit", handleFormSubmit, false);
-    }
-  };
-  document.addEventListener("DOMContentLoaded", loaded, false);
-
-  function disableAllButtons(form) {
-    var buttons = form.querySelectorAll("button");
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].disabled = true;
-    }
-  }
-
-})();
-
-document.addEventListener("DOMContentLoaded", function() {
-  var closeButton = document.querySelector(".close");
-  var thankyouMessage = document.querySelector(".thankyou-message");
-
-  closeButton.addEventListener("click", function() {
-    thankyouMessage.style.display = "none";
-  });
-});
-</script>
-</section>
-<section id="our-location" class="level1 contact-us-page location">
-<h1 class="contact-us-page location">Our Location</h1>
-<div class="backdrop">
-
-</div>
-<p>Where we meet, create, and discuss with the students, faculties, and partners.</p>
-<p>Office: Room 2327 | Lab: Room 2336</p>
-<div class="map-wrap">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.433619351885!2d-77.45200748910638!3d37.544846441837905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b11140b2d4b5fb%3A0x4ffeee8741d77184!2sVCU%20College%20Of%20Engineering%20-%20East%20Hall!5e0!3m2!1sen!2sus!4v1690837741482!5m2!1sen!2sus" referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-</div>
-<script>
-const ourLocation = document.getElementById('our-location');
-ourLocation.insertAdjacentHTML('afterbegin', '<i class="bi bi-geo-alt-fill"></i>');
-</script>
+    
+  </div>
+  
 
 
-</section>
+</header>
+
+
+<p>this is a placehoder while we figure out that is happening with the other contact.qmd page!</p>
+
+
 
 </main> <!-- /main -->
-<script type="text/javascript">
-
-  // Give all elements with class ".quarto-navigation-tool" an attribute & value: target="_blank" 
-
-  const navigationTools = document.querySelectorAll('.quarto-navigation-tool');
-
-
-
-  // add a Google Drive link on the nav bar
-
-  let lastNavigationTool = navigationTools[navigationTools.length - 1];
-
-  lastNavigationTool.insertAdjacentHTML('beforeend', '<svg role="img" style="width:24px;" viewBox="0 0 24 24"><path d="M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z"/></svg>');
-
-
-
-  navigationTools.forEach(tool => {
-
-    tool.setAttribute('target', '_blank');
-
-  });
-
-
-
-  // insert footer elements at the end of <body> tag
-
-  const currentYear = new Date().getFullYear();
-
-
-
-  document.body.insertAdjacentHTML('beforeend', `
-
-
-
-
-
-  <footer class="custom-footer">
-
-    <div class="footer-container">
-
-      <div class="footer-top">
-
-        <div class="footer-row">
-
-          <div class="logo-wrap">
-
-            <img src="https://internal.ssgvip.com/assets/ssg_logo_white_l1.svg" alt="ssg logo" class="ssg-logo">
-
-          </div>
-
-          <p class="ssg-desc">Software for Social Good is a faculty-led <a href="https://www.vip-consortium.org/" target="_blank">Vertically Integrated Project (VIP)</a> team at <a href="https://egr.vcu.edu/" target="_blank">VCU College of Engineering</a> founded in 2022.</p>
-
-          <div class="tools-wrap">
-
-            <a href="https://github.com/vcu-ssg" target="_blank"><i class="bi bi-github"></i></a> 
-
-            <a href="https://discord.gg/xv29j9fVRd" target="_blank"><i class="bi bi-discord"></i></a>
-
-            <a href="https://drive.google.com/drive/folders/1C-ZoZjMOefov00WoYVMJiCe4Avw8zg6c?usp=sharing" target="_blank"><svg role="img" viewBox="0 0 24 24"><path d="M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z"/></svg></a>
-
-          </div>
-
-        </div>
-
-        <div class="footer-row">
-
-          <div class="link-wrap">
-
-            <div class="footer-link">
-
-              <i class="bi bi-envelope contact"></i><p class="link-list-title">Contact</p>
-
-            </div>
-
-            <a href="mailto: wbenton@vcu.edu" class="link"><p>wbenton@vcu.edu | Faculty</p></a>
-
-            <a href="mailto: jdleonard@vcu.edu" class="link"><p>jdleonard@vcu.edu | Faculty</p></a>
-
-          </div>
-
-          <div class="link-wrap">
-
-            <div class="footer-link">
-
-              <i class="bi bi-box-arrow-in-right join-us"></i><p class="link-list-title">Join Us</p>
-
-            </div>
-
-            <a href="" class="link"><!--insert resource link--><p>Student Recruitment</p></a>
-
-          </div>
-
-          <div class="link-wrap">
-
-            <div class="footer-link">
-
-              <i class="bi bi-geo-alt location"></i><p class="link-list-title">Location</p>
-
-            </div>
-
-            <p class="link">Virginia Commonwealth University, College of Engineering, ERB 2336, 401 W Main St, Richmond, VA 23284</p> 
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="footer-bottom">
-
-      <p class="copyright">© Software for Social Good at Virginia Commonwealth University ${currentYear}</p>
-
-    </div>
-
-  </footer>
-
-
-
-  <div id="backtop">
-
-    <div class="scroll-top">
-
-      <i class="bi bi-caret-up-fill"></i>
-
-      <p>top</p>
-
-    </div>
-
-  </div>
-
-  `);
-
-
-
-  //Scroll to element  
-
-  let backtopElement = document.getElementById("backtop");
-
-
-
-  window.addEventListener("scroll", function () {
-
-    if (window.pageYOffset > window.innerHeight / 4) {
-
-      backtopElement.style.opacity = 1;
-
-      backtopElement.style.pointerEvents = "auto";
-
-    } else {
-
-      backtopElement.style.opacity = 0;
-
-      backtopElement.style.pointerEvents = "none";
-
-    }
-
-  });
-
-
-
-  backtopElement.addEventListener("click", function () {
-
-    window.scrollTo({
-
-      top: document.body.offsetTop,
-
-      behavior: "smooth",
-
-    });
-
-  });
-
-
-
-// members list page text overflow fix:
-
-const elements = document.querySelectorAll(".members-profile .major p");
-
-
-
-function truncateText(element) {
-
-  const smallScreenMaxLength = 80;
-
-  const largeScreenMaxLength = 60;
-
-  const maxLength = window.innerWidth > 1170 ? largeScreenMaxLength : smallScreenMaxLength;
-
-
-
-  const text = element.textContent.trim();
-
-
-
-  if (text.length > maxLength) {
-
-    const truncatedText = text.slice(0, maxLength) + "...";
-
-    element.textContent = truncatedText;
-
-  }
-
-}
-
-
-
-elements.forEach(truncateText);
-
-
-
-// re-locate categories sidebar in 'Projects' page
-
-// Step 1: Select the .sidebar.margin-sidebar element
-
-const sidebarElement = document.querySelector('.sidebar.margin-sidebar');
-
-
-
-// Step 2: Select the #quarto-content element
-
-const quartoContentElement = document.querySelector('#quarto-document-content');
-
-const targetElement = document.querySelector('#listing-listing');
-
-
-
-// Step 3: Append the .sidebar.margin-sidebar element to the beginning of #quarto-content
-
-targetElement.insertAdjacentElement('beforebegin', sidebarElement);
-
-
-
-// Select all elements with the class .category
-
-const categoryElements = document.querySelectorAll('.category');
-
-
-
-// Loop through each .category element and add the class .small-btn
-
-categoryElements.forEach(element => {
-
-  element.classList.add('small-btn');
-
-});
-
-document.querySelector('.category').classList.add('active');
-
-</script>
-
-
-
-
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -641,8 +226,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -753,7 +336,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

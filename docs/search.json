@@ -149,9 +149,9 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact Us",
+    "title": "contact page",
     "section": "",
-    "text": "Contact Us\n\n\nName  Email  Message\n\n\nSubmit\n\n\n\n\nYour Message is Sent!\n\n\nA SSG faculty will get in touch with you.\n\nClose\n\n\n\n\n\n\n\nOur Location\n\n\n\nWhere we meet, create, and discuss with the students, faculties, and partners.\nOffice: Room 2327 | Lab: Room 2336"
+    "text": "this is a placehoder while we figure out that is happening with the other contact.qmd page!"
   },
   {
     "objectID": "ourteam/bushongsm.html",
@@ -270,7 +270,7 @@
     "href": "projects/index.html",
     "title": "\nThis is our Projects\n",
     "section": "",
-    "text": "This is our Projects\n\n\nOur projects are led by awesome students at VCU.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCHS Website\n\n\n\nProject list\n\n\nWebsites\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank of America\n\n\n\nProject list\n\n\nBank of America\n\n\n\nHome page for the project\n\n\n\n\n\n\nJul 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth VR\n\n\n\nProject list\n\n\nHealthVR\n\n\n\nA video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers.\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRamSafe\n\n\n\nProject list\n\n\nRamSafe\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Our projects are led by awesome students at VCU.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCHS Website\n\n\n\nProject list\n\n\nWebsites\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank of America\n\n\n\nProject list\n\n\nBank of America\n\n\n\nHome page for the project\n\n\n\n\n\n\nJul 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth VR\n\n\n\nProject list\n\n\nHealthVR\n\n\n\nA video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers.\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRamSafe\n\n\n\nProject list\n\n\nRamSafe\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/posts/project-chs-website/index.html",
