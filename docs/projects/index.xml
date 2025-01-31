@@ -15,7 +15,26 @@
 <link>https://internal.ssgvip.com/projects/</link>
 </image>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 06 Sep 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 31 Jan 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Project test</title>
+  <link>https://internal.ssgvip.com/projects/posts/project-test/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>this is my first description line for this project.</p>
+
+
+
+ ]]></description>
+  <category>Project list</category>
+  <category>new project</category>
+  <guid>https://internal.ssgvip.com/projects/posts/project-test/</guid>
+  <pubDate>Fri, 31 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/projects/posts/project-test" medium="image"/>
+</item>
 <item>
   <title>CHS Website</title>
   <link>https://internal.ssgvip.com/projects/posts/project-chs-website/</link>
@@ -59,6 +78,7 @@ Shared call out
 
 
 <p>This describes a partnerhsip of the SSG with the Bank of America.</p>
+<p>Add some more content about the BofA project.</p>
 
 
 

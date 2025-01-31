@@ -13,3 +13,5 @@ image-alt: ""
 
 This describes a partnerhsip of the SSG with the Bank of America.
 
+Add some more content about the BofA project.
+
