@@ -2,12 +2,13 @@
 title: OMS Anesthesia Emergency Simulation
 subtitle: initial design for anesthesia training
 description: |
-  Home page for the project
+  Learn more about our OMS project.
 categories:
   - Project list
   - Ongoing project
+  - Medicinal
 date: "01/31/2025"
-image: ""
+image: "https://www.google.com/imgres?q=oms&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F89%2FFlag_of_WHO.svg%2F1200px-Flag_of_WHO.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDirector-General_of_the_World_Health_Organization&docid=-Oi3vAyagn3AsM&tbnid=33v8Oj6Q9f_pLM&vet=12ahUKEwjo2ZS916-LAxVwF1kFHYU2MtMQM3oECGUQAA..i&w=1200&h=800&hcb=2&ved=2ahUKEwjo2ZS916-LAxVwF1kFHYU2MtMQM3oECGUQAA"
 image-alt: ""
 ---
 
