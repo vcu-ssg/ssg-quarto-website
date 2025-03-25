@@ -13,4 +13,9 @@ image-alt: ""
 
 {{< include ../_shared-call-out.qmd >}}
 
-Add text here!
+This project, initiated and managed by SSG alum Inho Park, worked with multiple institutional stakeholders to design service quality improvements to VCU’s “RamSafe” ride service. This required a deep exploration of routing and ride hailing software, as well as sustained engagement with a rapidly growing startup in this field. 
+
+Github repo: https://github.com/vcu-ssg/ssg-trc-dashboard
+
+improving user experience with VCU RamSafe by discovering ways to work with The Routing Company, RamSafe’s vendor for mapping and routing services
+

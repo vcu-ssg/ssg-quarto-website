@@ -1,0 +1,21 @@
+---
+title: Liquid Strategies Proposal Generator
+subtitle: A partnership between the SSG and the Liquid Strategies Organization
+description: |
+  Home page for the project
+categories:
+  - Project list
+  - :Liquid Strategies
+date: "11/12/2023"
+image: ""
+image-alt: ""
+---
+
+SSG designed, developed and delivered a client proposal generator tool. The tool automates the creation and customization of briefing presentations, allowing employees to focus more on the content of the presentation and less on the boilerplate.  SSG delivered a working, deployable application with training videos for employees.
+
+Client site: https://lsfunds.com/
+GH page site: https://vcu-ssg.github.io/ssg-quarto-overlay-finreport/
+Github repo: https://github.com/vcu-ssg/ssg-quarto-overlay-finreport
+
+
+Students: Moses Farley, Zach McDonough, Nitin Kanuri, Inho Park

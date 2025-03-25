@@ -1,0 +1,19 @@
+---
+title: Fortnite Exploration
+subtitle: A partnership between the SSG and Fortnite
+description: |
+  Home page for the project
+categories:
+  - Project list
+  - Fortnite
+date: "03/25/2025"
+image: ""
+image-alt: ""
+---
+
+As Chris Dixon once noted, emerging technologies start out looking like toys, or in this case, video games. The Unreal Engine for Forrnite (UEFN) and related Verse programming language, made by Epic Games, is a massively powerful tool for creating user generated content in a massive online world. We are exploring how to meaningfully build content for daily life of a university student based on “game” interfaces. 
+
+Github repo:https://github.com/vcu-ssg/ssg-gamedev-uefn-verse
+GH pages: https://vcu-ssg.github.io/ssg-gamedev-uefn-verse/getting-started-with-verse.html
+
+

@@ -13,5 +13,8 @@ image-alt: ""
 
 This describes a partnerhsip of the SSG with the Bank of America.
 
+Github repo: https://github.com/vcu-ssg/ssgvip-bank-metrics
+Github repo: https://github.com/vcu-ssg/ssg-vcu-bofa-sandbox
+
 Add some more content about the BofA project.
 

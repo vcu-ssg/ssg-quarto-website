@@ -1,0 +1,14 @@
+---
+title: Client Platform Analysis
+subtitle: A partnership between the SSG and the IT4Cause
+description: |
+  Home page for the project
+categories:
+  - Project list
+  - IT4Cause
+date: "03/25/2025"
+image: ""
+image-alt: ""
+---
+
+SSG is contributing to a platform service provider review with IT4Cause, supporting the mission of Islamic Relief USA as they explore options for a new case management provider. This activity allows our students to focus on a crucial aspect of software work: making a case for a particular implementation based on very specific organizational needs.

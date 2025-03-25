@@ -1,0 +1,17 @@
+---
+title: SSG as a model
+subtitle: Nothing yet
+description: |
+  Nothing yet
+categories:
+  - Project list
+  - model
+date: "03/25/2025"
+image: ""
+image-alt: ""
+---
+
+{{< include ../_shared-call-out.qmd >}}
+
+(Add description of project here.  2-3 sentences)
+2

@@ -1,0 +1,17 @@
+---
+title: Medical Deibrillator Simulator
+subtitle: A partnership between the SSG and the ...
+description: |
+  Home page for the project
+categories:
+  - Project list
+  - Medical
+date: "03/25/2025"
+image: ""
+image-alt: ""
+---
+
+(Add description of project here.  2-3 sentences)
+Github repo:https://github.com/vcu-ssg/ssg-medical-p5-defib
+
+
