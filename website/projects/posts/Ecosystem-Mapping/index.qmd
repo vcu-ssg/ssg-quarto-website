@@ -6,9 +6,9 @@ description: |
 categories:
   - Project list
   - Activation Capital
-date: "03/25/2025"
-image: ""
-image-alt: ""
+date: "10/19/2023"
+image: "/assets/ActivationCT.png"
+image-alt: "Activation Capital Team"
 ---
 
 This project prototyped a map of the regional innovation ecosystem for Activation Capital, facilitating access to resources and information for venture founders, venture funders, and innovation support organizations. 

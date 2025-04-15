@@ -1,14 +1,14 @@
 ---
 title: Small Business and Supplier Diversity Chatbot
-subtitle: A partnership between the SSG and the Virginia Department of Small Business and Supplier DIversity (SBSD)
+subtitle: A partnership between the SSG and the Virginia Department of Small Business and Supplier Diversity (SBSD)
 description: |
   Home page for the project
 categories:
   - Project list
   - SBSD
 date: "03/16/2024"
-image: ""
-image-alt: ""
+image: "/assets/SBSD.png"
+image-alt: "SBSD"
 ---
 
 SSG designed, deployed and delivered a chatbot that can be accessed from specific pages within a website as well as from within a web-based application by clicking a link or button. The chatbot was able to answer questions typed into a provided field, based on a list of questions and corresponding answers maintained with the chat bot system. The chatbot should also have the ability to route the user to their choice of additional support through phone and email.

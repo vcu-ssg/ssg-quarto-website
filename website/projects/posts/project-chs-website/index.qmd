@@ -1,18 +1,18 @@
 ---
-title: CHS Website
+title: CHSV Website
 subtitle: A design activity for the Chesterfield Historical Society
 description: |
-  (description in the YAML header of index.qmd)
+  Redesigned the CHSV Website
 categories:
   - Project list
   - Websites
 date: "09/6/2024"
-image: ""
-image-alt: ""
+image: "/assets/CHSV.png"
+image-alt: "Chesterfield Historical Society of Virginia"
 ---
 
-{{< include ../_shared-call-out.qmd >}}
+<!-- {{< include ../_shared-call-out.qmd >}} -->
 
-Website redesign for the Chesterfield Historical Society.
+The CHSV website redevelopment offers a fresh take on the website of an important local history organization, refactoring the site around specific goals rather than general information. 
 
-(This is a blog entry.  See quarto blogs: <https://quarto.org/docs/websites/website-blog.html>)
+<!-- (This is a blog entry.  See quarto blogs: <https://quarto.org/docs/websites/website-blog.html>) -->

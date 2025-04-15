@@ -1,17 +1,19 @@
 ---
-title: SSG as a model
-subtitle: Nothing yet
+title: SSG website
+subtitle: main website
 description: |
-  Nothing yet
+  Student Led Website for SSG
 categories:
   - Project list
-  - model
+  - Website
+  - WIP
 date: "03/25/2025"
-image: ""
-image-alt: ""
+image: "/assets/SSG_icon.png"
+image-alt: "SSG"
 ---
 
 {{< include ../_shared-call-out.qmd >}}
 
-(Add description of project here.  2-3 sentences)
-2
+This project develops our own website, both as a means of training students on contemporary web development tools and techniques and as a means of creating a visible public face for our activities. As a multi-project, crossfunctional VIP, we have a rich and varied story to tell, and we are making a website that lets our participants show the world their excellent work!
+
+Github repo: https://github.com/vcu-ssg/ssg-quarto-website

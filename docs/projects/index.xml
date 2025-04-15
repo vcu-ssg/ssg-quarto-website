@@ -15,29 +15,29 @@
 <link>https://internal.ssgvip.com/projects/</link>
 </image>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 31 Jan 2025 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 25 Mar 2025 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Project test</title>
-  <link>https://internal.ssgvip.com/projects/posts/project-test/</link>
+  <title>Client Platform Analysis</title>
+  <link>https://internal.ssgvip.com/projects/posts/CPA-IT4Cause/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>this is my first description line for this project.</p>
+<p>SSG is contributing to a platform service provider review with IT4Cause, supporting the mission of Islamic Relief USA as they explore options for a new case management provider. This activity allows our students to focus on a crucial aspect of software work: making a case for a particular implementation based on very specific organizational needs.</p>
 
 
 
  ]]></description>
   <category>Project list</category>
-  <category>new project</category>
-  <guid>https://internal.ssgvip.com/projects/posts/project-test/</guid>
-  <pubDate>Fri, 31 Jan 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://internal.ssgvip.com/projects/posts/project-test" medium="image"/>
+  <category>IT4Cause</category>
+  <guid>https://internal.ssgvip.com/projects/posts/CPA-IT4Cause/</guid>
+  <pubDate>Tue, 25 Mar 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/it4.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
-  <title>CHS Website</title>
-  <link>https://internal.ssgvip.com/projects/posts/project-chs-website/</link>
+  <title>SSG website</title>
+  <link>https://internal.ssgvip.com/projects/posts/SSG-Model/</link>
   <description><![CDATA[ 
 
 
@@ -57,8 +57,51 @@ Shared call out
 <p>_shared-call-out.qmd</p>
 </div>
 </div>
-<p>Website redesign for the Chesterfield Historical Society.</p>
-<p>(This is a blog entry. See quarto blogs: <a href="https://quarto.org/docs/websites/website-blog.html" class="uri">https://quarto.org/docs/websites/website-blog.html</a>)</p>
+<p>This project develops our own website, both as a means of training students on contemporary web development tools and techniques and as a means of creating a visible public face for our activities. As a multi-project, crossfunctional VIP, we have a rich and varied story to tell, and we are making a website that lets our participants show the world their excellent work!</p>
+<p>Github repo: https://github.com/vcu-ssg/ssg-quarto-website</p>
+
+
+
+ ]]></description>
+  <category>Project list</category>
+  <category>Website</category>
+  <category>WIP</category>
+  <guid>https://internal.ssgvip.com/projects/posts/SSG-Model/</guid>
+  <pubDate>Tue, 25 Mar 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/SSG_icon.png" medium="image" type="image/png" height="128" width="144"/>
+</item>
+<item>
+  <title>OMS Anesthesia Emergency Simulation</title>
+  <link>https://internal.ssgvip.com/projects/posts/project-OMS-Simulator/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This project offers initial design and prototyping for a surgical anesthesia training simulator for oral and maxillofacial surgeons. The design is based on task flows incorporated into OMS training and certification, and serves to sustain and develop the relevant skills base among practitioners.</p>
+<p>Github repo: https://github.com/vcu-ssg/ssg-medical-oms-simulator</p>
+
+
+
+ ]]></description>
+  <category>Project list</category>
+  <category>Ongoing project</category>
+  <category>Medicinal</category>
+  <guid>https://internal.ssgvip.com/projects/posts/project-OMS-Simulator/</guid>
+  <pubDate>Mon, 09 Sep 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/OMS.png" medium="image" type="image/png" height="127" width="144"/>
+</item>
+<item>
+  <title>CHSV Website</title>
+  <link>https://internal.ssgvip.com/projects/posts/project-chs-website/</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- {{< include ../_shared-call-out.qmd >}} -->
+<p>The CHSV website redevelopment offers a fresh take on the website of an important local history organization, refactoring the site around specific goals rather than general information.</p>
+<!-- (This is a blog entry.  See quarto blogs: <https://quarto.org/docs/websites/website-blog.html>) -->
 
 
 
@@ -67,46 +110,68 @@ Shared call out
   <category>Websites</category>
   <guid>https://internal.ssgvip.com/projects/posts/project-chs-website/</guid>
   <pubDate>Fri, 06 Sep 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://internal.ssgvip.com/projects/posts/project-chs-website" medium="image"/>
+  <media:content url="https://internal.ssgvip.com/assets/CHSV.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
-  <title>Bank of America</title>
-  <link>https://internal.ssgvip.com/projects/posts/project-bofa/</link>
+  <title>Fortnite Exploration</title>
+  <link>https://internal.ssgvip.com/projects/posts/Fortnite-Exploration/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This describes a partnerhsip of the SSG with the Bank of America.</p>
-<p>Add some more content about the BofA project.</p>
+<p>As Chris Dixon once noted, emerging technologies start out looking like toys, or in this case, video games. The Unreal Engine for Forrnite (UEFN) and related Verse programming language, made by Epic Games, is a massively powerful tool for creating user generated content in a massive online world. We are exploring how to meaningfully build content for daily life of a university student based on “game” interfaces.</p>
+<p>Github repo:https://github.com/vcu-ssg/ssg-gamedev-uefn-verse GH pages: https://vcu-ssg.github.io/ssg-gamedev-uefn-verse/getting-started-with-verse.html</p>
 
 
 
  ]]></description>
   <category>Project list</category>
-  <category>Bank of America</category>
-  <guid>https://internal.ssgvip.com/projects/posts/project-bofa/</guid>
-  <pubDate>Tue, 25 Jul 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://internal.ssgvip.com/projects/posts/project-bofa" medium="image"/>
+  <category>Fortnite</category>
+  <guid>https://internal.ssgvip.com/projects/posts/Fortnite-Exploration/</guid>
+  <pubDate>Mon, 18 Mar 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/Fortnite.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
-  <title>Health VR</title>
-  <link>https://internal.ssgvip.com/projects/posts/project-healthvr/</link>
+  <title>Small Business and Supplier Diversity Chatbot</title>
+  <link>https://internal.ssgvip.com/projects/posts/Chatbot/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This describes a partnerhsip with the Motor Control Laboratory at VCU.</p>
+<p>SSG designed, deployed and delivered a chatbot that can be accessed from specific pages within a website as well as from within a web-based application by clicking a link or button. The chatbot was able to answer questions typed into a provided field, based on a list of questions and corresponding answers maintained with the chat bot system. The chatbot should also have the ability to route the user to their choice of additional support through phone and email.</p>
+<p>Client site: https://sbsd.virginia.gov/ Github repo:https://github.com/vcu-ssg/ssg-sbsd-chatbot GH pages: https://vcu-ssg.github.io/ssg-sbsd-chatbot/</p>
+<p>Students: Paul Reid</p>
 
 
 
  ]]></description>
   <category>Project list</category>
-  <category>HealthVR</category>
-  <guid>https://internal.ssgvip.com/projects/posts/project-healthvr/</guid>
-  <pubDate>Thu, 20 Jul 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://internal.ssgvip.com/projects/posts/project-healthvr" medium="image"/>
+  <category>SBSD</category>
+  <guid>https://internal.ssgvip.com/projects/posts/Chatbot/</guid>
+  <pubDate>Sat, 16 Mar 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/SBSD.png" medium="image" type="image/png" height="58" width="144"/>
+</item>
+<item>
+  <title>Innovation Ecosystem Mapping</title>
+  <link>https://internal.ssgvip.com/projects/posts/Ecosystem-Mapping/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This project prototyped a map of the regional innovation ecosystem for Activation Capital, facilitating access to resources and information for venture founders, venture funders, and innovation support organizations.</p>
+<p>Github repo: https://github.com/vcu-ssg/ssg-inno-eco-mapping</p>
+
+
+
+ ]]></description>
+  <category>Project list</category>
+  <category>Activation Capital</category>
+  <guid>https://internal.ssgvip.com/projects/posts/Ecosystem-Mapping/</guid>
+  <pubDate>Thu, 19 Oct 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/ActivationCT.png" medium="image" type="image/png" height="46" width="144"/>
 </item>
 <item>
   <title>RamSafe</title>
@@ -130,7 +195,9 @@ Shared call out
 <p>_shared-call-out.qmd</p>
 </div>
 </div>
-<p>Add text here!</p>
+<p>This project, initiated and managed by SSG alum Inho Park, worked with multiple institutional stakeholders to design service quality improvements to VCU’s “RamSafe” ride service. This required a deep exploration of routing and ride hailing software, as well as sustained engagement with a rapidly growing startup in this field.</p>
+<p>Github repo: https://github.com/vcu-ssg/ssg-trc-dashboard</p>
+<p>improving user experience with VCU RamSafe by discovering ways to work with The Routing Company, RamSafe’s vendor for mapping and routing services</p>
 
 
 
@@ -138,8 +205,70 @@ Shared call out
   <category>Project list</category>
   <category>RamSafe</category>
   <guid>https://internal.ssgvip.com/projects/posts/project-ramsafe/</guid>
+  <pubDate>Fri, 13 Oct 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/VCUPT.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Liquid Strategies Proposal Generator</title>
+  <link>https://internal.ssgvip.com/projects/posts/Liquid-Generator/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>SSG designed, developed and delivered a client proposal generator tool. The tool automates the creation and customization of briefing presentations, allowing employees to focus more on the content of the presentation and less on the boilerplate. SSG delivered a working, deployable application with training videos for employees.</p>
+<p>Client site: https://lsfunds.com/ GH page site: https://vcu-ssg.github.io/ssg-quarto-overlay-finreport/ Github repo: https://github.com/vcu-ssg/ssg-quarto-overlay-finreport</p>
+<p>Students: Moses Farley, Zach McDonough, Nitin Kanuri, Inho Park</p>
+
+
+
+ ]]></description>
+  <category>Project list</category>
+  <category>:Liquid Strategies</category>
+  <guid>https://internal.ssgvip.com/projects/posts/Liquid-Generator/</guid>
+  <pubDate>Wed, 11 Oct 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/LiquidStrats.png" medium="image" type="image/png" height="54" width="144"/>
+</item>
+<item>
+  <title>Health VR</title>
+  <link>https://internal.ssgvip.com/projects/posts/project-healthvr/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers.</p>
+
+
+
+ ]]></description>
+  <category>Project list</category>
+  <category>HealthVR</category>
+  <category>WIP</category>
+  <guid>https://internal.ssgvip.com/projects/posts/project-healthvr/</guid>
   <pubDate>Thu, 20 Jul 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://internal.ssgvip.com/projects/posts/project-ramsafe" medium="image"/>
+  <media:content url="https://internal.ssgvip.com/assets/VCUHealth.png" medium="image" type="image/png" height="45" width="144"/>
+</item>
+<item>
+  <title>Bank of America</title>
+  <link>https://internal.ssgvip.com/projects/posts/project-bofa/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This describes a partnerhsip of the SSG with the Bank of America.</p>
+<p>Github repo: https://github.com/vcu-ssg/ssgvip-bank-metrics Github repo: https://github.com/vcu-ssg/ssg-vcu-bofa-sandbox</p>
+<p>Add some more content about the BofA project.</p>
+
+
+
+ ]]></description>
+  <category>Project list</category>
+  <category>Bank of America</category>
+  <guid>https://internal.ssgvip.com/projects/posts/project-bofa/</guid>
+  <pubDate>Fri, 07 Apr 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://internal.ssgvip.com/assets/BOA.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>

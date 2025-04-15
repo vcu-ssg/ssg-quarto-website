@@ -2,13 +2,14 @@
 title: Health VR
 subtitle: A partnership between the SSG and VCU Health
 description: |
-  A video highlighting some of Quarto's features that are especially useful for academics, as educators and as researchers.
+  This describes a partnerhsip with the Motor Control Laboratory at VCU.
 categories:
   - Project list
   - HealthVR
+  - WIP 
 date: "07/20/2023"
-image: ""
-image-alt: ""
+image: "/assets/VCUHealth.png"
+image-alt: "VCU Health"
 ---
 
-This describes a partnerhsip with the Motor Control Laboratory at VCU.
+A video highlighting some of Quarto's features that are especially useful for academics, as educators and as researchers.

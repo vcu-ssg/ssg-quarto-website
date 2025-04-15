@@ -6,9 +6,9 @@ description: |
 categories:
   - Project list
   - :Liquid Strategies
-date: "11/12/2023"
-image: ""
-image-alt: ""
+date: "10/11/2023"
+image: "/assets/LiquidStrats.png"
+image-alt: "Liquid Strategies Organization"
 ---
 
 SSG designed, developed and delivered a client proposal generator tool. The tool automates the creation and customization of briefing presentations, allowing employees to focus more on the content of the presentation and less on the boilerplate.  SSG delivered a working, deployable application with training videos for employees.

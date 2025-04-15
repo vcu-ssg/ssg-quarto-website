@@ -7,9 +7,9 @@ categories:
   - Project list
   - Ongoing project
   - Medicinal
-date: "01/31/2025"
-image: "https://www.google.com/imgres?q=oms&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F89%2FFlag_of_WHO.svg%2F1200px-Flag_of_WHO.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDirector-General_of_the_World_Health_Organization&docid=-Oi3vAyagn3AsM&tbnid=33v8Oj6Q9f_pLM&vet=12ahUKEwjo2ZS916-LAxVwF1kFHYU2MtMQM3oECGUQAA..i&w=1200&h=800&hcb=2&ved=2ahUKEwjo2ZS916-LAxVwF1kFHYU2MtMQM3oECGUQAA"
-image-alt: ""
+date: "09/09/2024"
+image: "/assets/OMS.png"
+image-alt: "OMS"
 ---
 
 This project offers initial design and prototyping for a surgical anesthesia training simulator for oral and maxillofacial surgeons. The design is based on task flows incorporated into OMS training and certification, and serves to sustain and develop the relevant skills base among practitioners.

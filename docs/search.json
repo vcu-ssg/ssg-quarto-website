@@ -11,21 +11,21 @@
     "href": "projects/posts/project-ramsafe/index.html",
     "title": "RamSafe",
     "section": "",
-    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\nAdd text here!"
+    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\nThis project, initiated and managed by SSG alum Inho Park, worked with multiple institutional stakeholders to design service quality improvements to VCU’s “RamSafe” ride service. This required a deep exploration of routing and ride hailing software, as well as sustained engagement with a rapidly growing startup in this field.\nGithub repo: https://github.com/vcu-ssg/ssg-trc-dashboard\nimproving user experience with VCU RamSafe by discovering ways to work with The Routing Company, RamSafe’s vendor for mapping and routing services"
   },
   {
     "objectID": "projects/posts/project-chs-website/index.html",
     "href": "projects/posts/project-chs-website/index.html",
-    "title": "CHS Website",
+    "title": "CHSV Website",
     "section": "",
-    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\nWebsite redesign for the Chesterfield Historical Society.\n(This is a blog entry. See quarto blogs: https://quarto.org/docs/websites/website-blog.html)"
+    "text": "The CHSV website redevelopment offers a fresh take on the website of an important local history organization, refactoring the site around specific goals rather than general information."
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
-    "title": "\nThis is our Projects\n",
+    "title": "\nThese are our Current & Past Projects:\n",
     "section": "",
-    "text": "This is our Projects\n\n\nOur projects are led by awesome students at VCU.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject test\n\n\n\nProject list\n\n\nnew project\n\n\n\nHome page for the project\n\n\n\n\n\n\nJan 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCHS Website\n\n\n\nProject list\n\n\nWebsites\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank of America\n\n\n\nProject list\n\n\nBank of America\n\n\n\nHome page for the project\n\n\n\n\n\n\nJul 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth VR\n\n\n\nProject list\n\n\nHealthVR\n\n\n\nA video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers.\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRamSafe\n\n\n\nProject list\n\n\nRamSafe\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "These are our Current & Past Projects:\n\n\nOur projects are led by awesome students at VCU.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClient Platform Analysis\n\n\n\nProject list\n\n\nIT4Cause\n\n\n\nHome page for the project\n\n\n\n\n\n\nMar 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSSG website\n\n\n\nProject list\n\n\nWebsite\n\n\nWIP\n\n\n\nStudent Led Website for SSG\n\n\n\n\n\n\nMar 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOMS Anesthesia Emergency Simulation\n\n\n\nProject list\n\n\nOngoing project\n\n\nMedicinal\n\n\n\nLearn more about our OMS project.\n\n\n\n\n\n\nSep 9, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCHSV Website\n\n\n\nProject list\n\n\nWebsites\n\n\n\nRedesigned the CHSV Website\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFortnite Exploration\n\n\n\nProject list\n\n\nFortnite\n\n\n\nHome page for the project\n\n\n\n\n\n\nMar 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Business and Supplier Diversity Chatbot\n\n\n\nProject list\n\n\nSBSD\n\n\n\nHome page for the project\n\n\n\n\n\n\nMar 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInnovation Ecosystem Mapping\n\n\n\nProject list\n\n\nActivation Capital\n\n\n\nHome page for the project\n\n\n\n\n\n\nOct 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRamSafe\n\n\n\nProject list\n\n\nRamSafe\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nOct 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiquid Strategies Proposal Generator\n\n\n\nProject list\n\n\n:Liquid Strategies\n\n\n\nHome page for the project\n\n\n\n\n\n\nOct 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth VR\n\n\n\nProject list\n\n\nHealthVR\n\n\nWIP\n\n\n\nThis describes a partnerhsip with the Motor Control Laboratory at VCU.\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank of America\n\n\n\nProject list\n\n\nBank of America\n\n\n\nHome page for the project\n\n\n\n\n\n\nApr 7, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "ourteam/wbenton.html",
@@ -277,14 +277,14 @@
     "href": "projects/posts/project-bofa/index.html",
     "title": "Bank of America",
     "section": "",
-    "text": "This describes a partnerhsip of the SSG with the Bank of America.\nAdd some more content about the BofA project."
+    "text": "This describes a partnerhsip of the SSG with the Bank of America.\nGithub repo: https://github.com/vcu-ssg/ssgvip-bank-metrics Github repo: https://github.com/vcu-ssg/ssg-vcu-bofa-sandbox\nAdd some more content about the BofA project."
   },
   {
     "objectID": "projects/posts/project-healthvr/index.html",
     "href": "projects/posts/project-healthvr/index.html",
     "title": "Health VR",
     "section": "",
-    "text": "This describes a partnerhsip with the Motor Control Laboratory at VCU."
+    "text": "A video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers."
   },
   {
     "objectID": "projects/posts/project-test/index.html",
@@ -292,5 +292,68 @@
     "title": "Project test",
     "section": "",
     "text": "this is my first description line for this project."
+  },
+  {
+    "objectID": "projects/posts/Chatbot/index.html",
+    "href": "projects/posts/Chatbot/index.html",
+    "title": "Small Business and Supplier Diversity Chatbot",
+    "section": "",
+    "text": "SSG designed, deployed and delivered a chatbot that can be accessed from specific pages within a website as well as from within a web-based application by clicking a link or button. The chatbot was able to answer questions typed into a provided field, based on a list of questions and corresponding answers maintained with the chat bot system. The chatbot should also have the ability to route the user to their choice of additional support through phone and email.\nClient site: https://sbsd.virginia.gov/ Github repo:https://github.com/vcu-ssg/ssg-sbsd-chatbot GH pages: https://vcu-ssg.github.io/ssg-sbsd-chatbot/\nStudents: Paul Reid"
+  },
+  {
+    "objectID": "projects/posts/Fortnite-Exploration/index.html",
+    "href": "projects/posts/Fortnite-Exploration/index.html",
+    "title": "Fortnite Exploration",
+    "section": "",
+    "text": "As Chris Dixon once noted, emerging technologies start out looking like toys, or in this case, video games. The Unreal Engine for Forrnite (UEFN) and related Verse programming language, made by Epic Games, is a massively powerful tool for creating user generated content in a massive online world. We are exploring how to meaningfully build content for daily life of a university student based on “game” interfaces.\nGithub repo:https://github.com/vcu-ssg/ssg-gamedev-uefn-verse GH pages: https://vcu-ssg.github.io/ssg-gamedev-uefn-verse/getting-started-with-verse.html"
+  },
+  {
+    "objectID": "projects/posts/ECG-Display/index.html",
+    "href": "projects/posts/ECG-Display/index.html",
+    "title": "Medical ECG Display",
+    "section": "",
+    "text": "(Add description of project here. 2-3 sentences)\nGithub repo:https://github.com/vcu-ssg/ssg-medical-ecg-analysis"
+  },
+  {
+    "objectID": "projects/posts/CPA-IT4Cause/index.html",
+    "href": "projects/posts/CPA-IT4Cause/index.html",
+    "title": "Client Platform Analysis",
+    "section": "",
+    "text": "SSG is contributing to a platform service provider review with IT4Cause, supporting the mission of Islamic Relief USA as they explore options for a new case management provider. This activity allows our students to focus on a crucial aspect of software work: making a case for a particular implementation based on very specific organizational needs."
+  },
+  {
+    "objectID": "projects/posts/Defibrilator Simulator/index.html",
+    "href": "projects/posts/Defibrilator Simulator/index.html",
+    "title": "Medical Deibrillator Simulator",
+    "section": "",
+    "text": "(Add description of project here. 2-3 sentences) Github repo:https://github.com/vcu-ssg/ssg-medical-p5-defib"
+  },
+  {
+    "objectID": "projects/posts/Ecosystem-Mapping/index.html",
+    "href": "projects/posts/Ecosystem-Mapping/index.html",
+    "title": "Innovation Ecosystem Mapping",
+    "section": "",
+    "text": "This project prototyped a map of the regional innovation ecosystem for Activation Capital, facilitating access to resources and information for venture founders, venture funders, and innovation support organizations.\nGithub repo: https://github.com/vcu-ssg/ssg-inno-eco-mapping"
+  },
+  {
+    "objectID": "projects/posts/Liquid-Generator/index.html",
+    "href": "projects/posts/Liquid-Generator/index.html",
+    "title": "Liquid Strategies Proposal Generator",
+    "section": "",
+    "text": "SSG designed, developed and delivered a client proposal generator tool. The tool automates the creation and customization of briefing presentations, allowing employees to focus more on the content of the presentation and less on the boilerplate. SSG delivered a working, deployable application with training videos for employees.\nClient site: https://lsfunds.com/ GH page site: https://vcu-ssg.github.io/ssg-quarto-overlay-finreport/ Github repo: https://github.com/vcu-ssg/ssg-quarto-overlay-finreport\nStudents: Moses Farley, Zach McDonough, Nitin Kanuri, Inho Park"
+  },
+  {
+    "objectID": "projects/posts/project-OMS-Simulator/index.html",
+    "href": "projects/posts/project-OMS-Simulator/index.html",
+    "title": "OMS Anesthesia Emergency Simulation",
+    "section": "",
+    "text": "This project offers initial design and prototyping for a surgical anesthesia training simulator for oral and maxillofacial surgeons. The design is based on task flows incorporated into OMS training and certification, and serves to sustain and develop the relevant skills base among practitioners.\nGithub repo: https://github.com/vcu-ssg/ssg-medical-oms-simulator"
+  },
+  {
+    "objectID": "projects/posts/SSG-Model/index.html",
+    "href": "projects/posts/SSG-Model/index.html",
+    "title": "SSG website",
+    "section": "",
+    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\nThis project develops our own website, both as a means of training students on contemporary web development tools and techniques and as a means of creating a visible public face for our activities. As a multi-project, crossfunctional VIP, we have a rich and varied story to tell, and we are making a website that lets our participants show the world their excellent work!\nGithub repo: https://github.com/vcu-ssg/ssg-quarto-website"
   }
 ]

@@ -16,8 +16,17 @@
 ---
 <div class="project-banner-wrap">
   <div class="project-page-banner">
-  <h1>This is our Projects</h1>
-  <p>Our projects are led by awesome students at VCU.</p>
+  <h1 style="color: white; background-color: #333; border: 1px solid #555; border-radius: 5px; padding: 10px;">These are our Current & Past Projects:</h1>
+  <p style="
+  display: inline-block; 
+  color: white; 
+  background-color: #333; 
+  border: 1px solid #555; 
+  border-radius: 5px; 
+  padding: 6px;
+">
+  Our projects are led by awesome students at VCU.
+</p>
   </div>
   <div class="project-banner-img-wrap">
   <div class="banner-shadow"></div>

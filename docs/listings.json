@@ -2,11 +2,17 @@
   {
     "listing": "/projects/index.html",
     "items": [
-      "/projects/posts/project-test/index.html",
+      "/projects/posts/CPA-IT4Cause/index.html",
+      "/projects/posts/SSG-Model/index.html",
+      "/projects/posts/project-OMS-Simulator/index.html",
       "/projects/posts/project-chs-website/index.html",
-      "/projects/posts/project-bofa/index.html",
+      "/projects/posts/Fortnite-Exploration/index.html",
+      "/projects/posts/Chatbot/index.html",
+      "/projects/posts/Ecosystem-Mapping/index.html",
+      "/projects/posts/project-ramsafe/index.html",
+      "/projects/posts/Liquid-Generator/index.html",
       "/projects/posts/project-healthvr/index.html",
-      "/projects/posts/project-ramsafe/index.html"
+      "/projects/posts/project-bofa/index.html"
     ]
   }
 ]

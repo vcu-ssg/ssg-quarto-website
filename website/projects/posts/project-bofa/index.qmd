@@ -6,9 +6,9 @@ description: |
 categories:
   - Project list
   - Bank of America
-date: "07/25/2023"
-image: ""
-image-alt: ""
+date: "04/7/2023"
+image: "/assets/BOA.png"
+image-alt: "Bank of America"
 ---
 
 This describes a partnerhsip of the SSG with the Bank of America.
