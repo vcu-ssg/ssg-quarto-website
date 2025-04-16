@@ -2,7 +2,10 @@
 title: Bank of America
 subtitle: A partnership between the SSG and the Bank of America
 description: |
-  Home page for the project
+  Bank of America supported undergraduates through a summer intern program.
+  The students, with fresh perspectives developed concepts for financial
+  literacy, and then implemented a react-native based financial literacy
+  prototype application for the Bank.
 categories:
   - Project list
   - Bank of America
@@ -16,5 +19,5 @@ This describes a partnerhsip of the SSG with the Bank of America.
 Github repo: https://github.com/vcu-ssg/ssgvip-bank-metrics
 Github repo: https://github.com/vcu-ssg/ssg-vcu-bofa-sandbox
 
-Add some more content about the BofA project.
+
 

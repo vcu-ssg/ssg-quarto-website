@@ -1,52 +1,59 @@
 [
   {
-    "objectID": "student-resources/index.html",
-    "href": "student-resources/index.html",
-    "title": "SSG at VCU",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "contact page",
     "section": "",
-    "text": "some stuff here!"
+    "text": "this is a placehoder while we figure out that is happening with the other contact.qmd page!\nHello World!"
   },
   {
-    "objectID": "projects/posts/project-ramsafe/index.html",
-    "href": "projects/posts/project-ramsafe/index.html",
-    "title": "RamSafe",
+    "objectID": "ourteam/lykt2.html",
+    "href": "ourteam/lykt2.html",
+    "title": "\nKevin Ly\n",
     "section": "",
-    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\nThis project, initiated and managed by SSG alum Inho Park, worked with multiple institutional stakeholders to design service quality improvements to VCU’s “RamSafe” ride service. This required a deep exploration of routing and ride hailing software, as well as sustained engagement with a rapidly growing startup in this field.\nGithub repo: https://github.com/vcu-ssg/ssg-trc-dashboard\nimproving user experience with VCU RamSafe by discovering ways to work with The Routing Company, RamSafe’s vendor for mapping and routing services"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nKevin Ly\n\n\n\n\n\n\n\n\n\nSSG Alumni\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "projects/posts/project-chs-website/index.html",
-    "href": "projects/posts/project-chs-website/index.html",
-    "title": "CHSV Website",
+    "objectID": "ourteam/khoshdelmn.html",
+    "href": "ourteam/khoshdelmn.html",
+    "title": "\nMarwha Khoshdel\n",
     "section": "",
-    "text": "The CHSV website redevelopment offers a fresh take on the website of an important local history organization, refactoring the site around specific goals rather than general information."
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nMarwha Khoshdel\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "\nThese are our Current & Past Projects:\n",
+    "objectID": "ourteam/zhanga7.html",
+    "href": "ourteam/zhanga7.html",
+    "title": "\nAmi Zhang\n",
     "section": "",
-    "text": "Our projects are led by awesome students at VCU.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClient Platform Analysis\n\n\n\nProject list\n\n\nIT4Cause\n\n\n\nSSG is contributing to a platform service provider review with IT4Cause, supporting the mission of an international aid organization as they explore options for a new case…\n\n\n\n\n\n\nMar 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSSG website\n\n\n\nProject list\n\n\nWebsite\n\n\nWIP\n\n\n\nStudent Led Website for SSG\n\n\n\n\n\n\nMar 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOMS Anesthesia Emergency Simulation\n\n\n\nProject list\n\n\nOngoing project\n\n\nMedicinal\n\n\n\nLearn more about our OMS project.\n\n\n\n\n\n\nSep 9, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCHSV Website\n\n\n\nProject list\n\n\nWebsites\n\n\n\nRedesigned the CHSV Website\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFortnite Exploration\n\n\n\nProject list\n\n\nFortnite\n\n\n\nHome page for the project\n\n\n\n\n\n\nMar 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Business and Supplier Diversity Chatbot\n\n\n\nProject list\n\n\nSBSD\n\n\n\nSSG designed, deployed and delivered a chatbot that can be accessed from specific pages within a website as well as from within a web-based application by clicking a link or…\n\n\n\n\n\n\nMar 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInnovation Ecosystem Mapping\n\n\n\nProject list\n\n\nActivation Capital\n\n\n\nThis project prototyped a map of the regional innovation ecosystem for Activation Capital, facilitating access to resources and information for venture founders, venture…\n\n\n\n\n\n\nOct 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRamSafe\n\n\n\nProject list\n\n\nRamSafe\n\n\n\n(description in the YAML header of index.qmd)\n\n\n\n\n\n\nOct 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiquid Strategies Proposal Generator\n\n\n\nProject list\n\n\n:Liquid Strategies\n\n\n\nHome page for the project\n\n\n\n\n\n\nOct 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth VR\n\n\n\nProject list\n\n\nHealthVR\n\n\nWIP\n\n\n\nThis describes a partnerhsip with the Motor Control Laboratory at VCU.\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank of America\n\n\n\nProject list\n\n\nBank of America\n\n\n\nHome page for the project\n\n\n\n\n\n\nApr 7, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nAmi Zhang\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "ourteam/wbenton.html",
-    "href": "ourteam/wbenton.html",
-    "title": "\nWilliam Benton\n",
+    "objectID": "ourteam/moralajc.html",
+    "href": "ourteam/moralajc.html",
+    "title": "\nJulmarie Morala\n",
     "section": "",
-    "text": "View all Members"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nJulmarie Morala\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "ourteam/wbenton.html#education",
-    "href": "ourteam/wbenton.html#education",
-    "title": "\nWilliam Benton\n",
-    "section": "Education",
-    "text": "Education\n\nPh.D., Anthropology, University of Michigan"
+    "objectID": "ourteam/darkoim.html",
+    "href": "ourteam/darkoim.html",
+    "title": "\nIsabella Darko\n",
+    "section": "",
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nIsabella Darko\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "ourteam/wbenton.html#experience",
-    "href": "ourteam/wbenton.html#experience",
-    "title": "\nWilliam Benton\n",
-    "section": "Experience",
-    "text": "Experience\n\nInstructor, DaVinci Program, VCU"
+    "objectID": "ourteam/index.html",
+    "href": "ourteam/index.html",
+    "title": "Meet our team",
+    "section": "",
+    "text": "The SSG team is comprised of VCU students from different majors working cross-functionally, with drive.\n\n\n\nAll Members\n\n\nCurrent students\n\n\nFaculty Mentors\n\n\nSSG Alumni\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInho Park\n\n\nSSG Alumni\n\n\nGraphic design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKevin Ly\n\n\nSSG Alumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKian Thornton\n\n\nAlumni\n\n\nInterdisciplinary Studies\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLenice Jackson\n\n\nAlumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLizzy Shin\n\n\nAlumni\n\n\nGraphic Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSweta Parajuli\n\n\nAlumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor\n\n\nInnovation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmi Zhang\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngela Tran\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaul Reid\n\n\nCurrent Student\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSerina Bushong\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsabella Darko\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarwha Khoshdel\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoseph Lin\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAli Merchant\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulmarie Morala\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShane Simes\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSri Tikkisetti\n\n\nCurrent Student\n\n\n(missing)"
+  },
+  {
+    "objectID": "ourteam/index.html#section",
+    "href": "ourteam/index.html#section",
+    "title": "Meet our team",
+    "section": "",
+    "text": "The SSG team is comprised of VCU students from different majors working cross-functionally, with drive.\n\n\n\nAll Members\n\n\nCurrent students\n\n\nFaculty Mentors\n\n\nSSG Alumni\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInho Park\n\n\nSSG Alumni\n\n\nGraphic design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKevin Ly\n\n\nSSG Alumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKian Thornton\n\n\nAlumni\n\n\nInterdisciplinary Studies\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLenice Jackson\n\n\nAlumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLizzy Shin\n\n\nAlumni\n\n\nGraphic Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSweta Parajuli\n\n\nAlumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor\n\n\nInnovation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmi Zhang\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngela Tran\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaul Reid\n\n\nCurrent Student\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSerina Bushong\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsabella Darko\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarwha Khoshdel\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoseph Lin\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAli Merchant\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulmarie Morala\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShane Simes\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSri Tikkisetti\n\n\nCurrent Student\n\n\n(missing)"
   },
   {
     "objectID": "ourteam/tikkisettiss.html",
@@ -63,11 +70,137 @@
     "text": "View all Members  \n\n\n\n\n\n\n\n\n\nShane Simes\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "ourteam/shinsy3.html",
-    "href": "ourteam/shinsy3.html",
-    "title": "\nLizzy Shin\n",
+    "objectID": "ourteam/jacksonlr2.html",
+    "href": "ourteam/jacksonlr2.html",
+    "title": "\nLenice Jackson\n",
     "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nLizzy Shin\n\n\n\n\n\n\n\n\n\nAlumni\n\n\n\n\n(biography not available)"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nLenice Jackson\n\n\n\n\n\n\n\n\n\nAlumni\n\n\n\n\n(biography not available)"
+  },
+  {
+    "objectID": "ourteam/reidp.html",
+    "href": "ourteam/reidp.html",
+    "title": "\nPaul Reid\n",
+    "section": "",
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nPaul Reid\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello World!  We’re Software for Social Good",
+    "section": "",
+    "text": "Here at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.\n\nLearn more about us"
+  },
+  {
+    "objectID": "index.html#who-we-are",
+    "href": "index.html#who-we-are",
+    "title": "Hello World!  We’re Software for Social Good",
+    "section": "Who We Are",
+    "text": "Who We Are\n\n\n\n\n\n\nA VIP Team at VCU\nThe VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.\nLearn more about VIP Programs\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Softwares that Benefits Communities\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla\n\n\n\n\n\n\n\n\n\nStudent-Driven Team\nThe VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.\nView Team Members\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDevelop Team\n\n\nThe developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.\nThe developers participate in various activities, including but not limited to:\n\n\nFront-End Development\n\n\nBack-End Development\n\n\nData-Visualization\n\n\n\n\n\n\n\n\n\nDesign Team\n\n\nThe developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.\nThe developers participate in various activities, including but not limited to:\n\n\nFront-End Development\n\n\nBack-End Development\n\n\nData-Visualization\n\n\n\n\n\n\n\n\n\nResearch Team\n\n\nThe developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.\nThe developers participate in various activities, including but not limited to:\n\n\nFront-End Development\n\n\nBack-End Development\n\n\nData-Visualization"
+  },
+  {
+    "objectID": "index.html#our-mission",
+    "href": "index.html#our-mission",
+    "title": "Hello World!  We’re Software for Social Good",
+    "section": "Our Mission",
+    "text": "Our Mission\n\nExperiment, learn, design and develop - We provide a sandbox for students to uncover their true potential, and fresh perspectives to project partners.\n\n\n\n\nConnecting Communities\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max)\n\n\n\n\n\nSupporting Students\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max)\n\n\n\n\n\nInnovation Sandbox\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max)"
+  },
+  {
+    "objectID": "index.html#why-work-with-us",
+    "href": "index.html#why-work-with-us",
+    "title": "Hello World!  We’re Software for Social Good",
+    "section": "Why Work With Us?",
+    "text": "Why Work With Us?\n\nThe VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.\n\n\n1. Discover New Network & Insights\n\nEngage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.\n\n\n\n\n\n\n2. Adaptable Project Timelines\n\nEngage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.\n\n\n\n\n\n\n3. Team That Grows With You\n\nEngage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.\n\n\n\n\n\n\n\n\nStart Your Journey With Us\nThe VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University.\n\n\n\n\nJoin Next Cohort \n\n\nOpen to undergraduate and graduate students at VCU.\n\n\n\n\n\n\nPartner a Project \n\n\nWhether you are a business, non-profit organization, or a start up."
+  },
+  {
+    "objectID": "projects/posts/project-chs-website/index.html",
+    "href": "projects/posts/project-chs-website/index.html",
+    "title": "CHSV Website",
+    "section": "",
+    "text": "The CHSV website redevelopment offers a fresh take on the website of an important local history organization, refactoring the site around specific goals rather than general information."
+  },
+  {
+    "objectID": "projects/posts/project-ramsafe/index.html",
+    "href": "projects/posts/project-ramsafe/index.html",
+    "title": "CoPath (RamSafe)",
+    "section": "",
+    "text": "This project, initiated and managed by SSG alum Inho Park, worked with multiple institutional stakeholders to design service quality improvements to VCU’s “RamSafe” ride service. This required a deep exploration of routing and ride hailing software, as well as sustained engagement with a rapidly growing startup in this field.\nGithub repo: https://github.com/vcu-ssg/ssg-trc-dashboard\nimproving user experience with VCU RamSafe by discovering ways to work with The Routing Company, RamSafe’s vendor for mapping and routing services"
+  },
+  {
+    "objectID": "projects/posts/SSG-Model/index.html",
+    "href": "projects/posts/SSG-Model/index.html",
+    "title": "SSG website",
+    "section": "",
+    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\nThis project develops our own website, both as a means of training students on contemporary web development tools and techniques and as a means of creating a visible public face for our activities. As a multi-project, crossfunctional VIP, we have a rich and varied story to tell, and we are making a website that lets our participants show the world their excellent work!\nGithub repo: https://github.com/vcu-ssg/ssg-quarto-website"
+  },
+  {
+    "objectID": "projects/posts/CPA-IT4Cause/index.html",
+    "href": "projects/posts/CPA-IT4Cause/index.html",
+    "title": "Client Platform Analysis",
+    "section": "",
+    "text": "SSG is contributing to a platform service provider review with IT4Cause, supporting the mission of Islamic Relief USA as they explore options for a new case management provider. This activity allows our students to focus on a crucial aspect of software work: making a case for a particular implementation based on very specific organizational needs."
+  },
+  {
+    "objectID": "projects/posts/Ecosystem-Mapping/index.html",
+    "href": "projects/posts/Ecosystem-Mapping/index.html",
+    "title": "Innovation Ecosystem Mapping",
+    "section": "",
+    "text": "This project prototyped a map of the regional innovation ecosystem for Activation Capital, facilitating access to resources and information for venture founders, venture funders, and innovation support organizations.\nGithub repo: https://github.com/vcu-ssg/ssg-inno-eco-mapping"
+  },
+  {
+    "objectID": "projects/posts/project-healthvr/index.html",
+    "href": "projects/posts/project-healthvr/index.html",
+    "title": "Health VR",
+    "section": "",
+    "text": "A video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers."
+  },
+  {
+    "objectID": "student-resources/index.html",
+    "href": "student-resources/index.html",
+    "title": "SSG at VCU",
+    "section": "",
+    "text": "some stuff here!"
+  },
+  {
+    "objectID": "projects/posts/Chatbot/index.html",
+    "href": "projects/posts/Chatbot/index.html",
+    "title": "Small Business and Supplier Diversity Chatbot",
+    "section": "",
+    "text": "SSG designed, deployed and delivered a chatbot that can be accessed from specific pages within a website as well as from within a web-based application by clicking a link or button. The chatbot was able to answer questions typed into a provided field, based on a list of questions and corresponding answers maintained with the chat bot system. The chatbot should also have the ability to route the user to their choice of additional support through phone and email.\nClient site: https://sbsd.virginia.gov/ Github repo:https://github.com/vcu-ssg/ssg-sbsd-chatbot GH pages: https://vcu-ssg.github.io/ssg-sbsd-chatbot/\nStudents: Paul Reid"
+  },
+  {
+    "objectID": "projects/posts/Fortnite-Exploration/index.html",
+    "href": "projects/posts/Fortnite-Exploration/index.html",
+    "title": "Fortnite Exploration",
+    "section": "",
+    "text": "Fortnite is an online video game where players compete or collaborate in a colorful, fast-paced world filled with building, exploration, and action. Beyond being a game, Fortnite has evolved into a creative platform where users can design and publish their own interactive experiences—similar to how STEAM hosts and distributes games made by developers. Our team is learning UEFN (Unreal Editor for Fortnite) to gain hands-on experience in game development, world-building, and publishing on a cutting-edge, real-world platform.\nGithub repo:https://github.com/vcu-ssg/ssg-gamedev-uefn-verse GH pages: https://vcu-ssg.github.io/ssg-gamedev-uefn-verse/getting-started-with-verse.html"
+  },
+  {
+    "objectID": "projects/posts/Liquid-Generator/index.html",
+    "href": "projects/posts/Liquid-Generator/index.html",
+    "title": "Liquid Strategies Proposal Generator",
+    "section": "",
+    "text": "SSG designed, developed and delivered a client proposal generator tool. The tool automates the creation and customization of briefing presentations, allowing employees to focus more on the content of the presentation and less on the boilerplate. SSG delivered a working, deployable application with training videos for employees.\nClient site: https://lsfunds.com/ GH page site: https://vcu-ssg.github.io/ssg-quarto-overlay-finreport/ Github repo: https://github.com/vcu-ssg/ssg-quarto-overlay-finreport\nStudents: Moses Farley, Zach McDonough, Nitin Kanuri, Inho Park"
+  },
+  {
+    "objectID": "projects/posts/project-OMS-Simulator/index.html",
+    "href": "projects/posts/project-OMS-Simulator/index.html",
+    "title": "OMS Anesthesia Emergency Simulation",
+    "section": "",
+    "text": "This project offers initial design and prototyping for a surgical anesthesia training simulator for oral and maxillofacial surgeons. The design is based on task flows incorporated into OMS training and certification, and serves to sustain and develop the relevant skills base among practitioners.\nGithub repo: https://github.com/vcu-ssg/ssg-medical-oms-simulator"
+  },
+  {
+    "objectID": "projects/posts/project-bofa/index.html",
+    "href": "projects/posts/project-bofa/index.html",
+    "title": "Bank of America",
+    "section": "",
+    "text": "This describes a partnerhsip of the SSG with the Bank of America.\nGithub repo: https://github.com/vcu-ssg/ssgvip-bank-metrics Github repo: https://github.com/vcu-ssg/ssg-vcu-bofa-sandbox"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "\nThese are our Current & Past Projects:\n",
+    "section": "",
+    "text": "Our projects are led by awesome students at VCU.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClient Platform Analysis\n\n\n\nProject list\n\n\nIT4Cause\n\n\n\nSSG is contributing to a platform service provider review with IT4Cause, supporting the mission of an international aid organization as they explore options for a new case…\n\n\n\n\n\n\nMar 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSSG website\n\n\n\nProject list\n\n\nWebsite\n\n\nWIP\n\n\n\nAs a multi-project, crossfunctional VIP, we have a rich and varied story to tell, and we are making a website that lets our participants show the world their excellent work!…\n\n\n\n\n\n\nMar 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOMS Anesthesia Emergency Simulation\n\n\n\nProject list\n\n\nOngoing project\n\n\nMedicinal\n\n\n\nLearn more about our OMS project.\n\n\n\n\n\n\nSep 9, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCHSV Website\n\n\n\nProject list\n\n\nWebsites\n\n\n\nChesterfield Historical Society of Virginia (CHSV) partnered with SSG to rethink how they presented themselves on the web, with a goal to increase engagement with a younger…\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFortnite Exploration\n\n\n\nProject list\n\n\nFortnite\n\n\n\nFortnite is an online video game where players compete or collaborate in a colorful, fast-paced world filled with building, exploration, and action. Our team is learning…\n\n\n\n\n\n\nMar 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Business and Supplier Diversity Chatbot\n\n\n\nProject list\n\n\nSBSD\n\n\n\nSSG designed, deployed and delivered a chatbot that can be accessed from specific pages within a website as well as from within a web-based application by clicking a link or…\n\n\n\n\n\n\nMar 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInnovation Ecosystem Mapping\n\n\n\nProject list\n\n\nActivation Capital\n\n\n\nThis project prototyped a map of the regional innovation ecosystem for Activation Capital, facilitating access to resources and information for venture founders, venture…\n\n\n\n\n\n\nOct 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoPath (RamSafe)\n\n\n\nProject list\n\n\nRamSafe\n\n\n\nCoPath aims to change the concept of Demand-Responsive Transport (DRT) for the better. This is described as ride-pooled buses functioning similarly to taxis with fares that…\n\n\n\n\n\n\nOct 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiquid Strategies Proposal Generator\n\n\n\nProject list\n\n\n:Liquid Strategies\n\n\n\nSSG designed, developed and delivered a client proposal generator tool. The tool automates the creation and customization of briefing presentations, allowing employees to…\n\n\n\n\n\n\nOct 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth VR\n\n\n\nProject list\n\n\nHealthVR\n\n\nWIP\n\n\n\nSSG students participated in several activities within the MCL at VCU. The Motor Control Laboratory at VCU conducts research on the neural and biomechanical mechanisms…\n\n\n\n\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBank of America\n\n\n\nProject list\n\n\nBank of America\n\n\n\nBank of America supported undergraduates through a summer intern program. The students, with fresh perspectives developed concepts for financial literacy, and then…\n\n\n\n\n\n\nApr 7, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "ourteam/parki2.html",
@@ -105,74 +238,67 @@
     "text": "Skills\n\nKorean (Native), Adobe Suite, Figma, HTML5, CSS3, Javascript, Heuristic Evaluation, Survey Design, Data Visualization"
   },
   {
-    "objectID": "ourteam/moralajc.html",
-    "href": "ourteam/moralajc.html",
-    "title": "\nJulmarie Morala\n",
+    "objectID": "ourteam/tranan7.html",
+    "href": "ourteam/tranan7.html",
+    "title": "\nAngela Tran\n",
     "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nJulmarie Morala\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nAngela Tran\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "ourteam/lykt2.html",
-    "href": "ourteam/lykt2.html",
-    "title": "\nKevin Ly\n",
+    "objectID": "ourteam/shinsy3.html",
+    "href": "ourteam/shinsy3.html",
+    "title": "\nLizzy Shin\n",
     "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nKevin Ly\n\n\n\n\n\n\n\n\n\nSSG Alumni\n\n\n\n\n(biography not available)"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nLizzy Shin\n\n\n\n\n\n\n\n\n\nAlumni\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "ourteam/khoshdelmn.html",
-    "href": "ourteam/khoshdelmn.html",
-    "title": "\nMarwha Khoshdel\n",
+    "objectID": "ourteam/wbenton.html",
+    "href": "ourteam/wbenton.html",
+    "title": "\nWilliam Benton\n",
     "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nMarwha Khoshdel\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
+    "text": "View all Members"
   },
   {
-    "objectID": "ourteam/jacksonlr2.html",
-    "href": "ourteam/jacksonlr2.html",
-    "title": "\nLenice Jackson\n",
+    "objectID": "ourteam/wbenton.html#education",
+    "href": "ourteam/wbenton.html#education",
+    "title": "\nWilliam Benton\n",
+    "section": "Education",
+    "text": "Education\n\nPh.D., Anthropology, University of Michigan"
+  },
+  {
+    "objectID": "ourteam/wbenton.html#experience",
+    "href": "ourteam/wbenton.html#experience",
+    "title": "\nWilliam Benton\n",
+    "section": "Experience",
+    "text": "Experience\n\nInstructor, DaVinci Program, VCU"
+  },
+  {
+    "objectID": "ourteam/merchanta2.html",
+    "href": "ourteam/merchanta2.html",
+    "title": "\nAli Merchant\n",
     "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nLenice Jackson\n\n\n\n\n\n\n\n\n\nAlumni\n\n\n\n\n(biography not available)"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nAli Merchant\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "ourteam/darkoim.html",
-    "href": "ourteam/darkoim.html",
-    "title": "\nIsabella Darko\n",
+    "objectID": "ourteam/parajulis4.html",
+    "href": "ourteam/parajulis4.html",
+    "title": "\nSweta Parajuli\n",
     "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nIsabella Darko\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nSweta Parajuli\n\n\n\n\n\n\n\n\n\nAlumni\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello World!  We’re Software for Social Good",
+    "objectID": "ourteam/thorntonkj.html",
+    "href": "ourteam/thorntonkj.html",
+    "title": "\nKian Thornton\n",
     "section": "",
-    "text": "Here at VCU, students from multi-disciplinary backgrounds connect with outer communities through projects that create social benefit.\n\nLearn more about us"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nKian Thornton\n\n\n\n\n\n\n\n\n\nAlumni\n\n\n\n\n(biography not available)"
   },
   {
-    "objectID": "index.html#who-we-are",
-    "href": "index.html#who-we-are",
-    "title": "Hello World!  We’re Software for Social Good",
-    "section": "Who We Are",
-    "text": "Who We Are\n\n\n\n\n\n\nA VIP Team at VCU\nThe VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.\nLearn more about VIP Programs\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Softwares that Benefits Communities\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla\n\n\n\n\n\n\n\n\n\nStudent-Driven Team\nThe VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.\nView Team Members\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDevelop Team\n\n\nThe developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.\nThe developers participate in various activities, including but not limited to:\n\n\nFront-End Development\n\n\nBack-End Development\n\n\nData-Visualization\n\n\n\n\n\n\n\n\n\nDesign Team\n\n\nThe developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.\nThe developers participate in various activities, including but not limited to:\n\n\nFront-End Development\n\n\nBack-End Development\n\n\nData-Visualization\n\n\n\n\n\n\n\n\n\nResearch Team\n\n\nThe developers consist of students with backgrounds in computer science, data analytics, cyber security, and more. Together, they collaborate to address software engineering challenges and deliver the most optimal solution.\nThe developers participate in various activities, including but not limited to:\n\n\nFront-End Development\n\n\nBack-End Development\n\n\nData-Visualization"
-  },
-  {
-    "objectID": "index.html#our-mission",
-    "href": "index.html#our-mission",
-    "title": "Hello World!  We’re Software for Social Good",
-    "section": "Our Mission",
-    "text": "Our Mission\n\nExperiment, learn, design and develop - We provide a sandbox for students to uncover their true potential, and fresh perspectives to project partners.\n\n\n\n\nConnecting Communities\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max)\n\n\n\n\n\nSupporting Students\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max)\n\n\n\n\n\nInnovation Sandbox\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu massa nec mi dignissim ulla (110 char max)"
-  },
-  {
-    "objectID": "index.html#why-work-with-us",
-    "href": "index.html#why-work-with-us",
-    "title": "Hello World!  We’re Software for Social Good",
-    "section": "Why Work With Us?",
-    "text": "Why Work With Us?\n\nThe VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University and refined for over 25 years.\n\n\n1. Discover New Network & Insights\n\nEngage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.\n\n\n\n\n\n\n2. Adaptable Project Timelines\n\nEngage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.\n\n\n\n\n\n\n3. Team That Grows With You\n\nEngage in or support projects with durations extending beyond a single semester or year, offering flexibility to accommodate diverse schedules.\n\n\n\n\n\n\n\n\nStart Your Journey With Us\nThe VIP Consortium is a non-profit alliance established to support & promote the success of Vertically Integrated Projects (VIPs) in colleges and universities worldwide. VIP is an award-winning educational construct developed at Georgia Tech & Purdue University.\n\n\n\n\nJoin Next Cohort \n\n\nOpen to undergraduate and graduate students at VCU.\n\n\n\n\n\n\nPartner a Project \n\n\nWhether you are a business, non-profit organization, or a start up."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "contact page",
+    "objectID": "ourteam/linjc.html",
+    "href": "ourteam/linjc.html",
+    "title": "\nJoseph Lin\n",
     "section": "",
-    "text": "this is a placehoder while we figure out that is happening with the other contact.qmd page!\nHello World!"
+    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nJoseph Lin\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
   },
   {
     "objectID": "ourteam/bushongsm.html",
@@ -180,20 +306,6 @@
     "title": "\nSerina Bushong\n",
     "section": "",
     "text": "View all Members  \n\n\n\n\n\n\n\n\n\nSerina Bushong\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
-  },
-  {
-    "objectID": "ourteam/index.html",
-    "href": "ourteam/index.html",
-    "title": "Meet our team",
-    "section": "",
-    "text": "The SSG team is comprised of VCU students from different majors working cross-functionally, with drive.\n\n\n\nAll Members\n\n\nCurrent students\n\n\nFaculty Mentors\n\n\nSSG Alumni\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInho Park\n\n\nSSG Alumni\n\n\nGraphic design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKevin Ly\n\n\nSSG Alumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKian Thornton\n\n\nAlumni\n\n\nInterdisciplinary Studies\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLenice Jackson\n\n\nAlumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLizzy Shin\n\n\nAlumni\n\n\nGraphic Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSweta Parajuli\n\n\nAlumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor\n\n\nInnovation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmi Zhang\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngela Tran\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaul Reid\n\n\nCurrent Student\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSerina Bushong\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsabella Darko\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarwha Khoshdel\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoseph Lin\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAli Merchant\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulmarie Morala\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShane Simes\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSri Tikkisetti\n\n\nCurrent Student\n\n\n(missing)"
-  },
-  {
-    "objectID": "ourteam/index.html#section",
-    "href": "ourteam/index.html#section",
-    "title": "Meet our team",
-    "section": "",
-    "text": "The SSG team is comprised of VCU students from different majors working cross-functionally, with drive.\n\n\n\nAll Members\n\n\nCurrent students\n\n\nFaculty Mentors\n\n\nSSG Alumni\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInho Park\n\n\nSSG Alumni\n\n\nGraphic design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJohn Leonard\n\n\nFaculty Mentor\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKevin Ly\n\n\nSSG Alumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKian Thornton\n\n\nAlumni\n\n\nInterdisciplinary Studies\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLenice Jackson\n\n\nAlumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLizzy Shin\n\n\nAlumni\n\n\nGraphic Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSweta Parajuli\n\n\nAlumni\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWilliam Benton\n\n\nFaculty Mentor\n\n\nInnovation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmi Zhang\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngela Tran\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaul Reid\n\n\nCurrent Student\n\n\nComputer Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSerina Bushong\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsabella Darko\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarwha Khoshdel\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoseph Lin\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAli Merchant\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulmarie Morala\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShane Simes\n\n\nCurrent Student\n\n\n(missing)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSri Tikkisetti\n\n\nCurrent Student\n\n\n(missing)"
   },
   {
     "objectID": "ourteam/jdleonard.html",
@@ -222,138 +334,5 @@
     "title": "\nJohn Leonard\n",
     "section": "Badges and Certificates",
     "text": "Badges and Certificates\n\nAssessment tools for Canvas\nBeing an Everyday Admin for Canvas\nCanvas Course Analytics and Data\nCanvas Outcomes and Rubrics for Instructors"
-  },
-  {
-    "objectID": "ourteam/linjc.html",
-    "href": "ourteam/linjc.html",
-    "title": "\nJoseph Lin\n",
-    "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nJoseph Lin\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
-  },
-  {
-    "objectID": "ourteam/merchanta2.html",
-    "href": "ourteam/merchanta2.html",
-    "title": "\nAli Merchant\n",
-    "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nAli Merchant\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
-  },
-  {
-    "objectID": "ourteam/parajulis4.html",
-    "href": "ourteam/parajulis4.html",
-    "title": "\nSweta Parajuli\n",
-    "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nSweta Parajuli\n\n\n\n\n\n\n\n\n\nAlumni\n\n\n\n\n(biography not available)"
-  },
-  {
-    "objectID": "ourteam/reidp.html",
-    "href": "ourteam/reidp.html",
-    "title": "\nPaul Reid\n",
-    "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nPaul Reid\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
-  },
-  {
-    "objectID": "ourteam/thorntonkj.html",
-    "href": "ourteam/thorntonkj.html",
-    "title": "\nKian Thornton\n",
-    "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nKian Thornton\n\n\n\n\n\n\n\n\n\nAlumni\n\n\n\n\n(biography not available)"
-  },
-  {
-    "objectID": "ourteam/tranan7.html",
-    "href": "ourteam/tranan7.html",
-    "title": "\nAngela Tran\n",
-    "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nAngela Tran\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
-  },
-  {
-    "objectID": "ourteam/zhanga7.html",
-    "href": "ourteam/zhanga7.html",
-    "title": "\nAmi Zhang\n",
-    "section": "",
-    "text": "View all Members  \n\n\n\n\n\n\n\n\n\nAmi Zhang\n\n\n\n\n\n\n\n\n\nCurrent Student\n\n\n\n\n(biography not available)"
-  },
-  {
-    "objectID": "projects/posts/project-bofa/index.html",
-    "href": "projects/posts/project-bofa/index.html",
-    "title": "Bank of America",
-    "section": "",
-    "text": "This describes a partnerhsip of the SSG with the Bank of America.\nGithub repo: https://github.com/vcu-ssg/ssgvip-bank-metrics Github repo: https://github.com/vcu-ssg/ssg-vcu-bofa-sandbox\nAdd some more content about the BofA project."
-  },
-  {
-    "objectID": "projects/posts/project-healthvr/index.html",
-    "href": "projects/posts/project-healthvr/index.html",
-    "title": "Health VR",
-    "section": "",
-    "text": "A video highlighting some of Quarto’s features that are especially useful for academics, as educators and as researchers."
-  },
-  {
-    "objectID": "projects/posts/project-test/index.html",
-    "href": "projects/posts/project-test/index.html",
-    "title": "Project test",
-    "section": "",
-    "text": "this is my first description line for this project."
-  },
-  {
-    "objectID": "projects/posts/Chatbot/index.html",
-    "href": "projects/posts/Chatbot/index.html",
-    "title": "Small Business and Supplier Diversity Chatbot",
-    "section": "",
-    "text": "SSG designed, deployed and delivered a chatbot that can be accessed from specific pages within a website as well as from within a web-based application by clicking a link or button. The chatbot was able to answer questions typed into a provided field, based on a list of questions and corresponding answers maintained with the chat bot system. The chatbot should also have the ability to route the user to their choice of additional support through phone and email.\nClient site: https://sbsd.virginia.gov/ Github repo:https://github.com/vcu-ssg/ssg-sbsd-chatbot GH pages: https://vcu-ssg.github.io/ssg-sbsd-chatbot/\nStudents: Paul Reid"
-  },
-  {
-    "objectID": "projects/posts/Fortnite-Exploration/index.html",
-    "href": "projects/posts/Fortnite-Exploration/index.html",
-    "title": "Fortnite Exploration",
-    "section": "",
-    "text": "As Chris Dixon once noted, emerging technologies start out looking like toys, or in this case, video games. The Unreal Engine for Forrnite (UEFN) and related Verse programming language, made by Epic Games, is a massively powerful tool for creating user generated content in a massive online world. We are exploring how to meaningfully build content for daily life of a university student based on “game” interfaces.\nGithub repo:https://github.com/vcu-ssg/ssg-gamedev-uefn-verse GH pages: https://vcu-ssg.github.io/ssg-gamedev-uefn-verse/getting-started-with-verse.html"
-  },
-  {
-    "objectID": "projects/posts/ECG-Display/index.html",
-    "href": "projects/posts/ECG-Display/index.html",
-    "title": "Medical ECG Display",
-    "section": "",
-    "text": "(Add description of project here. 2-3 sentences)\nGithub repo:https://github.com/vcu-ssg/ssg-medical-ecg-analysis"
-  },
-  {
-    "objectID": "projects/posts/CPA-IT4Cause/index.html",
-    "href": "projects/posts/CPA-IT4Cause/index.html",
-    "title": "Client Platform Analysis",
-    "section": "",
-    "text": "SSG is contributing to a platform service provider review with IT4Cause, supporting the mission of Islamic Relief USA as they explore options for a new case management provider. This activity allows our students to focus on a crucial aspect of software work: making a case for a particular implementation based on very specific organizational needs."
-  },
-  {
-    "objectID": "projects/posts/Defibrilator Simulator/index.html",
-    "href": "projects/posts/Defibrilator Simulator/index.html",
-    "title": "Medical Deibrillator Simulator",
-    "section": "",
-    "text": "(Add description of project here. 2-3 sentences) Github repo:https://github.com/vcu-ssg/ssg-medical-p5-defib"
-  },
-  {
-    "objectID": "projects/posts/Ecosystem-Mapping/index.html",
-    "href": "projects/posts/Ecosystem-Mapping/index.html",
-    "title": "Innovation Ecosystem Mapping",
-    "section": "",
-    "text": "This project prototyped a map of the regional innovation ecosystem for Activation Capital, facilitating access to resources and information for venture founders, venture funders, and innovation support organizations.\nGithub repo: https://github.com/vcu-ssg/ssg-inno-eco-mapping"
-  },
-  {
-    "objectID": "projects/posts/Liquid-Generator/index.html",
-    "href": "projects/posts/Liquid-Generator/index.html",
-    "title": "Liquid Strategies Proposal Generator",
-    "section": "",
-    "text": "SSG designed, developed and delivered a client proposal generator tool. The tool automates the creation and customization of briefing presentations, allowing employees to focus more on the content of the presentation and less on the boilerplate. SSG delivered a working, deployable application with training videos for employees.\nClient site: https://lsfunds.com/ GH page site: https://vcu-ssg.github.io/ssg-quarto-overlay-finreport/ Github repo: https://github.com/vcu-ssg/ssg-quarto-overlay-finreport\nStudents: Moses Farley, Zach McDonough, Nitin Kanuri, Inho Park"
-  },
-  {
-    "objectID": "projects/posts/project-OMS-Simulator/index.html",
-    "href": "projects/posts/project-OMS-Simulator/index.html",
-    "title": "OMS Anesthesia Emergency Simulation",
-    "section": "",
-    "text": "This project offers initial design and prototyping for a surgical anesthesia training simulator for oral and maxillofacial surgeons. The design is based on task flows incorporated into OMS training and certification, and serves to sustain and develop the relevant skills base among practitioners.\nGithub repo: https://github.com/vcu-ssg/ssg-medical-oms-simulator"
-  },
-  {
-    "objectID": "projects/posts/SSG-Model/index.html",
-    "href": "projects/posts/SSG-Model/index.html",
-    "title": "SSG website",
-    "section": "",
-    "text": "Shared call out\n\n\n\nThis is an example of a shared callout box\n_shared-call-out.qmd\n\n\nThis project develops our own website, both as a means of training students on contemporary web development tools and techniques and as a means of creating a visible public face for our activities. As a multi-project, crossfunctional VIP, we have a rich and varied story to tell, and we are making a website that lets our participants show the world their excellent work!\nGithub repo: https://github.com/vcu-ssg/ssg-quarto-website"
   }
 ]

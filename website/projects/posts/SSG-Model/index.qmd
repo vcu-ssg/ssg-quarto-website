@@ -2,7 +2,7 @@
 title: SSG website
 subtitle: main website
 description: |
-  Student Led Website for SSG
+  As a multi-project, crossfunctional VIP, we have a rich and varied story to tell, and we are making a website that lets our participants show the world their excellent work!  What better way to tell our story than to modify/update our own website using Quarto.
 categories:
   - Project list
   - Website

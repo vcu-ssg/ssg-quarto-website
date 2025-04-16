@@ -1,8 +1,8 @@
 ---
-title: RamSafe
+title: CoPath (RamSafe)
 subtitle: A partnership with The Routing Company and VCU Parking and Transportation Services
 description: |
-  (description in the YAML header of index.qmd)
+  CoPath aims to change the concept of Demand-Responsive Transport (DRT) for the better. This is described as ride-pooled buses functioning similarly to taxis with fares that are approximately the same rate public transit typically charges. It’s comparable to services such as VCU’s RamSafe.
 categories:
   - Project list
   - RamSafe
@@ -10,8 +10,6 @@ date: "10/13/2023"
 image: "/assets/VCUPT.png"
 image-alt: "VCU Parking and Transportation Services"
 ---
-
-{{< include ../_shared-call-out.qmd >}}
 
 This project, initiated and managed by SSG alum Inho Park, worked with multiple institutional stakeholders to design service quality improvements to VCU’s “RamSafe” ride service. This required a deep exploration of routing and ride hailing software, as well as sustained engagement with a rapidly growing startup in this field. 
 

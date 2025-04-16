@@ -99,9 +99,7 @@ Shared call out
 
 
 
-<!-- {{< include ../_shared-call-out.qmd >}} -->
 <p>The CHSV website redevelopment offers a fresh take on the website of an important local history organization, refactoring the site around specific goals rather than general information.</p>
-<!-- (This is a blog entry.  See quarto blogs: <https://quarto.org/docs/websites/website-blog.html>) -->
 
 
 
@@ -120,7 +118,7 @@ Shared call out
 
 
 
-<p>As Chris Dixon once noted, emerging technologies start out looking like toys, or in this case, video games. The Unreal Engine for Forrnite (UEFN) and related Verse programming language, made by Epic Games, is a massively powerful tool for creating user generated content in a massive online world. We are exploring how to meaningfully build content for daily life of a university student based on “game” interfaces.</p>
+<p>Fortnite is an online video game where players compete or collaborate in a colorful, fast-paced world filled with building, exploration, and action. Beyond being a game, Fortnite has evolved into a creative platform where users can design and publish their own interactive experiences—similar to how STEAM hosts and distributes games made by developers. Our team is learning UEFN (Unreal Editor for Fortnite) to gain hands-on experience in game development, world-building, and publishing on a cutting-edge, real-world platform.</p>
 <p>Github repo:https://github.com/vcu-ssg/ssg-gamedev-uefn-verse GH pages: https://vcu-ssg.github.io/ssg-gamedev-uefn-verse/getting-started-with-verse.html</p>
 
 
@@ -174,27 +172,13 @@ Shared call out
   <media:content url="https://internal.ssgvip.com/assets/ActivationCT.png" medium="image" type="image/png" height="46" width="144"/>
 </item>
 <item>
-  <title>RamSafe</title>
+  <title>CoPath (RamSafe)</title>
   <link>https://internal.ssgvip.com/projects/posts/project-ramsafe/</link>
   <description><![CDATA[ 
 
 
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Shared call out
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is an example of a shared callout box</p>
-<p>_shared-call-out.qmd</p>
-</div>
-</div>
 <p>This project, initiated and managed by SSG alum Inho Park, worked with multiple institutional stakeholders to design service quality improvements to VCU’s “RamSafe” ride service. This required a deep exploration of routing and ride hailing software, as well as sustained engagement with a rapidly growing startup in this field.</p>
 <p>Github repo: https://github.com/vcu-ssg/ssg-trc-dashboard</p>
 <p>improving user experience with VCU RamSafe by discovering ways to work with The Routing Company, RamSafe’s vendor for mapping and routing services</p>
@@ -259,7 +243,6 @@ Shared call out
 
 <p>This describes a partnerhsip of the SSG with the Bank of America.</p>
 <p>Github repo: https://github.com/vcu-ssg/ssgvip-bank-metrics Github repo: https://github.com/vcu-ssg/ssg-vcu-bofa-sandbox</p>
-<p>Add some more content about the BofA project.</p>
 
 
 

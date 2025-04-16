@@ -2,7 +2,8 @@
 title: Health VR
 subtitle: A partnership between the SSG and VCU Health
 description: |
-  This describes a partnerhsip with the Motor Control Laboratory at VCU.
+  SSG students participated in several activities within the MCL at VCU.  The Motor Control Laboratory at VCU conducts research on the neural and biomechanical mechanisms underlying human movement, with a focus on understanding motor function, coordination, and rehabilitation in both healthy individuals and those with motor impairments.  MCL specifically builds therapies based on virtual-reality technologies.
+  
 categories:
   - Project list
   - HealthVR

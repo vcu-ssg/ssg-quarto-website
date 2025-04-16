@@ -2,7 +2,9 @@
 title: CHSV Website
 subtitle: A design activity for the Chesterfield Historical Society
 description: |
-  Redesigned the CHSV Website
+  Chesterfield Historical Society of Virginia (CHSV) partnered with SSG to rethink
+  how they presented themselves on the web, with a goal to increase engagement
+  with a younger demographic.
 categories:
   - Project list
   - Websites
@@ -11,8 +13,4 @@ image: "/assets/CHSV.png"
 image-alt: "Chesterfield Historical Society of Virginia"
 ---
 
-<!-- {{< include ../_shared-call-out.qmd >}} -->
-
 The CHSV website redevelopment offers a fresh take on the website of an important local history organization, refactoring the site around specific goals rather than general information. 
-
-<!-- (This is a blog entry.  See quarto blogs: <https://quarto.org/docs/websites/website-blog.html>) -->
