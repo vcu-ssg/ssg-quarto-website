@@ -2,7 +2,7 @@
 title: Innovation Ecosystem Mapping
 subtitle: A partnership between the SSG and the Activation Capital team
 description: |
-  Home page for the project
+  This project prototyped a map of the regional innovation ecosystem for Activation Capital, facilitating access to resources and information for venture founders, venture funders, and innovation support organizations. 
 categories:
   - Project list
   - Activation Capital

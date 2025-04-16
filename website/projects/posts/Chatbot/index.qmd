@@ -2,7 +2,7 @@
 title: Small Business and Supplier Diversity Chatbot
 subtitle: A partnership between the SSG and the Virginia Department of Small Business and Supplier Diversity (SBSD)
 description: |
-  Home page for the project
+  SSG designed, deployed and delivered a chatbot that can be accessed from specific pages within a website as well as from within a web-based application by clicking a link or button.
 categories:
   - Project list
   - SBSD
@@ -19,6 +19,3 @@ GH pages: https://vcu-ssg.github.io/ssg-sbsd-chatbot/
 
 
 Students: Paul Reid
-
-
-

@@ -2,7 +2,7 @@
 title: Client Platform Analysis
 subtitle: A partnership between the SSG and the IT4-Cause
 description: |
-  Home page for the project
+  SSG is contributing to a platform service provider review with IT4Cause, supporting the mission of an international aid organization as they explore options for a new case management provider.
 categories:
   - Project list
   - IT4Cause
