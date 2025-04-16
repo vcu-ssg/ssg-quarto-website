@@ -2,7 +2,7 @@
 title: OMS Anesthesia Emergency Simulation
 subtitle: initial design for anesthesia training
 description: |
-  Learn more about our OMS project.
+  This project offers initial design and prototyping for a surgical anesthesia training simulator for oral and maxillofacial surgeons. The design is based on task flows incorporated into OMS training and certification, and serves to sustain and develop the relevant skills base among practitioners.
 categories:
   - Project list
   - Ongoing project
